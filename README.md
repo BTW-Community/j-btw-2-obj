@@ -19,13 +19,13 @@ This render was brought to you by http://www.reddit.com/user/thepixelartist
 
 ## Links
 
-#Better Than Wolves Mod link:
+#Better Than Wolves Mod links:
 
-*http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272992 - Get the mod here
-*http://www.sargunster.com/btwforum/ - Official BTW Forum
-*http://www.sargunster.com/btwforum/ - Official BTW Wiki
+* http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272992 - Get the mod here
+* http://www.sargunster.com/btwforum/ - Official BTW Forum
+* http://www.sargunster.com/btwforum/ - Official BTW Wiki
 
-#jMc2Obj links
+#jMc2Obj links:
 
 This repository is still very much a work in progress. For now, you can find more information under these links:
 * http://www.reddit.com/r/jmc2obj/ - official subreddit (most things are discussed there)
