@@ -13,9 +13,13 @@ This render was brought to you by http://www.reddit.com/user/thepixelartist
 ##Credits
 
 -jMc2Obj Team
--Sock (@socklessthing)
--Magikeh (@MagikEh)
+
+-Sock ( @socklessthing )
+
+-Magikeh ( @MagikEh )
+
 -Anbaric
+
 
 ## Links
 
