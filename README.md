@@ -1,5 +1,7 @@
 # jMc2Obj
 
+This is an alteration fork of the jMC2Obj project, it's built to have compatibility with the Better Than Wolves Mod.
+
 This is the new github repository for the jMC2Obj project - a Java based converter of Minecraft maps to the OBJ format, 
 used to render them in software like Blender, 3D Studio Max, Maya or Cinema 3D, just like shown below:
 

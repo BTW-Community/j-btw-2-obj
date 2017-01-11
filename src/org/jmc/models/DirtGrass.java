@@ -15,11 +15,15 @@ public class DirtGrass extends BlockModel
 		String[] abbrMtls = materials.get(data,biome);
 		
 		String[] mtlSides = new String[6];
+		int snw = snow?2:1;
+		
+		//TODO Look into grass slabs and whatnot (be mindful of snow ;) )
+		
 		mtlSides[0] = abbrMtls[0];
-		mtlSides[1] = abbrMtls[snow ? 2 : 1];
-		mtlSides[2] = abbrMtls[snow ? 2 : 1];
-		mtlSides[3] = abbrMtls[snow ? 2 : 1];
-		mtlSides[4] = abbrMtls[snow ? 2 : 1];
+		mtlSides[1] = abbrMtls[snw];
+		mtlSides[2] = abbrMtls[snw];
+		mtlSides[3] = abbrMtls[snw];
+		mtlSides[4] = abbrMtls[snw];
 		mtlSides[5] = abbrMtls[3];
 		
 		return mtlSides;
@@ -29,7 +33,9 @@ public class DirtGrass extends BlockModel
 	@Override
 	public void addModel(ChunkProcessor obj, ThreadChunkDeligate chunks, int x, int y, int z, byte data, byte biome)
 	{
+		//Checks for snow above current block
 		boolean snow = chunks.getBlockID(x, y+1, z) == 78;
+		
 		
 		addBox(obj,
 				x - 0.5f, y - 0.5f, z - 0.5f,
