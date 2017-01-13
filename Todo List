@@ -1,3 +1,31 @@
-Magik: Grass slabs, get em working right and proper
+Magik:
+	-Grass slabs, get em working right and proper.
+	-Make connections between moulding/corners/siding work
+	
 
-Sock: Test visuals for snow on slabs, snow on natural vegetation 
+Sock:
+	-Test visuals for snow on slabs, snow on natural vegetation
+
+Models to be added:
+    models/Item.obj (this one can just be a flat plane for now I think, Might look into custom 3d item rendering)
+    models/XPOrb.obj
+    models/Creeper.obj
+    models/Skeleton.obj
+    models/Spider.obj
+    models/Zombie.obj
+    models/Ghast.obj
+    models/PigZombie.obj
+    models/Enderman.obj
+    models/CaveSpider.obj
+    models/Silverfish.obj
+    models/Blaze.obj
+    models/LavaSlime.obj
+    models/Bat.obj
+    models/Witch.obj
+    models/Wolf.obj
+    models/MushroomCow.obj
+    models/Ozelot.obj
+    models/Villager.obj
+    models/WaterWheel.obj
+    models/WindMill.obj
+    models/fcWindMillVertical.obj
