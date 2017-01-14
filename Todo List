@@ -6,6 +6,22 @@ Magik:
 Sock:
 	-Test visuals for snow on slabs, snow on natural vegetation
 
+To be fixed/checked in blocks.conf:
+	- id 8 & 9 water
+	- id 10 & 11 lava
+	- id 39 & 40 mushrooms
+	- id 60 farmland_wet 
+	- id 63 sign: backside has no texture when without leg
+	- id 91 pumpkin jack 
+	- id 92 cake models stack in one place 
+	- id 104 & 105 growth stages of melon/pumpkin stalks 
+	- id 117 brewing stand, fix obj
+	- id 118 cauldron (cistern) fix obj
+	- id 119 id 120 endportal, fix obj
+	- id 122 fix dragon egg obj
+	- id 127 fix cocoa obj	
+	- id 130 fix ender chest texture
+
 Models to be added:
     models/Item.obj (this one can just be a flat plane for now I think, Might look into custom 3d item rendering)
     models/XPOrb.obj
@@ -29,3 +45,50 @@ Models to be added:
     models/WaterWheel.obj
     models/WindMill.obj
     models/fcWindMillVertical.obj
+    models/fcBlockVase_c00.obj to fcBlockVase_c15.obj
+    models/fcBlockUrn.obj
+    models/fcBlockPlanter.obj (possibly seperate obj for each variant)
+    models/fcBlockCrucible.obj (possibly seperate obj for each variant)
+    models/fcBlockCauldron.obj (possibly seperate obj for each variant)
+    models/fcBlockHopper.obj (possibly seperate obj for each variant)
+    models/fcBlockSaw.obj
+    models/fcBlockHandCrank.obj
+    models/fcBlockPedestal.obj (possibly seperate obj for each variant)
+    models/fcBlockColumn.obj
+    models/fcBlockVineTrap.obj
+    models/fcBlockMoulding.obj
+    models/fcBlockMoulding_corner.obj
+    models/fcBlockCorner.obj
+    models/fcBlockSiding.obj
+    models/fcBlockSiding_corner.obj
+    models/fcBlockBellows.obj
+    models/fcBlockBellows_compressed.obj
+    models/fcBlockBench.obj
+    models/fcBlockTable.obj
+    models/fcBlockStake.obj
+    models/fcBlockLightningRod.obj
+    models/fcBlockMiningCharge.obj
+    
+    (Models to be set optionally)
+    models/ironbars.obj
+    models/grate.obj
+    models/slats.obj
+    models/pane.obj (for glass, wicker, etc)
+    models/ladder.obj
+    models/lilypad.obj
+    models/vines.obj
+    
+    
+    models/rail.obj
+    models/rail_curved.obj
+    models/rail_slope.obj
+    models/rail_powered.obj
+    models/rail_powered_slope.obj
+    models/rail_powered_on.obj
+    models/rail_powered_on_slope.obj
+    models/rail_detector_wood.obj
+    models/rail_detector_wood_slope.obj
+    models/rail_detector_sfs.obj
+    models/rail_detector_sfs_slope.obj
+    models/rail_detector_stone.obj
+    models/rail_detector_stone_slope.obj
