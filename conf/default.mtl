@@ -3713,18 +3713,18 @@ Ks 0.0000 0.0000 0.0000
 map_Kd tex/fcBlockVase_c15.png
 
 newmtl fcBlockVessel_bottom
-Kd 0.0000 0.0000 0.0000
-Ks 0.0000 0.0000 0.0000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
 map_Kd tex/fcBlockVessel_bottom.png
 
 newmtl fcBlockVessel_side
-Kd 0.0000 0.0000 0.0000
-Ks 0.0000 0.0000 0.0000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
 map_Kd tex/fcBlockVessel_side.png
 
 newmtl fcBlockVessel_top
-Kd 0.0000 0.0000 0.0000
-Ks 0.0000 0.0000 0.0000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
 map_Kd tex/fcBlockVessel_top.png
 
 newmtl fcBlockVessel_xp
@@ -3733,8 +3733,8 @@ Ks 0.0000 0.0000 0.0000
 map_Kd tex/fcBlockVessel_xp.png
 
 newmtl fcBlockVesselWideBand_top
-Kd 0.0000 0.0000 0.0000
-Ks 0.0000 0.0000 0.0000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
 map_Kd tex/fcBlockVesselWideBand_top.png
 
 newmtl fcBlockVineTrap
