@@ -2925,6 +2925,11 @@ Kd 0.0000 0.0000 0.0000
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/fcBlockGroth.png
 
+newmtl fcBlockGroth_side
+Kd 0.0000 0.0000 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/fcBlockGroth_side.png
+
 newmtl fcBlockGroth_bottom
 Kd 0.0000 0.0000 0.0000
 Ks 0.0000 0.0000 0.0000
@@ -3370,6 +3375,16 @@ Kd 0.0000 0.0000 0.0000
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/fcBlockPulley_top.png
 
+newmtl fcBlockRope_top
+Kd 0.0000 0.0000 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/fcBlockRope_top.png
+
+newmtl fcBlockRope_side
+Kd 0.0000 0.0000 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/fcBlockRope_side.png
+
 newmtl fcBlockSaplingBirch_00
 Kd 0.0000 0.0000 0.0000
 Ks 0.0000 0.0000 0.0000
@@ -3541,6 +3556,11 @@ newmtl fcBlockSoap
 Kd 0.0000 0.0000 0.0000
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/fcBlockSoap.png
+
+newmtl fcBlockSoap_top
+Kd 0.0000 0.0000 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/fcBlockSoap_top.png
 
 newmtl fcBlockSoulforgedSteel
 Kd 0.0000 0.0000 0.0000

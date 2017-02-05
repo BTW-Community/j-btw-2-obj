@@ -1,6 +1,12 @@
+Ideas:
+	-Secondary Camera, placed where the player is looking at
+	-Player exporting
+
 Magik:
 	-Grass slabs, get em working right and proper.
 	-Make connections between moulding/corners/siding work
+	-Make connections of planes like glass, grate, wicker etc work, since we are using custom objs
+	-Make connection for lightning rod work, when stacked ontop of each otherF
 	
 
 Sock:
@@ -17,6 +23,7 @@ To be fixed/checked in blocks.conf:
 	- id 91 pumpkin jack 
 	- id 92 cake models stack in one place 
 	- id 104 & 105 growth stages of melon/pumpkin stalks 
+	- id 116 enchanttable, texture name
 	- id 117 brewing stand, fix obj
 	- id 118 cauldron (cistern) fix obj
 	- id 119 id 120 endportal, fix obj
@@ -27,8 +34,23 @@ To be fixed/checked in blocks.conf:
 	- id 145 fix deadweight obj
 	- id 152 should be emitting or not?
 	- id 155 add obj for black stone with lines
-	- 
-
+	- id 178 & 179 siding and moulding rotation and uv
+	- id 182 & 183 siding and moulding rotation and uv
+	- id 184 - 189 siding and moulding rotation and uv
+	- id 191 & 192 siding and moulding rotation and uv
+	- id 193 & 193 obj, obj rotation and uv & textures
+	- id 196 - 203 siding and moulding rotation and uv
+	- id 204 Fertilized Farmland, top texture not displaying
+	- id 205 wool top slab, not being exported
+	- id 206 dirt slab, wrong slab id are topslab, snow floating half a block above slabs
+	- id 210 Glowing Detector Logic, how do we do this?
+	- id 217 Mining Charge data=5, fix rotation
+	- id 220 Bottom Wool slab, not being exported
+	- id 222 Light Block lit, no texture (possibly py script)
+	- id 225 Hopper, simple obj done. everything else to do (nbt)
+	- id 226 Saw obj
+	- id 228 Cement, add custom liquid model
+	
 Models to be added:
     models/Item.obj (this one can just be a flat plane for now I think, Might look into custom 3d item rendering)
     models/XPOrb.obj
