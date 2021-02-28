@@ -1,0 +1,3905 @@
+ID List:
+
+    0 -   255 Blocks
+  256 -   543 Items
+ 1000 -  1091 Additional Blocks
+ 2256 -  2564 Additional Items
+22478 - 22595 Additional Items
+ 3000 -  3510 Deco
+30258 - 30317 Deco
+        23617 Craftguide
+
+Blocks:
+     0:00 Air
+     1:00 Smooth Stone (Strata 1)
+      :01 Smooth Stone (Strata 2)
+      :02 Smooth Stone (Strata 3)
+      :04 Smooth Stone (Strata 1, Cracked)
+      :05 Smooth Stone (Strata 2, Cracked)
+      :06 Smooth Stone (Strata 3, Cracked)
+     2:00 Grass Block
+     3:00 Dirt
+      :02 Snow Side
+     4:00 Cobblestone
+     5:00 Oak Wood Planks
+      :01 Spruce Wood Planks
+      :02 Birch Wood Planks
+      :03 Jungle Wood Planks
+      :04 Blood Wood Planks
+     6:00 Oak Sapling (Stage 0)
+      :01 Spruce Sapling (Stage 0)
+      :02 Birch Sapling (Stage 0)
+      :03 Jungle Sapling (Stage 0)
+      :04 Oak Sapling (Stage 1)
+      :05 Spruce Sapling (Stage 1)
+      :06 Birch Sapling (Stage 1)
+      :07 Jungle Sapling (Stage 1)
+      :08 Oak Sapling (Stage 2)
+      :09 Spruce Sapling (Stage 2)
+      :10 Birch Sapling (Stage 2)
+      :11 Jungle Sapling (Stage 2)
+      :12 Oak Sapling (Stage 3, Mature)
+      :13 Spruce Sapling (Stage 3, Mature)
+      :14 Birch Sapling (Stage 3, Mature)
+      :15 Jungle Sapling (Stage 3, Mature)
+     7:00 Bedrock
+     8:00 Water (Maybe later?)
+     9:00 Water (Maybe later?)
+    10:00 Lava (Maybe later?)
+    11:00 Lava (Maybe later?)
+    12:00 Sand
+    13:00 Gravel
+    14:00 Gold Ore (Strata 1)
+      :01 Gold Ore (Strata 2)
+      :02 Gold Ore (Strata 3)
+    15:00 Iron Ore (Strata 1)
+      :01 Iron Ore (Strata 2)
+      :02 Iron Ore (Strata 3)
+    16:00 Coal Ore (Strata 1)
+      :01 Coal Ore (Strata 2)
+      :02 Coal Ore (Strata 3)
+    17:00 Oak Wood (Upright)
+      :01 Spruce Wood (Upright)
+      :02 Birch Wood (Upright)
+      :03 Jungle Wood (Upright)
+      :04 Oak Wood (East/West)
+      :05 Spruce Wood (East/West)
+      :06 Birch Wood (East/West)
+      :07 Jungle Wood (East/West)
+      :08 Oak Wood (North/South)
+      :09 Spruce Wood (North/South)
+      :10 Birch Wood (North/South)
+      :11 Jungle Wood (North/South)
+      :12 Oak Wood Stump
+      :13 Spruce Wood Stump
+      :14 Birch Wood Stump
+      :15 Jungle Wood Stump
+    18:00 Oak Leaves (Decay after Tree Update)
+      :01 Spruce Leaves (Decay after Tree Update)
+      :02 Birch Leaves (Decay after Tree Update)
+      :03 Jungle Leaves (Decay after Tree Update)
+      :04 Oak Leaves (No Decay)
+      :05 Spruce Leaves (No Decay)
+      :06 Birch Leaves (No Decay)
+      :07 Jungle Leaves (No Decay)
+      :08 Oak Leaves (Decaying)
+      :09 Spruce Leaves (Decaying)
+      :10 Birch Leaves (Decaying)
+      :11 Jungle Leaves (Decaying)
+    19:00 Sponge
+    20:00 Glass
+    21:00 Lapis Lazuli Ore (Strata 1)
+      :01 Lapis Lazuli Ore (Strata 2)
+      :02 Lapis Lazuli Ore (Strata 3)
+    22:00 Lapis Lazuli Block
+    23:00 Dispenser (Off, Down)
+      :01 Dispenser (Off, Up)
+      :02 Dispenser (Off, North)
+      :03 Dispenser (Off, South)
+      :04 Dispenser (Off, West)
+      :05 Dispenser (Off, East)
+      :08 Dispenser (On, Down)
+      :09 Dispenser (On, Up)
+      :10 Dispenser (On, North)
+      :11 Dispenser (On, South)
+      :12 Dispenser (On, West)
+      :13 Dispenser (On, East)
+    24:00 Sandstone
+      :01 Chiseled Sandstone
+      :02 Smooth Sandstone
+    25:00 Note Block
+    26:00 Bed (Foot, North)
+      :01 Bed (Foot, West)
+      :02 Bed (Foot, South)
+      :03 Bed (Foot, East)
+      :08 Bed (Head, South)
+      :09 Bed (Head, East)
+      :10 Bed (Head, North)
+      :11 Bed (Head, West)
+    27:00 Powered Rail (Off, North/South)
+      :01 Powered Rail (Off, East/West)
+      :02 Powered Rail (Off, Ascending, East)
+      :03 Powered Rail (Off, Ascending, West)
+      :04 Powered Rail (Off, Ascending, North)
+      :05 Powered Rail (Off, Ascending, South)
+      :08 Powered Rail (On, North/South)
+      :09 Powered Rail (On, East/West)
+      :10 Powered Rail (On, Ascending, East)
+      :11 Powered Rail (On, Ascending, West)
+      :12 Powered Rail (On, Ascending, North)
+      :13 Powered Rail (On, Ascending, South)
+    28:00 Detector Rail
+      :01 Detector Rail (Off, East/West)
+      :02 Detector Rail (Off, Ascending, East)
+      :03 Detector Rail (Off, Ascending, West)
+      :04 Detector Rail (Off, Ascending, North)
+      :05 Detector Rail (Off, Ascending, South)
+      :08 Detector Rail (On, North/South)
+      :09 Detector Rail (On, East/West)
+      :10 Detector Rail (On, Ascending, East)
+      :11 Detector Rail (On, Ascending, West)
+      :12 Detector Rail (On, Ascending, North)
+      :13 Detector Rail (On, Ascending, South)
+    29:00 Sticky Piston (Down)
+      :01 Sticky Piston (Up)
+      :02 Sticky Piston (North)
+      :03 Sticky Piston (South)
+      :04 Sticky Piston (West)
+      :05 Sticky Piston (East)
+      :08 Sticky Piston (Extended, Down)
+      :09 Sticky Piston (Extended, Up)
+      :10 Sticky Piston (Extended, North)
+      :11 Sticky Piston (Extended, South)
+      :12 Sticky Piston (Extended, West)
+      :13 Sticky Piston (Extended, East)
+    30:00 Old Cobweb
+    31:00 Shrub
+      :01 Tall Grass
+      :02 Fern
+    32:00 Dead Bush
+    33:00 Piston (Down)
+      :01 Piston (Up)
+      :02 Piston (North)
+      :03 Piston (South)
+      :04 Piston (West)
+      :05 Piston (East)
+      :08 Piston (Extended, Down)
+      :09 Piston (Extended, Up)
+      :10 Piston (Extended, North)
+      :11 Piston (Extended, South)
+      :12 Piston (Extended, West)
+      :13 Piston (Extended, East)
+    34:00 Piston Head (Down)
+      :01 Piston Head (Up)
+      :02 Piston Head (North)
+      :03 Piston Head (South)
+      :04 Piston Head (West)
+      :05 Piston Head (East)
+      :08 Sticky Piston Head (Down)
+      :09 Sticky Piston Head (Up)
+      :10 Sticky Piston Head (North)
+      :11 Sticky Piston Head (South)
+      :12 Sticky Piston Head (West)
+      :13 Sticky Piston Head (East)
+    35:00 Wool (White)
+      :01 Orange Wool
+      :02 Magenta Wool
+      :03 Light Blue Wool
+      :04 Yellow Wool
+      :05 Lime Wool
+      :06 Pink Wool
+      :07 Gray Wool
+      :08 Light Gray Wool
+      :09 Cyan Wool
+      :10 Purple Wool
+      :11 Blue Wool
+      :12 Brown Wool
+      :13 Green Wool
+      :14 Red Wool
+      :15 Black Wool
+    36:00 tile.null << Also called Piston Extension
+    37:00 Flower (Yellow)
+    38:00 Rose
+    39:00 Old Mushroom
+    40:00 Old Mushroom
+    41:00 Block of Gold
+    42:00 Block of Iron
+    43:00 Stone Slab (Full)
+      :01 Sandstone Slab (Full)
+      :02 Wooden Slab (Full)
+      :03 Cobblestone Slab (Full)
+      :04 Bricks Slab (Full)
+      :05 Stone Bricks Slab (Full)
+      :06 Nether Brick Slab (Full)
+      :07 Black Stone Slab (Full)
+    44:00 Stone Slab (Bottom)
+      :01 Sandstone Slab (Bottom)
+      :02 Wooden Slab (Bottom)
+      :03 Cobblestone Slab (Bottom)
+      :04 Bricks Slab (Bottom)
+      :05 Stone Bricks Slab (Bottom)
+      :06 Nether Brick Slab (Bottom)
+      :07 Black Stone Slab (Bottom)
+      :08 Stone Slab (Top)
+      :09 Sandstone Slab (Top)
+      :10 Wooden Slab (Top)
+      :11 Cobblestone Slab (Top)
+      :12 Bricks Slab (Top)
+      :13 Stone Bricks Slab (Top)
+      :14 Nether Brick Slab (Top)
+      :15 Black Stone Slab (Top)
+    45:00 Bricks
+    46:00 Powder Keg
+    47:00 Bookshelf
+    48:00 Moss Stone
+    49:00 Obsidian
+    50:00 Old Torch 
+      :01 Old Torch (East)
+      :02 Old Torch (West)
+      :03 Old Torch (South)
+      :04 Old Torch (North)
+      :05 Old Torch (Up)
+    51:00 Fire
+    52:00 Monster Spawner
+    53:00 Oak Wood Stairs (Bottom, East)
+      :01 Oak Wood Stairs (Bottom, West)
+      :02 Oak Wood Stairs (Bottom, South)
+      :03 Oak Wood Stairs (Bottom, North)
+      :04 Oak Wood Stairs (Top, East)
+      :05 Oak Wood Stairs (Top, West)
+      :06 Oak Wood Stairs (Top, South)
+      :07 Oak Wood Stairs (Top, North)
+    54:00 Old Chest
+      :02 Old Chest (North)
+      :03 Old Chest (South)
+      :04 Old Chest (West)
+      :05 Old Chest (East)
+    55:00 Redstone Dust
+    56:00 Diamond Ore (Strata 1)
+      :01 Diamond Ore (Strata 2)
+      :02 Diamond Ore (Strata 3)
+    57:00 Block of Diamond
+    58:00 Old Crafting Table
+    59:00 Old Wheat Growth (Stage 0)
+      :01 Old Wheat Growth (Stage 1)
+      :02 Old Wheat Growth (Stage 2)
+      :03 Old Wheat Growth (Stage 3)
+      :04 Old Wheat Growth (Stage 4)
+      :05 Old Wheat Growth (Stage 5)
+      :06 Old Wheat Growth (Stage 6)
+      :07 Old Wheat Growth (Stage 7/Mature)
+    60:00 Farmland Dry (tile.fcBlockFarmlandFertilizedNew)
+    61:00 Furnace
+      :02 Furnace (North)
+      :03 Furnace (South)
+      :04 Furnace (West)
+      :05 Furnace (East)
+    62:00 Lit Furnace
+      :02 Lit Furnace (North)
+      :03 Lit Furnace (South)
+      :04 Lit Furnace (West)
+      :05 Lit Furnace (East)
+    63:00 Standing Sign (South)
+      :01 Standing Sign (SSW)
+      :02 Standing Sign (SW)
+      :03 Standing Sign (WSW)
+      :04 Standing Sign (West)
+      :05 Standing Sign (WNW)
+      :06 Standing Sign (NW)
+      :07 Standing Sign (NNW)
+      :08 Standing Sign (North)
+      :09 Standing Sign (NNE)
+      :10 Standing Sign (NE)
+      :11 Standing Sign (ENE)
+      :12 Standing Sign (East)
+      :13 Standing Sign (ESE)
+      :14 Standing Sign (SE)
+      :15 Standing Sign (SSE)
+    64:00 Old Wooden Door (Lower, Unopened, East)
+      :01 Old Wooden Door (Lower, Unopened, South)
+      :02 Old Wooden Door (Lower, Unopened, West)
+      :03 Old Wooden Door (Lower, Unopened, North)
+      :04 Old Wooden Door (Lower, Opened, East)
+      :05 Old Wooden Door (Lower, Opened, South)
+      :06 Old Wooden Door (Lower, Opened, West)
+      :07 Old Wooden Door (Lower, Opened, North)
+      :08 Old Wooden Door (Upper, Left Hinge, Unpowered)
+      :09 Old Wooden Door (Upper, Right Hinge, Unpowered)
+      :10 Old Wooden Door (Upper, Left Hinge, Powered)
+      :11 Old Wooden Door (Upper, Right Hinge, Powered)
+    65:00 Old Ladder
+      :02 Old Ladder (North)
+      :03 Old Ladder (South)
+      :04 Old Ladder (West)
+      :05 Old Ladder (East)
+    66:00 Rail (North/South)
+      :01 Rail (East/West)
+      :02 Rail (Ascending, East)
+      :03 Rail (Ascending, West)
+      :04 Rail (Ascending, North)
+      :05 Rail (Ascending, South)
+      :06 Rail (Curved, South/East)
+      :07 Rail (Curved, South/West)
+      :08 Rail (Curved, North/West)
+      :09 Rail (Curved, North/East)
+    67:00 Stone Stairs (Bottom, East)
+      :01 Stone Stairs (Bottom, West)
+      :02 Stone Stairs (Bottom, South)
+      :03 Stone Stairs (Bottom, North)
+      :04 Stone Stairs (Top, East)
+      :05 Stone Stairs (Top, West)
+      :06 Stone Stairs (Top, South)
+      :07 Stone Stairs (Top, North)
+    68:00 Wall Sign
+      :02 Wall Sign (North)
+      :03 Wall Sign (South)
+      :04 Wall Sign (West)
+      :05 Wall Sign (East)
+    69:00 Lever (Down, East/West)
+      :01 Lever (Wall, East)
+      :02 Lever (Wall, West)
+      :03 Lever (Wall, South)
+      :04 Lever (Wall, North)
+      :05 Lever (Up, North/South)
+      :06 Lever (Up, East/West)
+      :07 Lever (Down, North/South)
+      :08 Lever (Powered, Down, East/West)
+      :09 Lever (Powered, Wall, East)
+      :10 Lever (Powered, Wall, West)
+      :11 Lever (Powered, Wall, South)
+      :12 Lever (Powered, Wall, North)
+      :13 Lever (Powered, Up, North/South)
+      :14 Lever (Powered, Up, East/West)
+      :15 Lever (Powered, Down, North/South)
+    70:00 Stone Pressure Plate
+      :00 Stone Pressure Plate (Powered)
+    71:00 Iron Door (Lower, Unopened, East)
+      :01 Iron Door (Lower, Unopened, South)
+      :02 Iron Door (Lower, Unopened, North)
+      :03 Iron Door (Lower, Unopened, West)
+      :04 Iron Door (Lower, Opened, East)
+      :05 Iron Door (Lower, Opened, South)
+      :06 Iron Door (Lower, Opened, North)
+      :07 Iron Door (Lower, Opened, West)
+      :08 Iron Door (Upper, Left Hinge, Unpowered)
+      :09 Iron Door (Upper, Right Hinge, Unpowered)
+      :10 Iron Door (Upper, Left Hinge, Powered)
+      :11 Iron Door (Upper, Right Hinge, Powered)
+    72:00 Wood Pressure Plate
+      :01 Wood Pressure Plate (Powered)
+    73:00 Redstone Ore (Strata 1)
+      :01 Redstone Ore (Strata 2)
+      :02 Redstone Ore (Strata 3)
+    74:00 Lit Redstone Ore (Strata 1)
+      :01 Lit Redstone Ore (Strata 2)
+      :02 Lit Redstone Ore (Strata 3)
+    75:00 Unlit Redstone Torch
+      :01 Unlit Redstone Torch (East)
+      :02 Unlit Redstone Torch (West)
+      :03 Unlit Redstone Torch (South)
+      :04 Unlit Redstone Torch (North)
+      :05 Unlit Redstone Torch (Up)
+    76:00 Redstone Torch
+      :01 Redstone Torch (East)
+      :02 Redstone Torch (West)
+      :03 Redstone Torch (South)
+      :04 Redstone Torch (North)
+      :05 Redstone Torch (Up)
+    77:00 Stone Button (Down, unused?)
+      :01 Stone Button (East)
+      :02 Stone Button (West)
+      :03 Stone Button (South)
+      :04 Stone Button (North)
+      :05 Stone Button (Up, unused?)
+      :08 Stone Button (Powered, Down, unused?)
+      :09 Stone Button (Powered, East)
+      :10 Stone Button (Powered, West)
+      :11 Stone Button (Powered, South)
+      :12 Stone Button (Powered, North)
+      :13 Stone Button (Powered, Up, unused?)
+    78:00 Snow Layer
+    79:00 Ice
+    80:00 Old Snow
+    81:00 Cactus (Age 0)
+      :01 Cactus (Age 1)
+      :02 Cactus (Age 2)
+      :03 Cactus (Age 3)
+      :04 Cactus (Age 4)
+      :05 Cactus (Age 5)
+      :06 Cactus (Age 6)
+      :07 Cactus (Age 7)
+      :08 Cactus (Age 8)
+      :09 Cactus (Age 9)
+      :10 Cactus (Age 10)
+      :11 Cactus (Age 11)
+      :12 Cactus (Age 12)
+      :13 Cactus (Age 13)
+      :14 Cactus (Age 14)
+      :15 Cactus (Age 15)
+    82:00 Old Clay
+    83:00 Sugar Cane (Age 0)
+      :01 Sugar Cane (Age 1)
+      :02 Sugar Cane (Age 2)
+      :03 Sugar Cane (Age 3)
+      :04 Sugar Cane (Age 4)
+      :05 Sugar Cane (Age 5)
+      :06 Sugar Cane (Age 6)
+      :07 Sugar Cane (Age 7)
+      :08 Sugar Cane (Age 8)
+      :09 Sugar Cane (Age 9)
+      :10 Sugar Cane (Age 10)
+      :11 Sugar Cane (Age 11)
+      :12 Sugar Cane (Age 12)
+      :13 Sugar Cane (Age 13)
+      :14 Sugar Cane (Age 14)
+      :15 Sugar Cane (Age 15)
+    84:00 Jukebox
+      :01 Jukebox (Has Record)
+    85:00 Wooden Fence
+    86:00 Carved Pumpkin (South)
+      :01 Carved Pumpkin (West)
+      :02 Carved Pumpkin (North)
+      :03 Carved Pumpkin (East)
+      :04 Carved Pumpkin (Faceless?)
+    87:00 Netherrack
+    88:00 Soul Sand
+    89:00 Glowstone
+    90:00 Portal
+      :01 Portal (East/West)
+      :02 Portal (North/South)
+    91:00 Jack 'o' Lantern (South)
+      :01 Jack 'o' Lantern (West)
+      :02 Jack 'o' Lantern (North)
+      :03 Jack 'o' Lantern (East)
+    92:00 Cake (0 Bites)
+      :01 Cake (1 Bites)
+      :02 Cake (2 Bites)
+      :03 Cake (3 Bites)
+      :04 Cake (4 Bites)
+      :05 Cake (5 Bites)
+      :06 Cake (6 Bites)
+      :08 Cake (Powered)
+    93:00 Redstone Repeater (Unpowered, Delay 1, South)
+      :01 Redstone Repeater (Unpowered, Delay 1, North)
+      :02 Redstone Repeater (Unpowered, Delay 1, East)
+      :03 Redstone Repeater (Unpowered, Delay 1, West)
+      :04 Redstone Repeater (Unpowered, Delay 2, South)
+      :05 Redstone Repeater (Unpowered, Delay 2, North)
+      :06 Redstone Repeater (Unpowered, Delay 2, East)
+      :07 Redstone Repeater (Unpowered, Delay 2, West)
+      :08 Redstone Repeater (Unpowered, Delay 3, South)
+      :09 Redstone Repeater (Unpowered, Delay 3, North)
+      :10 Redstone Repeater (Unpowered, Delay 3, East)
+      :11 Redstone Repeater (Unpowered, Delay 3, West)
+      :12 Redstone Repeater (Unpowered, Delay 4, South)
+      :13 Redstone Repeater (Unpowered, Delay 4, North)
+      :14 Redstone Repeater (Unpowered, Delay 4, East)
+      :15 Redstone Repeater (Unpowered, Delay 4, West)
+    94:00 Redstone Repeater (Unpowered, Delay 1, South)
+      :01 Redstone Repeater (Powered, Delay 1, North)
+      :02 Redstone Repeater (Powered, Delay 1, East)
+      :03 Redstone Repeater (Powered, Delay 1, West)
+      :04 Redstone Repeater (Powered, Delay 2, South)
+      :05 Redstone Repeater (Powered, Delay 2, North)
+      :06 Redstone Repeater (Powered, Delay 2, East)
+      :07 Redstone Repeater (Powered, Delay 2, West)
+      :08 Redstone Repeater (Powered, Delay 3, South)
+      :09 Redstone Repeater (Powered, Delay 3, North)
+      :10 Redstone Repeater (Powered, Delay 3, East)
+      :11 Redstone Repeater (Powered, Delay 3, West)
+      :12 Redstone Repeater (Powered, Delay 4, South)
+      :13 Redstone Repeater (Powered, Delay 4, North)
+      :14 Redstone Repeater (Powered, Delay 4, East)
+      :15 Redstone Repeater (Powered, Delay 4, West)
+    95:00 Locked chest (Removed)
+    96:00 Wooden Trapdoor (Bottom, Horizontal, North)
+      :01 Wooden Trapdoor (Bottom, Horizontal, South)
+      :02 Wooden Trapdoor (Bottom, Horizontal, West)
+      :03 Wooden Trapdoor (Bottom, Horizontal, East)
+      :04 Wooden Trapdoor (Bottom, Vertical, North)
+      :05 Wooden Trapdoor (Bottom, Vertical, South)
+      :06 Wooden Trapdoor (Bottom, Vertical, West)
+      :07 Wooden Trapdoor (Bottom, Vertical, East)
+      :08 Wooden Trapdoor (Top, Horizontal, North)
+      :09 Wooden Trapdoor (Top, Horizontal, South)
+      :10 Wooden Trapdoor (Top, Horizontal, West)
+      :11 Wooden Trapdoor (Top, Horizontal, East)
+      :12 Wooden Trapdoor (Top, Vertical, North)
+      :13 Wooden Trapdoor (Top, Vertical, South)
+      :14 Wooden Trapdoor (Top, Vertical, West)
+      :15 Wooden Trapdoor (Top, Vertical, East)
+    97:00 Stone Monster Egg (Strata 1)
+      :01 Cobblestone Monster Egg
+      :02 Stone Brick Monster Egg
+      :03 Mossy Stone Bricks Monster Egg (Removed?)
+      :04 Cracked Stone Bricks Monster Egg (Removed?)
+      :05 Chiseled Stone Bricks Monster Egg (Removed?)
+      :14 Stone Monster Egg (Strata 2)
+      :15 Stone Monster Egg (Strata 3)
+    98:00 Stone Bricks
+      :01 Mossy Stone Bricks
+      :02 Cracked Stone Bricks
+      :03 Chiseled Stone Bricks
+    99:00 Old Brown Mushroom Block (All Inside)
+      :01 Old Brown Mushroom Block (Northwest)
+      :02 Old Brown Mushroom Block (North)
+      :03 Old Brown Mushroom Block (Northeast)
+      :04 Old Brown Mushroom Block (West)
+      :05 Old Brown Mushroom Block (Center)
+      :06 Old Brown Mushroom Block (East)
+      :07 Old Brown Mushroom Block (Southwest)
+      :08 Old Brown Mushroom Block (South)
+      :09 Old Brown Mushroom Block (Southeast)
+      :10 Old Brown Mushroom Block (Stem)
+      :14 Old Brown Mushroom Block (All Outside)
+      :15 Old Brown Mushroom Block (All Stem)
+   100:00 Old Red Mushroom Block (All Inside)
+      :01 Old Red Mushroom Block (Northwest)
+      :02 Old Red Mushroom Block (North)
+      :03 Old Red Mushroom Block (Northeast)
+      :04 Old Red Mushroom Block (West)
+      :05 Old Red Mushroom Block (Center)
+      :06 Old Red Mushroom Block (East)
+      :07 Old Red Mushroom Block (Southwest)
+      :08 Old Red Mushroom Block (South)
+      :09 Old Red Mushroom Block (Southeast)
+      :10 Old Red Mushroom Block (Stem)
+      :14 Old Red Mushroom Block (All Outside)
+      :15 Old Red Mushroom Block (All Stem)
+   101:00 Iron Bars
+   102:00 Glass Pane
+   103:00 Melon
+   104:00 Pumpkin Stem (Age 0)
+      :01 Pumpkin Stem (Age 1)
+      :02 Pumpkin Stem (Age 2)
+      :03 Pumpkin Stem (Age 3)
+      :04 Pumpkin Stem (Age 4)
+      :05 Pumpkin Stem (Age 5)
+      :06 Pumpkin Stem (Age 6)
+      :07 Pumpkin Stem (Age 7, Mature)
+   105:00 Melon Stem (Age 0)
+      :01 Melon Stem (Age 1)
+      :02 Melon Stem (Age 2)
+      :03 Melon Stem (Age 3)
+      :04 Melon Stem (Age 4)
+      :05 Melon Stem (Age 5)
+      :06 Melon Stem (Age 6)
+      :07 Melon Stem (Age 7, Mature)
+   106:00 Vines 
+      :01 Vines (South)
+      :02 Vines (West)
+      :03 Vines (South/West)
+      :04 Vines (North)
+      :05 Vines (North/South)
+      :06 Vines (North/West)
+      :07 Vines (North/South/West)
+      :08 Vines (East)
+      :09 Vines (East/South)
+      :10 Vines (East/West)
+      :11 Vines (East/South/West)
+      :12 Vines (East/North)
+      :13 Vines (East/North/South)
+      :14 Vines (East/North/West)
+      :15 Vines (East/North/South/West)
+   107:00 Wooden Fence Gate (Closed, South)
+      :01 Wooden Fence Gate (Closed, West)
+      :02 Wooden Fence Gate (Closed, North)
+      :03 Wooden Fence Gate (Closed, East)
+      :04 Wooden Fence Gate (Open, South)
+      :05 Wooden Fence Gate (Open, West)
+      :06 Wooden Fence Gate (Open, North)
+      :07 Wooden Fence Gate (Open, East)
+      :08 Wooden Fence Gate (Powered, Closed, South)
+      :09 Wooden Fence Gate (Powered, Closed, West)
+      :10 Wooden Fence Gate (Powered, Closed, North)
+      :11 Wooden Fence Gate (Powered, Closed, East)
+      :12 Wooden Fence Gate (Powered, Open, South)
+      :13 Wooden Fence Gate (Powered, Open, West)
+      :14 Wooden Fence Gate (Powered, Open, North)
+      :15 Wooden Fence Gate (Powered, Open, East)
+   108:00 Brick Stairs (Bottom, East)
+      :01 Brick Stairs (Bottom, West)
+      :02 Brick Stairs (Bottom, South)
+      :03 Brick Stairs (Bottom, North)
+      :04 Brick Stairs (Top, East)
+      :05 Brick Stairs (Top, West)
+      :06 Brick Stairs (Top, South)
+      :07 Brick Stairs (Top, North)
+   109:00 Stone Brick Stairs (Bottom, East)
+      :01 Stone Brick Stairs (Bottom, West)
+      :02 Stone Brick Stairs (Bottom, South)
+      :03 Stone Brick Stairs (Bottom, North)
+      :04 Stone Brick Stairs (Top, East)
+      :05 Stone Brick Stairs (Top, West)
+      :06 Stone Brick Stairs (Top, South)
+      :07 Stone Brick Stairs (Top, North)
+   110:00 Mycelium
+   111:00 Lily Pad
+   112:00 Nether Brick
+   113:00 Nether Brick Fence
+   114:00 Nether Brick Stairs (Bottom, East)
+      :01 Nether Brick Stairs (Bottom, West)
+      :02 Nether Brick Stairs (Bottom, South)
+      :03 Nether Brick Stairs (Bottom, North)
+      :04 Nether Brick Stairs (Top, East)
+      :05 Nether Brick Stairs (Top, West)
+      :06 Nether Brick Stairs (Top, South)
+      :07 Nether Brick Stairs (Top, North)
+   115:00 Nether Wart (Age 0)
+      :01 Nether Wart (Age 1)
+      :02 Nether Wart (Age 2)
+      :03 Nether Wart (Age 3)
+   116:00 Enchantment Table
+   117:00 Brewing Stand (Empty)
+      :01 Brewing Stand (Has Bottle 0)
+      :02 Brewing Stand (Has Bottle 1)
+      :03 Brewing Stand (Has Bottle 0 & 1)
+      :04 Brewing Stand (Has Bottle 2)
+      :05 Brewing Stand (Has Bottle 0 & 2)
+      :06 Brewing Stand (Has Bottle 1 & 2)
+      :07 Brewing Stand (Has Bottle 0 & 1 & 2)
+   118:00 Cistern (Level 0 / Empty)
+      :01 Cistern (Level 1)
+      :02 Cistern (Level 2)
+      :03 Cistern (Level 3)
+   119:00 End Portal
+   120:00 End Portal Frame (No Eye, South)
+      :01 End Portal Frame (No Eye, West)
+      :02 End Portal Frame (No Eye, East)
+      :03 End Portal Frame (No Eye, North)
+      :04 End Portal Frame (Eye, South)
+      :05 End Portal Frame (Eye, West)
+      :06 End Portal Frame (Eye, East)
+      :07 End Portal Frame (Eye, North)
+   121:00 End Stone
+   122:00 Dragon Egg
+   123:00 Redstone Lamp (Off)
+   124:00 Redstone Lamp (On)
+   125:00 Oak Wood Slab (Full)
+      :01 Spruce Wood Slab (Full)
+      :02 Birch Wood Slab (Full)
+      :03 Jungle Wood Slab (Full)
+      :04 Blood Wood Slab (Full)
+   126:00 Oak Wood Slab (Bottom)
+      :01 Spruce Wood Slab (Bottom)
+      :02 Birch Wood Slab (Bottom)
+      :03 Jungle Wood Slab (Bottom)
+      :04 Blood Wood Slab (Bottom)
+      :08 Oak Wood Slab (Top)
+      :09 Spruce Wood Slab (Top)
+      :10 Birch Wood Slab (Top)
+      :11 Jungle Wood Slab (Top)
+      :12 Blood Wood Slab (Top)
+   127:00 Cocoa (Age 0, South)
+      :01 Cocoa (Age 0, West)
+      :02 Cocoa (Age 0, North)
+      :03 Cocoa (Age 0, East)
+      :04 Cocoa (Age 1, South)
+      :05 Cocoa (Age 1, West)
+      :06 Cocoa (Age 1, North)
+      :07 Cocoa (Age 1, East)
+      :08 Cocoa (Age 2, South)
+      :09 Cocoa (Age 2, West)
+      :10 Cocoa (Age 2, North)
+      :11 Cocoa (Age 2, East)
+   128:00 Sandstone Stairs (Bottom, East)
+      :01 Sandstone Stairs (Bottom, West)
+      :02 Sandstone Stairs (Bottom, South)
+      :03 Sandstone Stairs (Bottom, North)
+      :04 Sandstone Stairs (Top, East)
+      :05 Sandstone Stairs (Top, West)
+      :06 Sandstone Stairs (Top, South)
+      :07 Sandstone Stairs (Top, North)
+   129:00 Emerald Ore (Strata 1)
+      :01 Emerald Ore (Strata 2)
+      :02 Emerald Ore (Strata 3)
+   130:00 Ender Chest
+      :02 Ender Chest (North)
+      :03 Ender Chest (South)
+      :04 Ender Chest (West)
+      :05 Ender Chest (East)
+   131:00 Tripwire Hook (Unattached, Unpowered, South)
+      :01 Tripwire Hook (Unattached, Unpowered, West)
+      :02 Tripwire Hook (Unattached, Unpowered, North)
+      :03 Tripwire Hook (Unattached, Unpowered, East)
+      :04 Tripwire Hook (Attached, Unpowered, East)
+      :05 Tripwire Hook (Attached, Unpowered, West)
+      :06 Tripwire Hook (Attached, Unpowered, North)
+      :07 Tripwire Hook (Attached, Unpowered, East)
+      :08 Tripwire Hook (Unattached, Powered, South)
+      :09 Tripwire Hook (Unattached, Powered, West)
+      :10 Tripwire Hook (Unattached, Powered, North)
+      :11 Tripwire Hook (Unattached, Powered, East)
+      :12 Tripwire Hook (Attached, Powered, East)
+      :13 Tripwire Hook (Attached, Powered, West)
+      :14 Tripwire Hook (Attached, Powered, North)
+      :15 Tripwire Hook (Attached, Powered, East)
+   132:00 Tripwire (Unattached, Armed, Unpowered, Unsuspended)
+      :01 Tripwire (Unattached, Armed, Powered, Unsuspended)
+      :02 Tripwire (Unattached, Armed, Unpowered, Suspended)
+      :03 Tripwire (Unattached, Armed, Powered, Suspended)
+      :04 Tripwire (Attached, Armed, Unpowered, Unsuspended)
+      :05 Tripwire (Attached, Armed, Powered, Unsuspended)
+      :06 Tripwire (Attached, Armed, Unpowered, Suspended)
+      :07 Tripwire (Attached, Armed, Powered, Suspended)
+      :08 Tripwire (Unattached, Disarmed, Unpowered, Unsuspended)
+      :09 Tripwire (Unattached, Disarmed, Powered, Unsuspended)
+      :10 Tripwire (Unattached, Disarmed, Unpowered, Suspended)
+      :11 Tripwire (Unattached, Disarmed, Powered, Suspended)
+      :12 Tripwire (Attached, Disarmed, Unpowered, Unsuspended)
+      :13 Tripwire (Attached, Disarmed, Powered, Unsuspended)
+      :14 Tripwire (Attached, Disarmed, Unpowered, Suspended)
+      :15 Tripwire (Attached, Disarmed, Powered, Suspended)
+   133:00 Block of Emerald
+   134:00 Spruce Wood Stairs (Bottom, East)
+      :01 Spruce Wood Stairs (Bottom, West)
+      :02 Spruce Wood Stairs (Bottom, South)
+      :03 Spruce Wood Stairs (Bottom, North)
+      :04 Spruce Wood Stairs (Top, East)
+      :05 Spruce Wood Stairs (Top, West)
+      :06 Spruce Wood Stairs (Top, South)
+      :07 Spruce Wood Stairs (Top, North)
+   135:00 Birch Wood Stairs (Bottom, East)
+      :01 Birch Wood Stairs (Bottom, West)
+      :02 Birch Wood Stairs (Bottom, South)
+      :03 Birch Wood Stairs (Bottom, North)
+      :04 Birch Wood Stairs (Top, East)
+      :05 Birch Wood Stairs (Top, West)
+      :06 Birch Wood Stairs (Top, South)
+      :07 Birch Wood Stairs (Top, North)
+   136:00 Jungle Wood Stairs (Bottom, East)
+      :01 Jungle Wood Stairs (Bottom, West)
+      :02 Jungle Wood Stairs (Bottom, South)
+      :03 Jungle Wood Stairs (Bottom, North)
+      :04 Jungle Wood Stairs (Top, East)
+      :05 Jungle Wood Stairs (Top, West)
+      :06 Jungle Wood Stairs (Top, South)
+      :07 Jungle Wood Stairs (Top, North)
+   137:00 Command Block
+   138:00 Beacon
+   139:00 Cobblestone Wall
+      :01 Mossy Cobblestone Wall
+   140:00 Flower Pot (Empty)
+      :01 Flower Pot (Rose)
+      :02 Flower Pot (Yellow Flower)
+      :03 Flower Pot (Jungle Sapling)
+      :04 Flower Pot (Oak Sapling)
+      :05 Flower Pot (Spruce Sapling)
+      :06 Flower Pot (Birch Sapling)
+      :07 Flower Pot (Red Mushroom)
+      :08 Flower Pot (Brown Mushroom)
+      :09 Flower Pot (Cactus)
+      :10 Flower Pot (Dead Bush)
+      :11 Flower Pot (Fern)
+      :12 Flower Pot (Data12)
+      :13 Flower Pot (Data13)
+      :14 Flower Pot (Data14)
+      :15 Flower Pot (Data15)
+   141:00 Carrots (Age 0)
+      :01 Carrots (Age 1)
+      :02 Carrots (Age 2)
+      :03 Carrots (Age 3)
+      :04 Carrots (Age 4)
+      :05 Carrots (Age 5)
+      :06 Carrots (Age 6)
+      :07 Carrots (Age 7, Mature)
+   142:00 Potatoes (Age 0)
+      :01 Potatoes (Age 1)
+      :02 Potatoes (Age 2)
+      :03 Potatoes (Age 3)
+      :04 Potatoes (Age 4)
+      :05 Potatoes (Age 5)
+      :06 Potatoes (Age 6)
+      :07 Potatoes (Age 7, Mature)
+   143:00 Wooden Button (Down, unused?)
+      :01 Wooden Button (East)
+      :02 Wooden Button (West)
+      :03 Wooden Button (South)
+      :04 Wooden Button (North)
+      :05 Wooden Button (Up, unused?)
+      :08 Wooden Button (Powered, Down, unused?)
+      :09 Wooden Button (Powered, East)
+      :10 Wooden Button (Powered, West)
+      :11 Wooden Button (Powered, South)
+      :12 Wooden Button (Powered, North)
+      :13 Wooden Button (Powered, Up, unused?)
+   144:00 Mob Head (NOT CHECKED)
+   145:00 Anvil (South)
+      :01 Anvil (West)
+      :02 Anvil (North)
+      :03 Anvil (East)
+   146:00 [Disabled] Trapped Chest
+   147:00 [Disabled] Weighted Pressure Plate (Light)
+   148:00 [Disabled] Weighted Pressure Plate (Heavy)
+   149:00 [Disabled] Comparator (Off)
+   150:00 [Disabled] Comparator (On)
+   151:00 [Disabled] Daylight Sensor
+   152:00 Block of Redstone
+   153:00 Nether Quartz Ore
+   154:00 [Disabled] Hopper
+   155:00 Black Stone
+      :01 Chiseled Black Stone
+      :02 Black Stone Pillar (Upright)
+      :03 Black Stone Pillar (East/West)
+      :04 Black Stone Pillar (North/South)
+   156:00 Black Stone Stairs (Bottom, East)
+      :01 Black Stone Stairs (Bottom, West)
+      :02 Black Stone Stairs (Bottom, South)
+      :03 Black Stone Stairs (Bottom, North)
+      :04 Black Stone Stairs (Top, East)
+      :05 Black Stone Stairs (Top, West)
+      :06 Black Stone Stairs (Top, South)
+      :07 Black Stone Stairs (Top, North)
+   157:00 [Disabled] Activator Rail
+   158:00 [Disabled] Dropper
+   175:00 Gravel Slab
+      :01 Sand Slab
+   176:00 Vessel of the Dragon (Upright)
+      :04 Vessel of the Dragon (Tipped, North)
+      :05 Vessel of the Dragon (Tipped, South)
+      :06 Vessel of the Dragon (Tipped, West)
+      :07 Vessel of the Dragon (Tipped, East)
+   177:00 Powered Axle (Upright)
+      :04 Powered Axle (North/South)
+      :08 Powered Axle (East/West)
+   178:00 Black Stone Siding (Top)
+      :01 Black Stone Corner (Bottom, NorthWest)
+      :02 Black Stone Siding (Bottom)
+      :03 Black Stone Corner (Bottom, SouthWest)
+      :04 Black Stone Siding (South)
+      :05 Black Stone Corner (Top, NorthWest)
+      :06 Black Stone Siding (North)
+      :07 Black Stone Corner (Top, SouthWest)
+      :08 Black Stone Siding (East)
+      :09 Black Stone Corner (Bottom, NorthEast)
+      :10 Black Stone Siding (West)
+      :11 Black Stone Corner (Bottom, SouthEast)
+      :12 Black Stone Bench
+      :13 Black Stone Corner (Top, NorthEast)
+      :14 Black Stone Fence
+      :15 Black Stone Corner (Top, SouthEast)
+   179:00 Black Stone Moulding (Bottom, North)
+      :01 Black Stone Moulding (Bottom, East)
+      :02 Black Stone Moulding (Bottom, South)
+      :03 Black Stone Moulding (Bottom, West)
+      :04 Black Stone Moulding (Up, NorthWest)
+      :05 Black Stone Moulding (Up, NorthEast)
+      :06 Black Stone Moulding (Up, SouthEast)
+      :07 Black Stone Moulding (Up, SouthWest)
+      :08 Black Stone Moulding (Top, North)
+      :09 Black Stone Moulding (Top, East)
+      :10 Black Stone Moulding (Top, South)
+      :11 Black Stone Moulding (Top, West)
+      :12 Black Stone Column
+      :13 Black Stone Pedestal (Up)
+      :14 Black Stone Pedestal (Down)
+      :15 Black Stone Table
+   180:00 Blight (Level 1)
+      :01 Blight (Level 2)
+      :02 Blight (Level 3)
+      :03 Blight Dirt Roots (Level 3)
+      :04 Mature Blight (Level 4)
+      :05 Mature Blight Dirt Roots (Level 4)
+      :06 Packed Earth
+      :07 Block of Dung
+   181:00 Black Candle
+      :01 Red Candle
+      :02 Green Candle
+      :03 Brown Candle
+      :04 Blue Candle
+      :05 Purple Candle
+      :06 Cyan Candle
+      :07 Light Grey Candle
+      :08 Grey Candle
+      :09 Pink Candle
+      :10 Lime Green Candle
+      :11 Yellow Candle
+      :12 Light Blue Candle
+      :13 Magenta Candle
+      :14 Orange Candle
+      :15 White Candle
+   182:00 Sandstone Siding (Top)
+      :01 Sandstone Corner (Bottom, NorthWest)
+      :02 Sandstone Siding (Bottom)
+      :03 Sandstone Corner (Bottom, SouthWest)
+      :04 Sandstone Siding (South)
+      :05 Sandstone Corner (Top, NorthWest)
+      :06 Sandstone Siding (North)
+      :07 Sandstone Corner (Top, SouthWest)
+      :08 Sandstone Siding (East)
+      :09 Sandstone Corner (Bottom, NorthEast)
+      :10 Sandstone Siding (West)
+      :11 Sandstone Corner (Bottom, SouthEast)
+      :12 Sandstone Bench
+      :13 Sandstone Corner (Top, NorthEast)
+      :14 Sandstone Fence
+      :15 Sandstone Corner (Top, SouthEast)
+   183:00 Sandstone Moulding (Bottom, North)
+      :01 Sandstone Moulding (Bottom, East)
+      :02 Sandstone Moulding (Bottom, South)
+      :03 Sandstone Moulding (Bottom, West)
+      :04 Sandstone Moulding (Up, NorthWest)
+      :05 Sandstone Moulding (Up, NorthEast)
+      :06 Sandstone Moulding (Up, SouthEast)
+      :07 Sandstone Moulding (Up, SouthWest)
+      :08 Sandstone Moulding (Top, North)
+      :09 Sandstone Moulding (Top, East)
+      :10 Sandstone Moulding (Top, South)
+      :11 Sandstone Moulding (Top, West)
+      :12 Sandstone Column
+      :13 Sandstone Pedestal (Up)
+      :14 Sandstone Pedestal (Down)
+      :15 Sandstone Table
+   184:00 Oak Wood Siding (Top)
+      :01 Oak Wood Corner (Bottom, NorthWest)
+      :02 Oak Wood Siding (Bottom)
+      :03 Oak Wood Corner (Bottom, SouthWest)
+      :04 Oak Wood Siding (South)
+      :05 Oak Wood Corner (Top, NorthWest)
+      :06 Oak Wood Siding (North)
+      :07 Oak Wood Corner (Top, SouthWest)
+      :08 Oak Wood Siding (East)
+      :09 Oak Wood Corner (Bottom, NorthEast)
+      :10 Oak Wood Siding (West)
+      :11 Oak Wood Corner (Bottom, SouthEast)
+      :12 Oak Wood Bench
+      :13 Oak Wood Corner (Top, NorthEast)
+      :14 Oak Wood Fence
+      :15 Oak Wood Corner (Top, SouthEast)
+   185:00 Stone Siding (Top)
+      :01 Stone Corner (Bottom, NorthWest)
+      :02 Stone Siding (Bottom)
+      :03 Stone Corner (Bottom, SouthWest)
+      :04 Stone Siding (South)
+      :05 Stone Corner (Top, NorthWest)
+      :06 Stone Siding (North)
+      :07 Stone Corner (Top, SouthWest)
+      :08 Stone Siding (East)
+      :09 Stone Corner (Bottom, NorthEast)
+      :10 Stone Siding (West)
+      :11 Stone Corner (Bottom, SouthEast)
+      :12 Stone Bench
+      :13 Stone Corner (Top, NorthEast)
+      :14 Stone Wall
+      :15 Stone Corner (Top, SouthEast)
+   186:00 Brick Siding (Top)
+      :01 Brick Corner (Bottom, NorthWest)
+      :02 Brick Siding (Bottom)
+      :03 Brick Corner (Bottom, SouthWest)
+      :04 Brick Siding (South)
+      :05 Brick Corner (Top, NorthWest)
+      :06 Brick Siding (North)
+      :07 Brick Corner (Top, SouthWest)
+      :08 Brick Siding (East)
+      :09 Brick Corner (Bottom, NorthEast)
+      :10 Brick Siding (West)
+      :11 Brick Corner (Bottom, SouthEast)
+      :12 Brick Bench
+      :13 Brick Corner (Top, NorthEast)
+      :14 Brick Wall
+      :15 Brick Corner (Top, SouthEast)
+   187:00 Brick Moulding (Bottom, North)
+      :01 Brick Moulding (Bottom, East)
+      :02 Brick Moulding (Bottom, South)
+      :03 Brick Moulding (Bottom, West)
+      :04 Brick Moulding (Up, NorthWest)
+      :05 Brick Moulding (Up, NorthEast)
+      :06 Brick Moulding (Up, SouthEast)
+      :07 Brick Moulding (Up, SouthWest)
+      :08 Brick Moulding (Top, North)
+      :09 Brick Moulding (Top, East)
+      :10 Brick Moulding (Top, South)
+      :11 Brick Moulding (Top, West)
+      :12 Brick Column
+      :13 Brick Pedestal (Up)
+      :14 Brick Pedestal (Down)
+      :15 Brick Table
+   188:00 Nether Brick Siding (Top)
+      :01 Nether Brick Corner (Bottom, NorthWest)
+      :02 Nether Brick Siding (Bottom)
+      :03 Nether Brick Corner (Bottom, SouthWest)
+      :04 Nether Brick Siding (South)
+      :05 Nether Brick Corner (Top, NorthWest)
+      :06 Nether Brick Siding (North)
+      :07 Nether Brick Corner (Top, SouthWest)
+      :08 Nether Brick Siding (East)
+      :09 Nether Brick Corner (Bottom, NorthEast)
+      :10 Nether Brick Siding (West)
+      :11 Nether Brick Corner (Bottom, SouthEast)
+      :12 Nether Brick Bench
+      :13 Nether Brick Corner (Top, NorthEast)
+      :14 Nether Brick Fence
+      :15 Nether Brick Corner (Top, SouthEast)
+   189:00 Nether Brick Moulding (Bottom, North)
+      :01 Nether Brick Moulding (Bottom, East)
+      :02 Nether Brick Moulding (Bottom, South)
+      :03 Nether Brick Moulding (Bottom, West)
+      :04 Nether Brick Moulding (Up, NorthWest)
+      :05 Nether Brick Moulding (Up, NorthEast)
+      :06 Nether Brick Moulding (Up, SouthEast)
+      :07 Nether Brick Moulding (Up, SouthWest)
+      :08 Nether Brick Moulding (Top, North)
+      :09 Nether Brick Moulding (Top, East)
+      :10 Nether Brick Moulding (Top, South)
+      :11 Nether Brick Moulding (Top, West)
+      :12 Nether Brick Column
+      :13 Nether Brick Pedestal (Up)
+      :14 Nether Brick Pedestal (Down)
+      :15 Nether Brick Table
+   190:00 White Stone Stairs (Bottom, East)
+      :01 White Stone Stairs (Bottom, West)
+      :02 White Stone Stairs (Bottom, South)
+      :03 White Stone Stairs (Bottom, North)
+      :04 White Stone Stairs (Top, East)
+      :05 White Stone Stairs (Top, West)
+      :06 White Stone Stairs (Top, South)
+      :07 White Stone Stairs (Top, North)
+      :08 White Cobble Stairs (Bottom, East)
+      :09 White Cobble Stairs (Bottom, West)
+      :10 White Cobble Stairs (Bottom, South)
+      :11 White Cobble Stairs (Bottom, North)
+      :12 White Cobble Stairs (Top, East)
+      :13 White Cobble Stairs (Top, West)
+      :14 White Cobble Stairs (Top, South)
+      :15 White Cobble Stairs (Top, North)
+   191:00 White Stone Siding (Top)
+      :01 White Stone Corner (Bottom, NorthWest)
+      :02 White Stone Siding (Bottom)
+      :03 White Stone Corner (Bottom, SouthWest)
+      :04 White Stone Siding (South)
+      :05 White Stone Corner (Top, NorthWest)
+      :06 White Stone Siding (North)
+      :07 White Stone Corner (Top, SouthWest)
+      :08 White Stone Siding (East)
+      :09 White Stone Corner (Bottom, NorthEast)
+      :10 White Stone Siding (West)
+      :11 White Stone Corner (Bottom, SouthEast)
+      :12 White Stone Bench
+      :13 White Stone Corner (Top, NorthEast)
+      :14 White Stone Wall
+      :15 White Stone Corner (Top, SouthEast)
+   192:00 White Stone Moulding (Bottom, North)
+      :01 White Stone Moulding (Bottom, East)
+      :02 White Stone Moulding (Bottom, South)
+      :03 White Stone Moulding (Bottom, West)
+      :04 White Stone Moulding (Up, NorthWest)
+      :05 White Stone Moulding (Up, NorthEast)
+      :06 White Stone Moulding (Up, SouthEast)
+      :07 White Stone Moulding (Up, SouthWest)
+      :08 White Stone Moulding (Top, North)
+      :09 White Stone Moulding (Top, East)
+      :10 White Stone Moulding (Top, South)
+      :11 White Stone Moulding (Top, West)
+      :12 White Stone Column
+      :13 White Stone Pedestal (Up)
+      :14 White Stone Pedestal (Down)
+      :15 White Stone Table
+   193:00 Stake String (to be checked)
+   194:00 Stake (to be checked)
+   195:00 Screw Pump (Unpowered, North)
+      :01 Screw Pump (Unpowered, South)
+      :02 Screw Pump (Unpowered, West)
+      :03 Screw Pump (Unpowered, East)
+      :04 Screw Pump (Powered, North)
+      :05 Screw Pump (Powered, South)
+      :06 Screw Pump (Powered, West)
+      :07 Screw Pump (Powered, East)
+   196:00 Spruce Wood Siding (Top)               (Oak Wood Siding > 184 when placed)
+      :01 Spruce Wood Corner (Bottom, NorthWest) (Spruce Wood Siding > 196 when placed)
+      :02 Spruce Wood Siding (Bottom)            (Birch Wood Siding > 198 when placed)
+      :03 Spruce Wood Corner (Bottom, SouthWest) (Jungle Wood Siding > 200 when placed)
+      :04 Spruce Wood Siding (South)             (Blood Wood Siding > 1007 when placed)
+      :05 Spruce Wood Corner (Top, NorthWest)
+      :06 Spruce Wood Siding (North)
+      :07 Spruce Wood Corner (Top, SouthWest)
+      :08 Spruce Wood Siding (East)
+      :09 Spruce Wood Corner (Bottom, NorthEast)
+      :10 Spruce Wood Siding (West)
+      :11 Spruce Wood Corner (Bottom, SouthEast)
+      :12 Spruce Wood Bench
+      :13 Spruce Wood Corner (Top, NorthEast)
+      :14 Spruce Wood Fence
+      :15 Spruce Wood Corner (Top, SouthEast)
+   197:00 Spruce Wood Moulding (Bottom, North) (Oak Wood Moulding > 231 when placed)
+      :01 Spruce Wood Moulding (Bottom, East)  (Spruce Wood Moulding > 197 when placed)
+      :02 Spruce Wood Moulding (Bottom, South) (Birch Wood Moulding > 199 when placed)
+      :03 Spruce Wood Moulding (Bottom, West)  (Jungle Wood Moulding > 201 when placed)
+      :04 Spruce Wood Moulding (Up, NorthWest) (Blood Wood Moulding > 1008 when placed)
+      :05 Spruce Wood Moulding (Up, NorthEast)
+      :06 Spruce Wood Moulding (Up, SouthEast)
+      :07 Spruce Wood Moulding (Up, SouthWest)
+      :08 Spruce Wood Moulding (Top, North)
+      :09 Spruce Wood Moulding (Top, East)
+      :10 Spruce Wood Moulding (Top, South)
+      :11 Spruce Wood Moulding (Top, West)
+      :12 Spruce Wood Column
+      :13 Spruce Wood Pedestal (Up)
+      :14 Spruce Wood Pedestal (Down)
+      :15 Spruce Wood Table
+   198:00 Birch Wood Corner (Top)               (Oak Wood Siding > 184 when placed)
+      :01 Birch Wood Corner (Bottom, NorthWest) (Spruce Wood Siding > 196 when placed)
+      :02 Birch Wood Siding (Bottom)            (Birch Wood Siding > 198 when placed)
+      :03 Birch Wood Corner (Bottom, SouthWest) (Jungle Wood Siding > 200 when placed)
+      :04 Birch Wood Siding (South)             (Blood Wood Siding > 1007 when placed)
+      :05 Birch Wood Corner (Top, NorthWest)
+      :06 Birch Wood Siding (North)
+      :07 Birch Wood Corner (Top, SouthWest)
+      :08 Birch Wood Siding (East)
+      :09 Birch Wood Corner (Bottom, NorthEast)
+      :10 Birch Wood Siding (West)
+      :11 Birch Wood Corner (Bottom, SouthEast)
+      :12 Birch Wood Bench
+      :13 Birch Wood Corner (Top, NorthEast)
+      :14 Birch Wood Fence
+      :15 Birch Wood Corner (Top, SouthEast)
+   199:00 Birch Wood Moulding (Bottom, North) (Oak Wood Column > 231 when placed)
+      :01 Birch Wood Moulding (Bottom, East)  (Spruce Wood Column > 197 when placed)
+      :02 Birch Wood Moulding (Bottom, South) (Birch Wood Column > 199 when placed)
+      :03 Birch Wood Moulding (Bottom, West)  (Jungle Wood Column > 201 when placed)
+      :04 Birch Wood Moulding (Up, NorthWest) (Oak Wood Pedestal > 231 when placed)
+      :05 Birch Wood Moulding (Up, NorthEast) (Spruce Wood Pedestal > 197 when placed)
+      :06 Birch Wood Moulding (Up, SouthEast) (Birch Wood Pedestal > 199 when placed)
+      :07 Birch Wood Moulding (Up, SouthWest) (Jungle Wood Pedestal > 201 when placed)
+      :08 Birch Wood Moulding (Top, North)    (Oak Wood Pedestal > 231 when placed)
+      :09 Birch Wood Moulding (Top, East)     (Spruce Wood Pedestal > 197 when placed)
+      :10 Birch Wood Moulding (Top, South)    (Birch Wood Pedestal > 199 when placed)
+      :11 Birch Wood Moulding (Top, West)     (Jungle Wood Pedestal > 201 when placed)
+      :12 Birch Wood Column
+      :13 Birch Wood Pedestal (Up)
+      :14 Birch Wood Pedestal (Down)
+      :15 Birch Wood Table
+   200:00 Jungle Wood Corner (Top)               (Oak Wood Bench > 184 when placed)
+      :01 Jungle Wood Corner (Bottom, NorthWest) (Spruce Wood Bench > 196 when placed)
+      :02 Jungle Wood Siding (Bottom)            (Birch Wood Bench > 198 when placed)
+      :03 Jungle Wood Corner (Bottom, SouthWest) (Jungle Wood Bench > 200 when placed)
+      :04 Jungle Wood Siding (South)             (Oak Wood Fence > 184 when placed)
+      :05 Jungle Wood Corner (Top, NorthWest)    (Spruce Wood Fence > 196 when placed)
+      :06 Jungle Wood Siding (North)             (Birch Wood Fence > 198 when placed)
+      :07 Jungle Wood Corner (Top, SouthWest)    (Jungle Wood Fence > 200 when placed)
+      :08 Jungle Wood Siding (East)
+      :09 Jungle Wood Corner (Bottom, NorthEast)
+      :10 Jungle Wood Siding (West)
+      :11 Jungle Wood Corner (Bottom, SouthEast)
+      :12 Jungle Wood Bench
+      :13 Jungle Wood Corner (Top, NorthEast)
+      :14 Jungle Wood Fence
+      :15 Jungle Wood Corner (Top, SouthEast)
+   201:00 Jungle Wood (Decorative)
+   202:00 Stone Brick Siding (Top)              
+      :01 Stone Brick Corner (Bottom, NorthWest)
+      :02 Stone Brick Siding (Bottom)
+      :03 Stone Brick Corner (Bottom, SouthWest)
+      :04 Stone Brick Siding (South)
+      :05 Stone Brick Corner (Top, NorthWest)
+      :06 Stone Brick Siding (North)
+      :07 Stone Brick Corner (Top, SouthWest)
+      :08 Stone Brick Siding (East)
+      :09 Stone Brick Corner (Bottom, NorthEast)
+      :10 Stone Brick Siding (West)
+      :11 Stone Brick Corner (Bottom, SouthEast)
+      :12 Stone Brick Bench
+      :13 Stone Brick Corner (Top, NorthEast)
+      :14 Stone Brick Fence
+      :15 Stone Brick Corner (Top, SouthEast)
+   203:00 Stone Brick Moulding (Bottom, North)
+      :01 Stone Brick Moulding (Bottom, East)
+      :02 Stone Brick Moulding (Bottom, South)
+      :03 Stone Brick Moulding (Bottom, West)
+      :04 Stone Brick Moulding (Up, NorthWest)
+      :05 Stone Brick Moulding (Up, NorthEast)
+      :06 Stone Brick Moulding (Up, SouthEast)
+      :07 Stone Brick Moulding (Up, SouthWest)
+      :08 Stone Brick Moulding (Top, North)
+      :09 Stone Brick Moulding (Top, East)
+      :10 Stone Brick Moulding (Top, South)
+      :11 Stone Brick Moulding (Top, West)
+      :12 Stone Brick Column
+      :13 Stone Brick Pedestal (Up)
+      :14 Stone Brick Pedestal (Down)
+      :15 Stone Brick Table
+   204:00 Fertilized Farmland (Dry)
+      :01 Fertilized Farmland (Wet)
+   205:00 White Wool Slab (Top)
+      :01 Orange Wool Slab (Top)
+      :02 Magenta Wool Slab (Top)
+      :03 Light Blue Wool Slab (Top)
+      :04 Yellow Wool Slab (Top)
+      :05 Lime Wool Slab (Top)
+      :06 Pink Wool Slab (Top)
+      :07 Gray Wool Slab (Top)
+      :08 Light Gray Wool Slab (Top)
+      :09 Cyan Wool Slab (Top)
+      :10 Purple Wool Slab (Top)
+      :11 Blue Wool Slab (Top)
+      :12 Brown Wool Slab (Top)
+      :13 Green Wool Slab (Top)
+      :14 Red Wool Slab (Top)
+      :15 Black Wool Slab (Top)
+   206:00 Dirt Slab
+      :01 Dirt Slab (Top) (Grass Slab > :02 when placed)
+      :02 Grass Slab
+      :03 Grass Slab (Top) (Packed Earth Slab > :06 when placed)
+      :06 Packed Earth Slab
+      :07 Packed Earth Slab (Top)
+   207:00 Nether Groth (Age 0)
+      :01 Nether Groth (Age 1)
+      :02 Nether Groth (Age 2)
+      :03 Nether Groth (Age 3)
+      :04 Nether Groth (Age 4)
+      :05 Nether Groth (Age 5)
+      :06 Nether Groth (Age 6)
+      :07 Nether Groth (Age 7, Mature)
+   208:00 Infernal Enchanter
+   209:00 Block of Soulforged Steel
+   210:00 Glowing Detector Logic
+   211:00 Blood Leaves
+   212:00 Blood Wood (Upright)
+      :02 Blood Wood (North)
+      :03 Blood Wood (South)
+      :04 Blood Wood (West)
+      :05 Blood Wood (East)
+   213:00 Vine Trap
+      :02 Blood Wood Sapling
+      :03 Blood Leaves (Old)
+      :04 Vine Trap (Top)
+      :06 Vine Trap (Full Block)
+   214:00 Stone Moulding (Bottom, North)
+      :01 Stone Moulding (Bottom, East)
+      :02 Stone Moulding (Bottom, South)
+      :03 Stone Moulding (Bottom, West)
+      :04 Stone Moulding (Up, NorthWest)
+      :05 Stone Moulding (Up, NorthEast)
+      :06 Stone Moulding (Up, SouthEast)
+      :07 Stone Moulding (Up, SouthWest)
+      :08 Stone Moulding (Top, North)
+      :09 Stone Moulding (Top, East)
+      :10 Stone Moulding (Top, South)
+      :11 Stone Moulding (Top, West)
+      :12 Stone Column
+      :13 Stone Pedestal (Up)
+      :14 Stone Pedestal (Down)
+      :15 Stone Table
+   215:00 Old Block of Wicker
+      :01 Old Dung
+      :02 Block of Soulforged Steel
+      :03 Block of Concentrated Hellfire
+      :04 Block of Padding
+      :05 Block of Soap
+      :06 Coil of Rope
+      :07 Block of Flint
+      :08 Grothed Netherrack (Aesthetic Opaque)
+      :09 White Stone
+      :10 White Cobble
+      :11 Barrel
+      :12 Chopping Block (Dirty)
+      :12 Chopping Block (Clean)
+      :14 Ender Block
+      :15 Block of Bone
+   216:00 Urn
+      :01 Old Column
+      :02 Old Pedestal (Up)
+      :03 Old Pedestal (Down)
+      :04 Old Table
+      :05 Old Wicker Slab
+      :06 Old Grate 
+      :07 Old Wicker
+      :08 Old Slats
+      :09 Old Wicker Slab (Top)
+      :10 White Cobble Slab
+      :11 White Cobble Slab (Top)
+      :12 Old Soulforged Rod
+   217:00 Mining Charge
+      :01 Mining Charge (Top)
+      :02 Mining Charge (North)
+      :03 Mining Charge (South)
+      :04 Mining Charge (West)
+      :05 Mining Charge (East)
+   218:00 Buddy Block (Down, Unpowered)
+      :01 Buddy Block (Down, Powered)
+      :02 Buddy Block (Up, Unpowered)
+      :03 Buddy Block (Up, Powered)
+      :04 Buddy Block (North, Unpowered)
+      :05 Buddy Block (North, Powered)
+      :06 Buddy Block (South, Unpowered)
+      :07 Buddy Block (South, Powered)
+      :08 Buddy Block (West, Unpowered)
+      :09 Buddy Block (West, Powered)
+      :10 Buddy Block (East, Unpowered)
+      :11 Buddy Block (East, Powered)
+   219:00 Kiln (Bricks)
+   220:00 White Wool Slab (Bottom)
+      :01 Orange Wool Slab (Bottom)
+      :02 Magenta Wool Slab (Bottom)
+      :03 Light Blue Wool Slab (Bottom)
+      :04 Yellow Wool Slab (Bottom)
+      :05 Lime Wool Slab (Bottom)
+      :06 Pink Wool Slab (Bottom)
+      :07 Gray Wool Slab (Bottom)
+      :08 Light Gray Wool Slab (Bottom)
+      :09 Cyan Wool Slab (Bottom)
+      :10 Purple Wool Slab (Bottom)
+      :11 Blue Wool Slab (Bottom)
+      :12 Brown Wool Slab (Bottom)
+      :13 Green Wool Slab (Bottom)
+      :14 Red Wool Slab (Bottom)
+      :15 Black Wool Slab (Bottom)
+   221:00 Soulforge (South)
+      :03 Soulforge (North)
+      :04 Soulforge (West)
+      :04 Soulforge (East)
+   222:00 Light Block (Unlit)
+   223:00 Light Block (Lit)
+   224:00 Hibachi
+   225:00 Hopper
+      :01 Hopper (Powered)
+   226:00 Saw (Down, Unpowered)
+      :01 Saw (Up, Unpowered)
+      :02 Saw (North, Unpowered)
+      :03 Saw (South, Unpowered)
+      :04 Saw (West, Unpowered)
+      :05 Saw (East, Unpowered)
+      :06 Saw (Down, Powered)
+      :07 Saw (Up, Powered)
+      :08 Saw (North, Powered)
+      :09 Saw (South, Powered)
+      :10 Saw (West, Powered)
+      :11 Saw (East, Powered)
+   227:00 Platform
+   228:00 Cement (Liquid)
+   229:00 Pulley
+      :01 Pulley (Powered)
+   230:00 Steel Pressure Plate
+      :01 Steel Pressure Plate (Powered)
+   231:00 Old Wooden Moulding (Bottom, North)
+      :01 Old Wooden Moulding (Bottom, East)
+      :02 Old Wooden Moulding (Bottom, South)
+      :03 Old Wooden Moulding (Bottom, West)
+      :04 Old Wooden Moulding (Up, NorthWest)
+      :05 Old Wooden Moulding (Up, NorthEast)
+      :06 Old Wooden Moulding (Up, SouthEast)
+      :07 Old Wooden Moulding (Up, SouthWest)
+      :08 Old Wooden Moulding (Top, North)
+      :09 Old Wooden Moulding (Top, East)
+      :10 Old Wooden Moulding (Top, South)
+      :11 Old Wooden Moulding (Top, West)
+      :12 Old Wooden Column
+      :13 Old Wooden Pedestal (Up)
+      :14 Old Wooden Pedestal (Down)
+      :15 Old Wooden Table
+   232:00 Old Wooden Corner (Bottom, NorthWest)
+      :01 Old Wooden Corner (Bottom, SouthWest)
+      :02 Old Wooden Corner (Top, NorthWest)
+      :03 Old Wooden Corner (Top, SouthWest)
+      :04 Old Wooden Corner (Bottom, NorthEast)
+      :05 Old Wooden Corner (Bottom, SouthEast)
+      :06 Old Wooden Corner (Top, NorthEast)
+      :07 Old Wooden Corner (Top, SouthEast)
+      :08 Old Stone Corner (Bottom, NorthWest)
+      :09 Old Stone Corner (Bottom, SouthWest)
+      :10 Old Stone Corner (Top, NorthWest)
+      :11 Old Stone Corner (Top, SouthWest)
+      :12 Old Stone Corner (Bottom, NorthEast)
+      :13 Old Stone Corner (Bottom, SouthEast)
+      :14 Old Stone Corner (Top, NorthEast)
+      :15 Old Stone Corner (Top, SouthEast)
+   233:00 Block Dispenser (Down)
+      :01 Block Dispenser (Up)
+      :02 Block Dispenser (North)
+      :03 Block Dispenser (South)
+      :04 Block Dispenser (West)
+      :05 Block Dispenser (East)
+      :06 Block Dispenser (Faceless)
+   234:00 Cauldron (Upright)
+      :04 Cauldron (Tipped, North)
+      :05 Cauldron (Tipped, South)
+      :06 Cauldron (Tipped, West)
+      :07 Cauldron (Tipped, East)
+   235:00 Wooden Detector Rail (Unpowered, North/South)
+      :01 Wooden Detector Rail (Unpowered, East/West)
+      :02 Wooden Detector Rail (Unpowered, Ascending, East)
+      :03 Wooden Detector Rail (Unpowered, Ascending, West)
+      :04 Wooden Detector Rail (Unpowered, Ascending, North)
+      :05 Wooden Detector Rail (Unpowered, Ascending, South)
+      :08 Wooden Detector Rail (Powered, North/South)
+      :09 Wooden Detector Rail (Powered, East/West)
+      :10 Wooden Detector Rail (Powered, Ascending, East)
+      :11 Wooden Detector Rail (Powered, Ascending, West)
+      :12 Wooden Detector Rail (Powered, Ascending, North)
+      :13 Wooden Detector Rail (Powered, Ascending, South)
+   236:00 Steel Detector Rail (Unpowered, North/South)
+      :01 Steel Detector Rail (Unpowered, East/West)
+      :02 Steel Detector Rail (Unpowered, Ascending, East)
+      :03 Steel Detector Rail (Unpowered, Ascending, West)
+      :04 Steel Detector Rail (Unpowered, Ascending, North)
+      :05 Steel Detector Rail (Unpowered, Ascending, South)
+      :08 Steel Detector Rail (Powered, North/South)
+      :09 Steel Detector Rail (Powered, East/West)
+      :10 Steel Detector Rail (Powered, Ascending, East)
+      :11 Steel Detector Rail (Powered, Ascending, West)
+      :12 Steel Detector Rail (Powered, Ascending, North)
+      :13 Steel Detector Rail (Powered, Ascending, South)
+   237:00 Companion Cube (Down)
+      :01 Companion Cube (Up)    (Companion Slab > :08 when placed)
+      :02 Companion Cube (North)
+      :03 Companion Cube (South)
+      :04 Companion Cube (West)
+      :05 Companion Cube (East)
+      :05 Companion Cube (Faceless)
+      :08 Companion Slab (Bottom)
+      :09 Companion Slab (Top)
+   238:00 Detector Block (Down, Unpowered)
+      :01 Detector Block (Down, Powered)
+      :02 Detector Block (Up, Unpowered)
+      :03 Detector Block (Up, Powered)
+      :05 Detector Block (North, Unpowered)
+      :04 Detector Block (North, Powered)
+      :06 Detector Block (South, Unpowered)
+      :07 Detector Block (South, Powered)
+      :08 Detector Block (West, Unpowered)
+      :09 Detector Block (West, Powered)
+      :10 Detector Block (East, Unpowered)
+      :11 Detector Block (East, Powered)
+   239:00 Detector Logic
+   240:00 Lens (Down)
+      :01 Lens (Down, Lit)
+      :02 Lens (Up)
+      :03 Lens (Up, Lit)
+      :04 Lens (North)
+      :05 Lens (North, Lit)
+      :06 Lens (South)
+      :07 Lens (South, Lit)
+      :08 Lens (West)
+      :09 Lens (West, Lit)
+      :10 Lens (East)
+      :11 Lens (East, Lit)
+   241:00 Hemp Crop (Age 0)
+      :01 Hemp Crop (Age 1)
+      :02 Hemp Crop (Age 2)
+      :03 Hemp Crop (Age 3)
+      :04 Hemp Crop (Age 4)
+      :05 Hemp Crop (Age 5)
+      :06 Hemp Crop (Age 6)
+      :07 Hemp Crop (Age 7, Mature)
+      :08 Hemp Crop (Top)
+   242:00 Hand Crank
+      :01 Hand Crank (Powered)
+   243:00 Mill Stone (Empty, Unpowered)
+      :01 Mill Stone (Empty, Powered)
+      :02 Mill Stone (Filled, Unpowered)
+      :03 Mill Stone (Filled, Powered)
+      :04 Mill Stone (Filled, Unpowered)
+      :05 Mill Stone (Filled, Powered, Nether sounds)
+      :05 Mill Stone (Filled, Unpowered)
+      :05 Mill Stone (Filled, Powered, Dog Hurt sounds)
+      :05 Mill Stone (Filled, Unpowered)
+      :05 Mill Stone (Filled, Powered, Wrong Item sounds)
+   244:00 Anchor (Down)
+      :01 Anchor (Up)
+      :02 Anchor (North)
+      :03 Anchor (South)
+      :04 Anchor (West)
+      :05 Anchor (East)
+   245:00 Rope (Block)
+   246:00 Old Stone Siding (Top)
+      :01 Old Wooden Siding (Top)
+      :02 Old Stone Siding (Bottom)
+      :03 Old Wooden Siding (Bottom)
+      :04 Old Stone Siding (South)
+      :05 Old Wooden Siding (South)
+      :06 Old Stone Siding (North)
+      :07 Old Wooden Siding (North)
+      :08 Old Stone Siding (East)
+      :09 Old Wooden Siding (East)
+      :10 Old Stone Siding (West)
+      :11 Old Wooden Siding (West)
+   247:00 Axle (Upright)
+      :04 Axle (North/South)
+      :08 Axle (East/West)
+   248:00 Redstone Clutch (Unpowered, Down)
+      :01 Redstone Clutch (Unpowered, Up)
+      :02 Redstone Clutch (Unpowered, North)
+      :03 Redstone Clutch (Unpowered, South)
+      :04 Redstone Clutch (Unpowered, West)
+      :05 Redstone Clutch (Unpowered, East)
+      :08 Redstone Clutch (Powered, Down)
+      :09 Redstone Clutch (Powered, Up)
+      :10 Redstone Clutch (Powered, North)
+      :11 Redstone Clutch (Powered, South)
+      :12 Redstone Clutch (Powered, West)
+      :13 Redstone Clutch (Powered, East)
+   249:00 Turntable (Setting 1, Unpowered)
+      :01 Turntable (Setting 1, Powered)
+      :04 Turntable (Setting 2, Unpowered)
+      :05 Turntable (Setting 2, Powered)
+      :08 Turntable (Setting 3, Unpowered)
+      :09 Turntable (Setting 3, Powered)
+      :12 Turntable (Setting 4, Unpowered)
+      :13 Turntable (Setting 4, Powered)
+   250:00 Bellows (Uncompressed, North)
+      :01 Bellows (Uncompressed, South)
+      :02 Bellows (Uncompressed, West)
+      :03 Bellows (Uncompressed, East)
+      :04 Bellows (Compressed, North)
+      :05 Bellows (Compressed, South)
+      :06 Bellows (Compressed, West)
+      :07 Bellows (Compressed, East)
+   251:00 Stoked Fire
+   252:00 Unfired Pottery (Crucible)
+      :01 Unfired Pottery (Planter)
+      :02 Unfired Pottery (Vase)
+      :03 Unfired Pottery (Urn)
+      :04 Unfired Pottery (Mould)
+      :05 Unfired Pottery (Clay Brick, North/South)
+      :06 Unfired Pottery (Clay Brick, East/West)
+      :07 Unfired Pottery (Nether Brick, North/South)
+      :08 Unfired Pottery (Nether Brick, East/West)
+      :09 Unfired Pottery (Cake)
+      :10 Unfired Pottery (Cookies, North/South)
+      :11 Unfired Pottery (Cookies, East/West)
+      :12 Unfired Pottery (Pumpkin Pie)
+      :13 Unfired Pottery (Bread, North/South)
+      :14 Unfired Pottery (Bread, East/West)
+      :15 Unfired Pottery (Dough, Fullblock)
+   253:00 Crucible (Upright)
+      :04 Crucible (Tipped, North)
+      :05 Crucible (Tipped, South)
+      :06 Crucible (Tipped, West)
+      :07 Crucible (Tipped, East)
+   254:00 Planter (Empty)
+      :01 Planter (Dirt)
+      :02 Planter (Dirt, Fertilized)
+      :03 Planter (Grass)
+      :08 Planter (Soul Sand)
+   255:00 Vase (White)
+      :01 Vase Vase (Orange)
+      :02 Vase (Magenta)
+      :03 Vase (Light)
+      :04 Vase (Yellow)
+      :05 Vase (Lime)
+      :06 Vase (Pink)
+      :07 Vase (Gray) 
+      :08 Vase (Light)
+      :09 Vase (Cyan)
+      :10 Vase (Purple)
+      :11 Vase (Blue)
+      :12 Vase (Brown)
+      :13 Vase (Green)
+      :14 Vase (Red)
+      :15 Vase (Black)
+
+Items:
+
+   256:00 Iron Shovel (Metadata/Damage Value up to 499)
+   257:00 Iron Pickaxe
+   258:00 Iron Axe
+   259:00 Flint and Steel
+   260:00 Apple
+   261:00 Bow
+   262:00 Arrow
+   263:00 Coal
+      :01 Charcoal
+   264:00 Diamond
+   265:00 Iron Ingot
+   266:00 Gold Ingot
+   267:00 Iron Sword
+   268:00 Wooden Sword
+   269:00 Wooden Shovel
+   270:00 Wooden Pickaxe
+   271:00 Wooden Axe
+   272:00 Stone Sword
+   273:00 Stone Shovel
+   274:00 Stone Pickaxe
+   275:00 Stone Axe
+   276:00 Diamond Sword
+   277:00 Diamond Shovel
+   278:00 Diamond Pickaxe
+   279:00 Diamond Axe
+   280:00 Shaft
+   281:00 Bowl
+   282:00 Cream of Mushroom
+   283:00 Golden Sword
+   284:00 Golden Shovel
+   285:00 Golden Pickaxe
+   286:00 Golden Axe
+   287:00 String
+   288:00 Feather
+   289:00 Gunpowder
+   290:00 Wooden Hoe
+   291:00 Stone Hoe
+   292:00 Iron Hoe
+   293:00 Diamond Hoe
+   294:00 Golden Hoe
+   295:00 Old Seeds
+   296:00 Old Wheat
+   297:00 Bread
+   298:00 Leather Cap
+   299:00 Leather Tunic
+   300:00 Leather Pants
+   301:00 Leather Boots
+   302:00 Chain Helmet
+   303:00 Chain Chestplate
+   304:00 Chain Leggings
+   305:00 Chain Boots
+   306:00 Iron Helmet
+   307:00 Iron Chestplate
+   308:00 Iron Leggings
+   309:00 Iron Boots
+   310:00 Diamond Helmet
+   311:00 Diamond Chestplate
+   312:00 Diamond Leggings
+   313:00 Diamond Boots
+   314:00 Golden Helmet
+   315:00 Golden Chestplate
+   316:00 Golden Leggings
+   317:00 Golden Boots
+   318:00 Flint
+   319:00 Raw Porkchop
+   320:00 Cooked Porkchop
+   321:00 Painting
+   322:00 Golden Apple
+   323:00 Sign
+   324:00 Wooden Door
+   325:00 Bucket
+   326:00 Water Bucket
+   327:00 Lava Bucket
+   328:00 Minecart
+   329:00 Saddle
+   330:00 Iron Door
+   331:00 Redstone
+   332:00 Snowball
+   333:00 Boat
+   334:00 Leather
+   335:00 Milk
+   336:00 Brick
+   337:00 Clay
+   338:00 Sugar Canes
+   339:00 Paper
+   340:00 Book
+   341:00 Slimeball
+   342:00 Minecart with Chest
+   343:00 Minecart with Furnace
+   344:00 Egg
+   345:00 Compass
+   346:00 Fishing Rod
+   347:00 Clock
+   348:00 Glowstone Dust
+   349:00 Raw Fish
+   350:00 Cooked Fish
+   351:00 Ink Sac
+      :01 Rose Red
+      :02 Cactus Green
+      :03 Cocoa Powder
+      :04 Lapis Lazuli
+      :05 Purple Dye
+      :06 Cyan Dye
+      :07 Light Gray Dye
+      :08 Gray Dye
+      :09 Pink Dye
+      :10 Lime Dye
+      :11 Dandelion Yellow
+      :12 Light Blue Dye
+      :13 Magenta Dye
+      :14 Orange Dye
+      :15 Bone Meal
+   352:00 Bone
+   353:00 Sugar
+   354:00 Cake
+   355:00 Bed
+   356:00 Redstone Repeater
+   357:00 Cookie
+   358:00 Map
+   359:00 Shears
+   360:00 Melon
+   361:00 Pumpkin Seeds
+   362:00 Melon Seeds
+   363:00 Raw Beef
+   364:00 Steak
+   365:00 Raw Chicken
+   366:00 Cooked Chicken
+   367:00 Rotten Flesh
+   368:00 Ender Pearl
+   369:00 Blaze Rod
+   370:00 Ghast Tear
+   371:00 Gold Nugget
+   372:00 Nether Wart
+   373:00 Water Bottle
+      :01 Potion of Regeneration
+      :02 Potion of Swiftness (Disabled)
+      :03 Potion of Fire Resistance
+      :04 Potion of Poison
+      :05 Potion of Healing
+      :06 Potion of Night Vision
+      :07 Clear Potion
+      :08 Potion of Weakness
+      :09 Potion of Strength
+      :10 Potion of Slowness
+      :11 Diffuse Potion
+      :12 Potion of Harming
+      :13 Artless Potion
+      :14 Potion of Invisibility
+      :15 Thin Potion
+   374:00 Glass Bottle
+   375:00 Spider Eye
+   376:00 Venom Sack
+   377:00 Blaze Powder
+   378:00 Magma Cream
+   379:00 Brewing Stand
+   380:00 Cistern
+   381:00 Eye of Ender
+   382:00 Glistering Melon
+   383:00 Spawn
+      :01 Spawn Item
+      :02 Spawn Experience Orb
+      :09 Spawn Painting
+      :10 Spawn arrow
+      :11 Spawn Snowball
+      :12 Spawn Fireball
+      :13 Spawn Small Fireball
+      :14 Spawn Thrown Enderpearl
+      :15 Spawn Floating Eye of Ender
+   384:00 Bottle o' Enchanting
+   385:00 Fire Charge
+   386:00 Book and Quill
+   387:00 Written Book
+   388:00 Emerald
+   389:00 Item Frame
+   390:00 Flower Pot
+   391:00 Carrot
+   392:00 Potato
+   393:00 Baked Potato
+   394:00 Poisonous Potato
+   395:00 Empty Map
+   396:00 Golden Carrot
+   397:00 Skeleton Skull
+      :01 Runed Skull
+      :02 Zombie Head
+      :03 Head
+      :04 Creeper Head
+      :05 Infused Skull
+   398:00 Carrot on a Stick
+   399:00 Nether Star
+   400:00 Pumpkin Pie
+   401:00 Damp Firework
+   402:00 Firework Star
+   403:00 Ancient Manuscript
+   404:00 Redstone Comparator
+   405:00 Nether Brick
+   406:00 Nether Quartz
+   407:00 Minecart with TNT
+   408:00 Minecart with Hopper
+   478:00 Cement Bucket
+   479:00 Raw Wolfchop
+   480:00 Cooked Wolfchop
+   481:00 Nethercoal
+   482:00 Hemp Seeds
+   483:00 Hemp
+   484:00 Gear
+   485:00 Flour
+   486:00 Hemp Fibers
+   487:00 Scoured Leather
+   488:00 Donut
+   489:00 Rope
+   490:00 Old Slats
+   491:00 Dung
+   492:00 Water Wheel
+   493:00 Sail
+   494:00 Wind Mill
+   495:00 Fabric
+   496:00 Old Grate
+   497:00 Old Wicker Pane
+   498:00 Tanned Leather
+   499:00 Strap
+   500:00 Belt
+   501:00 Foul Food
+   502:00 Wood Blade
+   503:00 Glue
+   504:00 Tallow
+   505:00 Haft
+   506:00 Soulforged Steel
+   507:00 Refined Pickaxe
+   508:00 Refined Shovel
+   509:00 Refined Hoe
+   510:00 Battle Axe
+   511:00 Refined Sword
+   512:00 Ground Netherrack
+   513:00 Hellfire Dust
+   514:00 Concentrated Hellfire
+   515:00 Armor Plate
+   516:00 Plate Helm
+   517:00 Breastplate
+   518:00 Plate Leggings
+   519:00 Plate Boots
+   520:00 Composite Bow
+   521:00 Broadhead
+   522:00 Broadhead Arrow
+   523:00 Pile of Coal Dust
+   524:00 Padding
+   525:00 Filament
+   526:00 Redstone Eye
+   527:00 Urn
+   528:00 Soul Urn
+   529:00 Poached Egg
+   530:00 Potash
+   531:00 Soap
+   532:00 Saw Dust
+   533:00 Gimp Mask
+   534:00 Leather Vest
+   535:00 Chaps
+   536:00 Biker Boots
+   537:00 Dynamite
+   538:00 Breeding Harness
+   539:00 Soul Dust
+   540:00 Mattock
+   541:00 Refined Axe
+   542:00 Nether Sludge
+   543:00 Nether Brick
+
+Additional BTW Block ID's:
+
+  1000:00 Block of Flesh
+  1001:00 Shaft (Upright) 
+      :00 Shaft (Down) 
+      :00 Shaft (North) 
+      :00 Shaft (South) 
+      :00 Shaft (West) 
+      :00 Shaft (East) 
+  1002:00 Dormant Soulforge (Pointing South)
+      :03 Dormant Soulforge (Pointing North)
+      :04 Dormant Soulforge (Pointing East)
+      :05 Dormant Soulforge (Pointing West)
+  1003:00 Stone Stairs (Bottom, East)
+      :01 Brick Stairs (Bottom, West)
+      :02 Brick Stairs (Bottom, South)
+      :03 Brick Stairs (Bottom, North)
+      :04 Brick Stairs (Top, East)
+      :05 Brick Stairs (Top, West)
+      :06 Brick Stairs (Top, South)
+      :07 Brick Stairs (Top, North)
+  1004:00 Flesh Slab
+      :01 Flesh Slab (Top)
+  1005:00 Bone Slab
+      :00 Bone Slab (Top)
+  1006:00 Pumpkin
+  1007:00 Blood Wood Siding (Top)
+      :01 Blood Wood Corner (Bottom, NorthWest) 
+      :02 Blood Wood Siding (Bottom)
+      :03 Blood Wood Corner (Bottom, SouthWest)
+      :04 Blood Wood Siding (South)
+      :05 Blood Wood Corner (Top, NorthWest)
+      :06 Blood Wood Siding (North)
+      :07 Blood Wood Corner (Top, SouthWest)
+      :08 Blood Wood Siding (East)
+      :09 Blood Wood Corner (Bottom, NorthEast)
+      :10 Blood Wood Siding (West)
+      :11 Blood Wood Corner (Bottom, SouthEast)
+      :12 Blood Wood Bench
+      :13 Blood Wood Corner (Top, NorthEast)
+      :14 Blood Wood Fence
+      :15 Blood Wood Corner (Top, SouthEast)
+  1008:00 Blood Wood Moulding (Bottom, North) (Oak Wood Moulding > 1008 when placed)
+      :01 Spruce Wood Moulding (Bottom, East)  (Spruce Wood Moulding > 1008 when placed)
+      :02 Spruce Wood Moulding (Bottom, South) (Birch Wood Moulding > 1008 when placed)
+      :03 Spruce Wood Moulding (Bottom, West)  (Jungle Wood Moulding > 1008 when placed)
+      :04 Spruce Wood Moulding (Up, NorthWest) (Blood Wood Moulding > 1008 when placed)
+      :05 Spruce Wood Moulding (Up, NorthEast)
+      :06 Spruce Wood Moulding (Up, SouthEast)
+      :07 Spruce Wood Moulding (Up, SouthWest)
+      :08 Spruce Wood Moulding (Top, North)
+      :09 Spruce Wood Moulding (Top, East)
+      :10 Spruce Wood Moulding (Top, South)
+      :11 Spruce Wood Moulding (Top, West)
+      :12 Spruce Wood Column
+      :13 Spruce Wood Pedestal (Up)
+      :14 Spruce Wood Pedestal (Down)
+      :15 Spruce Wood Table
+  1009:00 Blood Wood Stairs (Bottom, East)
+      :01 Blood Wood Stairs (Bottom, West)
+      :02 Blood Wood Stairs (Bottom, South)
+      :03 Blood Wood Stairs (Bottom, North)
+      :04 Blood Wood Stairs (Top, East)
+      :05 Blood Wood Stairs (Top, West)
+      :06 Blood Wood Stairs (Top, South)
+  1010:00 Chewed Log (Upright, Barkless)
+      :01 Chewed Log (Upright, -2 Layers)
+      :02 Chewed Log (Upright, -3 Layers)
+      :03 Chewed Log (Upright, -4 Layers)
+      :04 Chewed Log (East/West, Barkless)
+      :05 Chewed Log (East/West, -2 Layers)
+      :06 Chewed Log (East/West, -3 Layers)
+      :07 Chewed Log (East/West, -4 Layers)
+      :08 Chewed Log (North/South, Barkless)
+      :09 Chewed Log (North/South, -2 Layers)
+      :10 Chewed Log (North/South, -3 Layers)
+      :11 Chewed Log (North/South, -4 Layers)
+      :12 Chewed Log (Upright, Barkless)
+      :13 Chewed Log (Upright, 1 Lip)
+      :14 Chewed Log (Upright, 2 Lips)
+      :15 Chewed Log (Upright, 3 Lips)
+  1011:00 Loose Dirt
+  1012:00 Loose Dirt Slab
+      :01 Loose Dirt Slab (Top)
+  1013:00 Campfire (Not Burning, No Spit, North/South)
+      :01 Campfire (Not Burning, No Spit, East/West)
+      :02 Campfire (Not Burning, With Spit, North/South)
+      :03 Campfire (Not Burning, With Spit, East/West)
+      :04 Campfire (Burned out, No Spit, North/South)
+      :05 Campfire (Burned out, No Spit, East/West)
+      :06 Campfire (Burned out, With Spit, North/South)
+      :07 Campfire (Burned out, With Spit, East/West)
+      :08 Campfire (Smoldering, No Spit, North/South)
+      :09 Campfire (Smoldering, No Spit, East/West)
+      :10 Campfire (Smoldering, With Spit, North/South)
+      :11 Campfire (Smoldering, With Spit, East/West)
+  1014:00 Campfire (Small Flame, No Spit, North/South) (1013:Smoldering)
+      :01 Campfire (Small Flame, No Spit, East/West)
+      :02 Campfire (Small Flame, With Spit, North/South)
+      :03 Campfire (Small Flame, With Spit, East/West)
+  1015:00 Campfire (Medium Flame, No Spit, North/South)
+      :01 Campfire (Medium Flame, No Spit, East/West)
+      :02 Campfire (Medium Flame, With Spit, North/South)
+      :03 Campfire (Medium Flame, With Spit, East/West)
+  1016:00 Campfire (Large Flame, No Spit, North/South)
+      :01 Campfire (Large Flame, No Spit, East/West)
+      :02 Campfire (Large Flame, With Spit, North/South)
+      :03 Campfire (Large Flame, With Spit, East/West)
+  1017:00 Unfired Brick (Clay Brick, Drying Stage 1)
+  1018:00 Dried Brick (North/South)
+      :01 Dried Brick (East/West)
+  1019:00 Loose Brick
+  1020:00 Loose Brick Slab
+      :01 Loose Brick Slab (Top)
+  1021:00 Loose Cobblestone
+      :01 Loose Cobblestone (Lava Overlay)
+  1022:00 Loose Cobblestone Slab
+      :01 Loose Cobblestone Slab (Top)
+  1023:00 Brick Oven
+      :02 Brick Oven (North)
+      :03 Brick Oven (South)
+      :04 Brick Oven (West)
+      :05 Brick Oven (East)
+  1024:00 Lit Brick Oven
+      :02 Lit Brick Oven (North)
+      :03 Lit Brick Oven (South)
+      :04 Lit Brick Oven (West)
+      :05 Lit Brick Oven (East)
+  1025:00 Crude Torch (Up)
+      :01 Crude Torch (West)
+      :02 Crude Torch (East)
+      :03 Crude Torch (North)
+      :04 Crude Torch (South)
+      :05 Crude Torch (Up)
+      :08 Crude Torch (Burned out, Up)
+      :09 Crude Torch (Burned out, West)
+      :10 Crude Torch (Burned out, East)
+      :11 Crude Torch (Burned out, North)
+      :12 Crude Torch (Burned out, South)
+      :13 Crude Torch (Burned out, Up)
+  1026:00 Burning Crude Torch (Up)
+      :01 Burning Crude Torch (West)
+      :02 Burning Crude Torch (East)
+      :03 Burning Crude Torch (North)
+      :04 Burning Crude Torch (South)
+      :05 Burning Crude Torch (Up)
+      :08 Burning Crude Torch (Smoldering, Up)
+      :09 Burning Crude Torch (Smoldering, West)
+      :10 Burning Crude Torch (Smoldering, East)
+      :11 Burning Crude Torch (Smoldering, North)
+      :12 Burning Crude Torch (Smoldering, South)
+      :13 Burning Crude Torch (Smoldering, Up)
+  1027:00 Rough Stone Strata 1 (Broken, No Overlay)
+      :01 Rough Stone Strata 1 (Broken, Overlay 1)
+      :02 Rough Stone Strata 1 (Broken, Overlay 2)
+      :03 Rough Stone Strata 1 (Broken, Overlay 3)
+      :04 Rough Stone Strata 1 (Broken, Overlay 4)
+      :05 Rough Stone Strata 1 (Broken, Overlay 5)
+      :06 Rough Stone Strata 1 (Broken, Overlay 6)
+      :07 Rough Stone Strata 1 (Broken, Overlay 7)
+      :08 Rough Stone Strata 1 (Rough, No Overlay)
+      :09 Rough Stone Strata 1 (Rough, Overlay 1)
+      :10 Rough Stone Strata 1 (Rough, Overlay 2)
+      :11 Rough Stone Strata 1 (Rough, Overlay 3)
+      :12 Rough Stone Strata 1 (Rough, Overlay 4)
+      :13 Rough Stone Strata 1 (Rough, Overlay 5)
+      :14 Rough Stone Strata 1 (Rough, Overlay 6)
+      :15 Rough Stone Strata 1 (Rough, Overlay 7)
+  1028:00 Rough Stone Strata 2 (Broken, No Overlay)
+      :01 Rough Stone Strata 2 (Broken, Overlay 1)
+      :02 Rough Stone Strata 2 (Broken, Overlay 2)
+      :03 Rough Stone Strata 2 (Broken, Overlay 3)
+      :04 Rough Stone Strata 2 (Broken, Overlay 4)
+      :05 Rough Stone Strata 2 (Broken, Overlay 5)
+      :06 Rough Stone Strata 2 (Broken, Overlay 6)
+      :07 Rough Stone Strata 2 (Broken, Overlay 7)
+      :08 Rough Stone Strata 2 (Rough, No Overlay)
+      :09 Rough Stone Strata 2 (Rough, Overlay 1)
+      :10 Rough Stone Strata 2 (Rough, Overlay 2)
+      :11 Rough Stone Strata 2 (Rough, Overlay 3)
+      :12 Rough Stone Strata 2 (Rough, Overlay 4)
+      :13 Rough Stone Strata 2 (Rough, Overlay 5)
+      :14 Rough Stone Strata 2 (Rough, Overlay 6)
+      :15 Rough Stone Strata 2 (Rough, Overlay 7)
+  1029:00 Rough Stone Strata 3 (Broken, No Overlay)
+      :01 Rough Stone Strata 3 (Broken, Overlay 1)
+      :02 Rough Stone Strata 3 (Broken, Overlay 2)
+      :03 Rough Stone Strata 3 (Broken, Overlay 3)
+      :04 Rough Stone Strata 3 (Broken, Overlay 4)
+      :05 Rough Stone Strata 3 (Broken, Overlay 5)
+      :06 Rough Stone Strata 3 (Broken, Overlay 6)
+      :07 Rough Stone Strata 3 (Broken, Overlay 7)
+      :08 Rough Stone Strata 3 (Rough, No Overlay)
+      :09 Rough Stone Strata 3 (Rough, Overlay 1)
+      :10 Rough Stone Strata 3 (Rough, Overlay 2)
+      :11 Rough Stone Strata 3 (Rough, Overlay 3)
+      :12 Rough Stone Strata 3 (Rough, Overlay 4)
+      :13 Rough Stone Strata 3 (Rough, Overlay 5)
+      :14 Rough Stone Strata 3 (Rough, Overlay 6)
+      :15 Rough Stone Strata 3 (Rough, Overlay 7)
+  1030:00 Oak Work Stump
+      :01 Spruce Work Stump
+      :01 Birch Work Stump
+      :01 Jungle Work Stump
+  1031:00 Wicker Basket (Empty, Closed, North)
+      :01 Wicker Basket (Empty, Closed, South)
+      :02 Wicker Basket (Empty, Closed, West)
+      :03 Wicker Basket (Empty, Closed, East)
+      :04 Wicker Basket (Filled, Closed, North)
+      :05 Wicker Basket (Filled, Closed, South)
+      :06 Wicker Basket (Filled, Closed, West)
+      :07 Wicker Basket (Filled, Closed, East)
+      :08 Wicker Basket (Empty, Open, North)
+      :09 Wicker Basket (Empty, Open, South)
+      :10 Wicker Basket (Empty, Open, West)
+      :11 Wicker Basket (Empty, Open, East)
+      :12 Wicker Basket (Filled, Open, North)
+      :13 Wicker Basket (Filled, Open, South)
+      :14 Wicker Basket (Filled, Open, West)
+      :15 Wicker Basket (Filled, Open, East)
+  1032:00 Log Spike (Down)
+      :01 Log Spike (Up)
+      :02 Log Spike (North)
+      :03 Log Spike (South)
+      :04 Log Spike (West)
+      :05 Log Spike (East)
+  1033:00 Unlit Torch (Up)
+      :01 Unlit Torch (West)
+      :02 Unlit Torch (East)
+      :03 Unlit Torch (North)
+      :04 Unlit Torch (South)
+      :05 Unlit Torch (Up)
+  1034:00 Crafting Table
+  1035:00 Chest 
+      :02 Chest (Hinge North)
+      :03 Chest (Hinge South)
+      :04 Chest (Hinge West)
+      :05 Chest (Hinge East)
+  1036:00 Wooden Door (Lower, Unopened, East)
+      :01 Wooden Door (Lower, Unopened, South)
+      :02 Wooden Door (Lower, Unopened, West)
+      :03 Wooden Door (Lower, Unopened, North)
+      :04 Wooden Door (Lower, Opened, East)
+      :05 Wooden Door (Lower, Opened, South)
+      :06 Wooden Door (Lower, Opened, West)
+      :07 Wooden Door (Lower, Opened, North)
+      :08 Wooden Door (Upper, Left Hinge, Unpowered)
+      :09 Wooden Door (Upper, Right Hinge, Unpowered)
+      :10 Wooden Door (Upper, Left Hinge, Powered)
+      :11 Wooden Door (Upper, Right Hinge, Powered)
+  1037:00 Cobweb
+      :01 Cobweb (Broken Stage 1)
+      :02 Cobweb (Broken Stage 2)
+      :03 Cobweb (Broken Stage 3)
+  1038:00 Unfired Clay (Full Block)
+  1039:00 Mycelium Slab
+      :01 Mycelium Slab (Top)
+  1040:00 Placed Tool (Up, North)
+      :01 Placed Tool (Up, South)
+      :02 Placed Tool (Up, West)
+      :03 Placed Tool (Up, East)
+      :04 Placed Tool (Down, North)
+      :05 Placed Tool (Down, South)
+      :06 Placed Tool (Down, West)
+      :07 Placed Tool (Down, East)
+      :08 Placed Tool (North)
+      :09 Placed Tool (South)
+      :10 Placed Tool (West)
+      :11 Placed Tool (East)
+  1041:00 Loose Brick Stairs (Bottom, East)
+      :01 Loose Brick Stairs (Bottom, West)
+      :02 Loose Brick Stairs (Bottom, South)
+      :03 Loose Brick Stairs (Bottom, North)
+      :04 Loose Brick Stairs (Top, East)
+      :05 Loose Brick Stairs (Top, West)
+      :06 Loose Brick Stairs (Top, South)
+  1042:00 Loose Cobblestone Stairs (Bottom, East)
+      :01 Loose Cobblestone Stairs (Bottom, West)
+      :02 Loose Cobblestone Stairs (Bottom, South)
+      :03 Loose Cobblestone Stairs (Bottom, North)
+      :04 Loose Cobblestone Stairs (Top, East)
+      :05 Loose Cobblestone Stairs (Top, West)
+      :06 Loose Cobblestone Stairs (Top, South)
+  1043:00 Smouldering Log (Black Particles)
+      :01 Smouldering Log (White Particles)
+      :04 Smouldering Log (Black Particles, Slight Texture Change)
+      :05 Smouldering Log (White Particles, Slight Texture Change)
+  1044:00 Cinders (Burned Out Log)
+  1045:00 Charred Stump (Barkless)
+      :01 Charred Stump (1 Lip)
+      :02 Charred Stump (2 Lip)
+      :03 Charred Stump (3 Lip)
+  1046:00 Ash (1 Layer)
+      :01 Ash (2 Layers)
+      :02 Ash (3 Layers)
+      :03 Ash (4 Layers)
+      :04 Ash (5 Layers)
+      :05 Ash (6 Layers)
+      :06 Ash (7 Layers)
+      :07 Ash (8 Layers)
+  1047:00 Loose Snow (Overlay 7)
+      :01 Loose Snow (Overlay 7)
+      :02 Loose Snow (Overlay 6)
+      :03 Loose Snow (Overlay 6)
+      :04 Loose Snow (Overlay 5)
+      :05 Loose Snow (Overlay 5)
+      :06 Loose Snow (Overlay 4)
+      :07 Loose Snow (Overlay 4)
+      :08 Loose Snow (Overlay 3)
+      :09 Loose Snow (Overlay 3)
+      :10 Loose Snow (Overlay 2)
+      :11 Loose Snow (Overlay 2)
+      :12 Loose Snow (Overlay 1)
+      :13 Loose Snow (Overlay 1)
+      :14 Loose Snow (Overlay 1)
+      :15 Loose Snow (Overlay 1)
+  1048:00 Loose Snow Slab (Overlay 7, Bottom)
+      :01 Loose Snow Slab (Overlay 7, Top)
+      :02 Loose Snow Slab (Overlay 6, Bottom)
+      :03 Loose Snow Slab (Overlay 6, Top)
+      :04 Loose Snow Slab (Overlay 5, Bottom)
+      :05 Loose Snow Slab (Overlay 5, Top)
+      :06 Loose Snow Slab (Overlay 4, Bottom)
+      :07 Loose Snow Slab (Overlay 4, Top)
+      :08 Loose Snow Slab (Overlay 3, Bottom)
+      :09 Loose Snow Slab (Overlay 3, Top)
+      :10 Loose Snow Slab (Overlay 2, Bottom)
+      :11 Loose Snow Slab (Overlay 2, Top)
+      :12 Loose Snow Slab (Overlay 1, Bottom)
+      :13 Loose Snow Slab (Overlay 1, Top)
+      :14 Loose Snow Slab (Overlay 1, Bottom)
+      :15 Loose Snow Slab (Overlay 1, Top)
+  1049:00 Snow Block
+  1050:00 Snow Slab (Top)
+      :01 Snow Slab (Top)
+  1051:00 Ladder 
+      :01 Ladder (North)
+      :02 Ladder (East)
+      :03 Ladder (West)
+      :04 Ladder (South)
+  1052:00 Flaming Ladder (South)
+      :01 Flaming Ladder (North)
+      :02 Flaming Ladder (East)
+      :03 Flaming Ladder (West)
+      :04 Flaming Ladder (South)
+      :05 Flaming Ladder (North)
+      :06 Flaming Ladder (East)
+      :07 Flaming Ladder (West)
+      :08 Flaming Ladder (South)
+      :09 Flaming Ladder (North)
+      :10 Flaming Ladder (East)
+      :11 Flaming Ladder (West)
+      :12 Flaming Ladder (South)
+      :13 Flaming Ladder (North)
+      :14 Flaming Ladder (East)
+      :15 Flaming Ladder (West)
+  1053:00 Piston Shovel (Top, South)
+      :01 Piston Shovel (Top, North)
+      :02 Piston Shovel (Top, East)
+      :03 Piston Shovel (Top, West)
+      :04 Piston Shovel (Bottom, South)
+      :05 Piston Shovel (Bottom, North)
+      :06 Piston Shovel (Bottom, East)
+      :07 Piston Shovel (Bottom, West)
+  1054:00 Hamper (Closed, Hinge South)
+      :01 Hamper (Closed, Hinge North)
+      :02 Hamper (Closed, Hinge West)
+      :03 Hamper (Closed, Hinge East)
+      :08 Hamper (Open, Hinge South)
+      :09 Hamper (Open, Hinge North)
+      :10 Hamper (Open, Hinge West)
+      :11 Hamper (Open, Hinge East)
+  1055:00 Block of Oysters
+  1056:00 Oyster Slab (Bottom)
+      :01 Oyster Slab (Top)
+  1057:00 Burning Torch (Infinite Torch)
+      :01 Burning Torch (West)
+      :02 Burning Torch (East)
+      :03 Burning Torch (North)
+      :04 Burning Torch (South)
+      :05 Burning Torch (Up)
+  1058:00 Placed Bucket (Down)
+      :01 Placed Bucket (Up)
+      :02 Placed Bucket (Tipped, North)
+      :03 Placed Bucket (Tipped, South)
+      :04 Placed Bucket (Tipped, West)
+      :05 Placed Bucket (Tipped, East)
+      :06 Placed Bucket (Falling)
+      :07 Placed Bucket (Falling)
+      :08 Placed Bucket (Down)
+  1059:00 Placed Water Bucket (Down)
+      :01 Placed Water Bucket (Up)
+      :02 Placed Water Bucket (Tipped, North)
+      :03 Placed Water Bucket (Tipped, South)
+      :04 Placed Water Bucket (Tipped, West)
+      :05 Placed Water Bucket (Tipped, East)
+      :06 Placed Water Bucket (Falling)
+      :07 Placed Water Bucket (Falling)
+      :08 Placed Water Bucket (Down)
+  1060:00 Placed Cement Bucket (Down)
+      :01 Placed Cement Bucket (Up)
+      :02 Placed Cement Bucket (Tipped, North)
+      :03 Placed Cement Bucket (Tipped, South)
+      :04 Placed Cement Bucket (Tipped, West)
+      :05 Placed Cement Bucket (Tipped, East)
+      :06 Placed Cement Bucket (Falling)
+      :07 Placed Cement Bucket (Falling)
+      :08 Placed Cement Bucket (Down)
+  1061:00 Placed Milk Bucket (Down)
+      :01 Placed Milk Bucket (Up)
+      :02 Placed Milk Bucket (Tipped, North)
+      :03 Placed Milk Bucket (Tipped, South)
+      :04 Placed Milk Bucket (Tipped, West)
+      :05 Placed Milk Bucket (Tipped, East)
+      :06 Placed Milk Bucket (Falling)
+      :07 Placed Milk Bucket (Falling)
+      :08 Placed Milk Bucket (Down)
+  1062:00 Placed Milk Chocolate Bucket (Down)
+      :01 Placed Milk Chocolate Bucket (Up)
+      :02 Placed Milk Chocolate Bucket (Tipped, North)
+      :03 Placed Milk Chocolate Bucket (Tipped, South)
+      :04 Placed Milk Chocolate Bucket (Tipped, West)
+      :05 Placed Milk Chocolate Bucket (Tipped, East)
+      :06 Placed Milk Chocolate Bucket (Falling)
+      :07 Placed Milk Chocolate Bucket (Falling)
+      :08 Placed Milk Chocolate Bucket (Down)
+  1063:00 Milk (1px Block)
+  1064:00 Chocolate Milk (1px Block)
+  1065:00 Gear Box (Unpowered, Down)
+      :01 Gear Box (Unpowered, Up)
+      :02 Gear Box (Unpowered, North)
+      :03 Gear Box (Unpowered, South)
+      :04 Gear Box (Unpowered, West)
+      :05 Gear Box (Unpowered, East)
+      :08 Gear Box (Powered, Down)
+      :09 Gear Box (Powered, Up)
+      :10 Gear Box (Powered, North)
+      :11 Gear Box (Powered, South)
+      :12 Gear Box (Powered, West)
+      :13 Gear Box (Powered, East)
+  1066:00 Iron Spike (With Base, Up)
+      :01 Iron Spike (With Base, Down)
+      :02 Iron Spike (Up, Down, North)
+      :03 Iron Spike (Up, Down, South)
+      :04 Iron Spike (Up, Down, West)
+      :05 Iron Spike (Up, Down, East)
+      :06 Iron Spike (No Base, Up)
+      :07 Iron Spike (No Base, Up)
+  1067:00 Lightning Rod (With Base, Up)
+      :01 Lightning Rod (With Base, Down)
+      :02 Lightning Rod (Up, Down, North)
+      :03 Lightning Rod (Up, Down, South)
+      :04 Lightning Rod (Up, Down, West)
+      :05 Lightning Rod (Up, Down, East)
+      :06 Lightning Rod (No Base, Up)
+      :07 Lightning Rod (No Base, Up)
+  1068:00 Iron Ore Chunk (Nipple South)
+      :01 Iron Ore Chunk (Nipple North)
+      :02 Iron Ore Chunk (Nipple East)
+      :03 Iron Ore Chunk (Nipple West)
+  1069:00 Gold Ore Chunk (Nipple South)
+      :01 Gold Ore Chunk (Nipple North)
+      :02 Gold Ore Chunk (Nipple East)
+      :03 Gold Ore Chunk (Nipple West)
+  1070:00 Loose Stone Brick
+      :01 Loose Stone Brick (Lava Overlay)
+  1071:00 Loose Stone Brick Slab (Bottom)
+      :01 Loose Stone Brick Slab (Top)
+  1072:00 Loose Stone Brick Stairs (Bottom, East)
+      :01 Loose Stone Brick Stairs (Bottom, West)
+      :02 Loose Stone Brick Stairs (Bottom, South)
+      :03 Loose Stone Brick Stairs (Bottom, North)
+      :04 Loose Stone Brick Stairs (Top, East)
+      :05 Loose Stone Brick Stairs (Top, West)
+      :06 Loose Stone Brick Stairs (Top, South)
+  1073:00 Loose Nether Brick
+  1074:00 Loose Nether Brick Slab (Bottom)
+      :01 Loose Nether Brick Slab (Top)
+  1075:00 Loose Nether Brick Stairs (Bottom, East)
+      :01 Loose Nether Brick Stairs (Bottom, West)
+      :02 Loose Nether Brick Stairs (Bottom, South)
+      :03 Loose Nether Brick Stairs (Bottom, North)
+      :04 Loose Nether Brick Stairs (Top, East)
+      :05 Loose Nether Brick Stairs (Top, West)
+  1076:00 Netherrack
+  1077:00 Lava Pillow
+  1078:00 Old Brown Mushroom Block (All Inside)
+      :01 Old Brown Mushroom Block (Northwest)
+      :02 Old Brown Mushroom Block (North)
+      :03 Old Brown Mushroom Block (Northeast)
+      :04 Old Brown Mushroom Block (West)
+      :05 Old Brown Mushroom Block (Center)
+      :06 Old Brown Mushroom Block (East)
+      :07 Old Brown Mushroom Block (Southwest)
+      :08 Old Brown Mushroom Block (South)
+      :09 Old Brown Mushroom Block (Southeast)
+      :10 Old Brown Mushroom Block (Stem)
+      :14 Old Brown Mushroom Block (All Outside)
+      :15 Old Brown Mushroom Block (All Stem)
+  1079:00 Old Red Mushroom Block (All Inside)
+      :01 Old Red Mushroom Block (Northwest)
+      :02 Old Red Mushroom Block (North)
+      :03 Old Red Mushroom Block (Northeast)
+      :04 Old Red Mushroom Block (West)
+      :05 Old Red Mushroom Block (Center)
+      :06 Old Red Mushroom Block (East)
+      :07 Old Red Mushroom Block (Southwest)
+      :08 Old Red Mushroom Block (South)
+      :09 Old Red Mushroom Block (Southeast)
+      :10 Old Red Mushroom Block (Stem)
+      :14 Old Red Mushroom Block (All Outside)
+      :15 Old Red Mushroom Block (All Stem)
+  1080:00 Block of Iron Ore
+  1081:00 Block of Gold Ore
+  1082:00 Block of Wicker
+  1083:00 Wicker Slab (Bottom)
+      :01 Wicker Slab (Top)
+  1084:00 Wicker Pane
+  1085:00 Grate
+  1086:00 Slats
+  1087:00 Farmland (Dry)
+      :01 Farmland (Wet)
+  1088:00 Farmland (Fertilized, Dry)
+      :01 Farmland (Fertilized, Wet)
+  1089:00 Wheat Crop (Age 0)
+      :01 Wheat Crop (Age 1)
+      :02 Wheat Crop (Age 2)
+      :03 Wheat Crop (Age 3)
+      :04 Wheat Crop (Age 4)
+      :05 Wheat Crop (Age 5)
+      :06 Wheat Crop (Age 6)
+      :07 Wheat Crop (Age 7)
+  1090:00 Wheat Crop (Top, Age 8)
+      :01 Wheat Crop (Top, Age 9)
+      :02 Wheat Crop (Top, Age 10)
+      :03 Wheat Crop (Top, Age 11, Mature)
+  1091:00 Weeds (Check code)
+  1092:00 Planter With Soil (Dry)
+      :01 Planter With Soil (Wet)
+      :02 Planter With Soil (Fertilized, Dry)
+      :03 Planter With Soil (Fertilized, Wet)
+
+  Additional BTW Items: 
+
+  2256:00 Music Disc
+  2257:00 Music Disc
+  2258:00 Music Disc
+  2259:00 Music Disc
+  2260:00 Music Disc
+  2261:00 Music Disc
+  2262:00 Music Disc
+  2263:00 Music Disc
+  2264:00 Music Disc
+  2265:00 Music Disc
+  2266:00 Music Disc
+  2267:00 Music Disc
+  2551:00 Black Wool
+      :01 Red Wool
+      :02 Green Wool
+      :03 Brown Wool
+      :04 Blue Wool
+      :05 Purple Wool
+      :06 Cyan Wool
+      :07 Light Gray Wool
+      :08 Gray Wool
+      :09 Pink Wool
+      :10 Lime Wool
+      :11 Yellow Wool
+      :12 Light Blue Wool
+      :13 Magenta Wool
+      :14 Orange Wool
+      :15 White Wool
+  2552:00 Cocoa Beans
+  2553:00 Chocolate
+  2554:00 Chocolate Milk
+  2555:00 Soul Flux
+  2556:00 Ender Slag
+  2557:00 Cake Batter
+  2558:00 Cookie Dough
+  2559:00 Oven Ready Pumpkin Pie
+  2560:00 Mysterious Gland
+  2561:00 Liver of the Beast
+  2562:00 Cooked Liver
+  2563:00 Prophecy Fragment
+  2564:00 Stump Remover
+ 22478:00 Tuning Fork
+ 22479:00 Arcane Scroll
+ 22480:00 Black Candle
+      :01 Red Candle
+      :02 Green Candle
+      :03 Brown Candle
+      :04 Blue Candle
+      :05 Purple Candle
+      :06 Cyan Candle
+      :07 Light Gray Candle
+      :08 Gray Candle
+      :09 Pink Candle
+      :10 Lime Candle
+      :11 Yellow Candle
+      :12 Light Blue Candle
+      :13 Magenta Candle
+      :14 Orange Candle
+      :15 White Candle
+ 22481:00 Nether Groth Spores
+ 22482:00 Mould
+ 22483:00 Canvas
+ 22484:00 Kibble
+ 22485:00 Raw Egg
+ 22486:00 Fried Egg
+ 22487:00 Screw
+ 22488:00 Rotted Arrow
+ 22489:00 Ocular of Ender
+ 22490:00 Ender Spectacles
+ 22491:00 Stake
+ 22492:00 Brimstone
+ 22493:00 Nitre
+ 22494:00 Element
+ 22495:00 Fuse
+ 22496:00 Blasting Oil
+ 22497:00 Wind Mill
+ 22498:00 Boiled Potato
+ 22499:00 Raw Mutton
+ 22500:00 Cooked Mutton
+ 22501:00 Witch Wart
+ 22502:00 Cooked Carrot
+ 22503:00 Tasty Sandwich
+ 22504:00 Steak and Potatoes
+ 22505:00 Ham and Eggs
+ 22506:00 Steak Dinner
+ 22507:00 Pork Dinner
+ 22508:00 Wolf Dinner
+ 22509:00 Raw Kebab
+ 22510:00 Cooked Kebab
+ 22511:00 Chicken Soup
+ 22512:00 Chowder
+ 22513:00 Hearty Stew
+ 22514:00 Mushroom
+ 22515:00 Mushroom
+ 22516:00 Iron Nugget
+ 22517:00 Mail
+ 22518:00 Raw Mystery Meat
+ 22519:00 Cooked Mystery Meat
+ 22520:00 Raw Mushroom Omelet
+ 22521:00 Cooked Mushroom Omelet
+ 22522:00 Raw Scrambled Egg
+ 22523:00 Cooked Scrambled Egg
+ 22524:00 Creeper Oysters
+ 22525:00 Tuque
+ 22526:00 Wool Jacket
+ 22527:00 Wool Britches
+ 22528:00 Wool Socks
+ 22529:00 Padded Cap
+ 22530:00 Padded Tunic
+ 22531:00 Padded Pants
+ 22532:00 Padded Boots
+ 22533:00 Tanned Leather Cap
+ 22534:00 Tanned Leather Tunic
+ 22535:00 Tanned Leather Pants
+ 22536:00 Tanned Leather Boots
+ 22537:00 Diamond Ingot
+ 22538:00 Cut Leather
+ 22539:00 Cut Tanned Leather
+ 22540:00 Cut Scoured Leather
+ 22541:00 Baited Fishing Rod
+ 22542:00 Pile of Dirt
+ 22543:00 Pile of Sand
+ 22544:00 Pile of Gravel
+ 22545:00 Bat Wing
+ 22546:00 Golden Dung
+ 22547:00 Oak Bark
+      :01 Spruce Bark
+      :02 Birch Bark
+      :03 Jungle Bark
+      :04 Blood Bark
+ 22548:00 Pile of Soul Sand
+ 22549:00 Redstone Latch
+ 22550:00 Soulforged Steel Nugget
+ 22565:00 Pointy Stick
+ 22566:00 Loose Stone
+ 22567:00 Sharp Stone
+ 22568:00 Wood Club
+ 22569:00 Fire Plough
+ 22570:00 Bow Drill
+ 22571:00 Chunk of Iron Ore
+ 22572:00 Pile of Iron Ore
+ 22573:00 Iron Chisel
+ 22574:00 Chunk of Gold Ore
+ 22575:00 Pile of Gold Ore
+ 22576:00 Wicker
+ 22577:00 Knitting Needles
+ 22578:00 Knitting
+ 22579:00 Black Wool Knit
+      :01 Red Wool Knit
+      :02 Green Wool Knit
+      :03 Brown Wool Knit
+      :04 Blue Wool Knit
+      :05 Purple Wool Knit
+      :06 Cyan Wool Knit
+      :07 Light Gray Wool Knit
+      :08 Gray Wool Knit
+      :09 Pink Wool Knit
+      :10 Lime Wool Knit
+      :11 Yellow Wool Knit
+      :12 Light Blue Wool Knit
+      :13 Magenta Wool Knit
+      :14 Orange Wool Knit
+      :15 White Wool Knit
+ 22580:00 Bone Club
+ 22581:00 Cured Meat
+ 22582:00 Metal Fragment
+ 22583:00 Pile of Clay
+ 22584:00 Burned Meat
+ 22585:00 Chicken Feed
+ 22586:00 Bone Fish Hook
+ 22587:00 Unfinished Fish Hook
+ 22588:00 Stone Brick
+ 22589:00 Wicker Weaving
+ 22590:00 Wheat
+ 22591:00 Wheat Seeds
+ 22592:00 Bread Dough
+ 22593:00 Straw
+ 22594:00 Wet Brick
+ 22595:00 Uncooked Nether Brick
+
+Deco ID's:
+
+  3000:00 Paper Wall
+  3001:00 Wrought Iron Bars
+  3002:00 Yucca
+      :01 Hyacinth
+      :02 Birds of Paradise
+      :03 Azalea
+      :04 Cornflower
+      :05 Lavender
+      :06 Honeysuckle
+      :07 Allium
+      :08 Blue Orchid
+      :09 Poppy
+      :10 Azure Bluet
+      :11 Daisy
+      :12 Peony
+      :13 Lilac
+      :14 Rose Bush
+      :15 Blue Rose
+  3003:00 tile.decoBlockStainedGlass
+  3005:00 Block of Coal
+  3006:00 Red Tulip
+      :01 Pink Tulip
+      :02 Orange Tulip
+      :03 White Tulip
+      :04 Blue Tulip
+  3007:00 Block of Diamondium
+  3008:00 White Stone Bricks
+      :01 Mossy White Stone Bricks
+      :02 Cracked White Stone Bricks
+      :03 Chiseled White Stone Bricks
+  3011:00 White Stone Brick Stairs
+  3012:00 Polished Stone
+  3013:00 Polished Stone Stairs
+  3014:00 Polished Stone Siding
+      :01 Polished Stone Corner
+      :12 Polished Stone Bench
+      :14 Polished Stone Wall
+  3015:00 Polsihed Stone Moulding
+      :12 Polished Stone Column
+      :13 Polished Stone Pedestal
+      :15 Polished Stone Table
+  3016:00 Bone Pillar
+  3017:00 Black Rose
+      :01 Lily of the Valley
+  3018:00 Black Concrete
+      :01 Red Concrete
+      :02 Green Concrete
+      :03 Brown Concrete
+      :04 Blue Concrete
+      :05 Purple Concrete
+      :06 Cyan Concrete
+      :07 Light Gray Concrete
+      :08 Gray Concrete
+      :09 Pink Concrete
+      :10 Lime Concrete
+      :11 Yellow Concrete
+      :12 Light Blue Concrete
+  3019:00 Black Concrete Powder
+      :01 Red Concrete Powder
+      :02 Green Concrete Powder
+      :03 Brown Concrete Powder
+      :04 Blue Concrete Powder
+      :05 Purple Concrete Powder
+      :06 Cyan Concrete Powder
+      :07 Light Gray Concrete Powder
+      :08 Gray Concrete Powder
+      :09 Pink Concrete Powder
+      :10 Lime Concrete Powder
+      :11 Yellow Concrete Powder
+      :12 Light Blue Concrete Powder
+  3020:00 Block of Nethercoal
+  3021:00 Cherry Sapling
+  3022:00 Cherry Leaves
+  3023:00 Thatch
+  3024:00 Thatch Stairs
+  3025:00 Hay Bale
+  3026:00 Hay Stairs
+  3027:00 Paper Lantern
+  3028:00 Chandelier
+  3029:00 Wrought Iron Lantern
+  3030:00 Chain
+  3031:00 tile.decoBlockSpikeSpruce
+  3032:00 tile.decoBlockSpikeBirch
+  3033:00 tile.decoBlockSpikeJungle
+  3034:00 tile.decoBlockSpikeCherry
+  3035:00 Cherry Chair
+  3036:00 Oak Chair
+  3037:00 Birch Chair
+  3038:00 Spruce Chair
+  3039:00 Jungle Chair
+  3040:00 Blood Wood Chair
+  3041:00 Black Painted Planks Slab
+      :01 Red Painted Planks Slab
+      :02 Green Painted Planks Slab
+      :03 Brown Painted Planks Slab
+      :04 Blue Painted Planks Slab
+      :05 Purple Painted Planks Slab
+      :06 Cyan Painted Planks Slab
+      :07 Light Gray Painted Planks Slab
+  3042:00 Gray Painted Planks Slab
+      :01 Pink Painted Planks Slab
+      :02 Lime Painted Planks Slab
+      :03 Yellow Painted Planks Slab
+      :04 Light Blue Painted Planks Slab
+      :05 Magenta Painted Planks Slab
+      :06 Orange Painted Planks Slab
+      :07 White Painted Planks Slab
+  3043:00 Cherry Slab
+      :01 Acacia Slab
+  3044:00 Terracotta
+  3045:00 Black Stained Terracotta
+      :01 Red Stained Terracotta
+      :02 Green Stained Terracotta
+      :03 Brown Stained Terracotta
+      :04 Blue Stained Terracotta
+      :05 Purple Stained Terracotta
+      :06 Cyan Stained Terracotta
+      :07 Light Gray Stained Terracotta
+      :08 Gray Stained Terracotta
+      :09 Pink Stained Terracotta
+      :10 Lime Stained Terracotta
+      :11 Yellow Stained Terracotta
+      :12 Light Blue Stained Terracotta
+      :13 Magenta Stained Terracotta
+      :14 Orange Stained Terracotta
+      :15 White Stained Terracotta
+  3046:00 Unfired Terracotta
+  3049:00 Terracotta Siding
+      :01 Terracotta Corner
+      :12 Terracotta Bench
+      :14 Terracotta Wall
+  3050:00 Terracotta Moulding
+      :12 Terracotta Column
+      :13 Terracotta Pedestal
+      :15 Terracotta Table
+  3051:00 Terracotta Stairs
+  3052:00 Black Stained Terracotta Siding
+      :01 Black Stained Terracotta Corner
+      :12 Black Stained Terracotta Bench
+      :14 Black Stained Terracotta Wall
+  3053:00 Black Stained Terracotta Moulding
+      :12 Black Stained Terracotta Column
+      :13 Black Stained Terracotta Pedestal
+      :15 Black Stained Terracotta Table
+  3054:00 Black Stained Terracotta Stairs
+  3055:00 Red Stained Terracotta Siding
+      :01 Red Stained Terracotta Corner
+      :12 Red Stained Terracotta Bench
+      :14 Red Stained Terracotta Wall
+  3056:00 Red Stained Terracotta Moulding
+      :12 Red Stained Terracotta Column
+      :13 Red Stained Terracotta Pedestal
+      :15 Red Stained Terracotta Table
+  3057:00 Red Stained Terracotta Stairs
+  3058:00 Green Stained Terracotta Siding
+      :01 Green Stained Terracotta Corner
+      :12 Green Stained Terracotta Bench
+      :14 Green Stained Terracotta Wall
+  3059:00 Green Stained Terracotta Moulding
+      :12 Green Stained Terracotta Column
+      :13 Green Stained Terracotta Pedestal
+      :15 Green Stained Terracotta Table
+  3060:00 Black Green Terracotta Stairs
+  3061:00 Brown Stained Terracotta Siding
+      :01 Brown Stained Terracotta Corner
+      :12 Brown Stained Terracotta Bench
+      :14 Brown Stained Terracotta Wall
+  3062:00 Brown Stained Terracotta Moulding
+      :12 Brown Stained Terracotta Column
+      :13 Brown Stained Terracotta Pedestal
+      :15 Brown Stained Terracotta Table
+  3063:00 Brown Stained Terracotta Stairs
+  3064:00 Blue Stained Terracotta Siding
+      :01 Blue Stained Terracotta Corner
+      :12 Blue Stained Terracotta Bench
+      :14 Blue Stained Terracotta Wall
+  3065:00 Blue Stained Terracotta Moulding
+      :12 Blue Stained Terracotta Column
+      :13 Blue Stained Terracotta Pedestal
+      :15 Blue Stained Terracotta Table
+  3066:00 Blue Stained Terracotta Stairs
+  3067:00 Purple Stained Terracotta Siding
+      :01 Purple Stained Terracotta Corner
+      :12 Purple Stained Terracotta Bench
+      :14 Purple Stained Terracotta Wall
+  3068:00 Purple Stained Terracotta Moulding
+      :12 Purple Stained Terracotta Column
+      :13 Purple Stained Terracotta Pedestal
+      :15 Purple Stained Terracotta Table
+  3069:00 Purple Stained Terracotta Stairs
+  3070:00 Cyan Stained Terracotta Siding
+      :01 Cyan Stained Terracotta Corner
+      :12 Cyan Stained Terracotta Bench
+      :14 Cyan Stained Terracotta Wall
+  3071:00 Cyan Stained Terracotta Moulding
+      :12 Cyan Stained Terracotta Column
+      :13 Cyan Stained Terracotta Pedestal
+      :15 Cyan Stained Terracotta Table
+  3072:00 Cyan Stained Terracotta Stairs
+  3073:00 Light Gray Stained Terracotta Siding
+      :01 Light Gray Stained Terracotta Corner
+      :12 Light Gray Stained Terracotta Bench
+      :14 Light Gray Stained Terracotta Wall
+  3074:00 Light Gray Stained Terracotta Moulding
+      :12 Light Gray Stained Terracotta Column
+      :13 Light Gray Stained Terracotta Pedestal
+      :15 Light Gray Stained Terracotta Table
+  3075:00 Light Gray Stained Terracotta Stairs
+  3076:00 Gray Stained Terracotta Siding
+      :01 Gray Stained Terracotta Corner
+      :12 Gray Stained Terracotta Bench
+      :14 Gray Stained Terracotta Wall
+  3077:00 Gray Stained Terracotta Moulding
+      :12 Gray Stained Terracotta Column
+      :13 Gray Stained Terracotta Pedestal
+      :15 Gray Stained Terracotta Table
+  3078:00 Gray Stained Terracotta Stairs
+  3079:00 Pink Stained Terracotta Siding
+      :01 Pink Stained Terracotta Corner
+      :12 Pink Stained Terracotta Bench
+      :14 Pink Stained Terracotta Wall
+  3080:00 Pink Stained Terracotta Moulding
+      :12 Pink Stained Terracotta Column
+      :13 Pink Stained Terracotta Pedestal
+      :15 Pink Stained Terracotta Table
+  3081:00 Pink Stained Terracotta Stairs
+  3082:00 Lime Stained Terracotta Siding
+      :01 Lime Stained Terracotta Corner
+      :12 Lime Stained Terracotta Bench
+      :14 Lime Stained Terracotta Wall
+  3083:00 Lime Stained Terracotta Moulding
+      :12 Lime Stained Terracotta Column
+      :13 Lime Stained Terracotta Pedestal
+      :15 Lime Stained Terracotta Table
+  3084:00 Lime Stained Terracotta Stairs
+  3085:00 Yellow Stained Terracotta Siding
+      :01 Yellow Stained Terracotta Corner
+      :12 Yellow Stained Terracotta Bench
+      :14 Yellow Stained Terracotta Wall
+  3086:00 Yellow Stained Terracotta Moulding
+      :12 Yellow Stained Terracotta Column
+      :13 Yellow Stained Terracotta Pedestal
+      :15 Yellow Stained Terracotta Table
+  3087:00 Yellow Stained Terracotta Stairs
+  3088:00 Light Blue Stained Terracotta Siding
+      :01 Light Blue Stained Terracotta Corner
+      :12 Light Blue Stained Terracotta Bench
+      :14 Light Blue Stained Terracotta Wall
+  3089:00 Light Blue Stained Terracotta Moulding
+      :12 Light Blue Stained Terracotta Column
+      :13 Light Blue Stained Terracotta Pedestal
+      :15 Light Blue Stained Terracotta Table
+  3090:00 Light Blue Stained Terracotta Stairs
+  3091:00 Magenta Stained Terracotta Siding
+      :01 Magenta Stained Terracotta Corner
+      :12 Magenta Stained Terracotta Bench
+      :14 Magenta Stained Terracotta Wall
+  3092:00 Magenta Stained Terracotta Moulding
+      :12 Magenta Stained Terracotta Column
+      :13 Magenta Stained Terracotta Pedestal
+      :15 Magenta Stained Terracotta Table
+  3093:00 Magenta Stained Terracotta Stairs
+  3094:00 Orange Stained Terracotta Siding
+      :01 Orange Stained Terracotta Corner
+      :12 Orange Stained Terracotta Bench
+      :14 Orange Stained Terracotta Wall
+  3095:00 Orange Stained Terracotta Moulding
+      :12 Orange Stained Terracotta Column
+      :13 Orange Stained Terracotta Pedestal
+      :15 Orange Stained Terracotta Table
+  3096:00 Orange Stained Terracotta Stairs
+  3097:00 White Stained Terracotta Siding
+      :01 White Stained Terracotta Corner
+      :12 White Stained Terracotta Bench
+      :14 White Stained Terracotta Wall
+  3098:00 White Stained Terracotta Moulding
+      :12 White Stained Terracotta Column
+      :13 White Stained Terracotta Pedestal
+      :15 White Stained Terracotta Table
+  3099:00 White Stained Terracotta Stairs
+  3100:00 Granite
+      :01 Andesite
+      :02 Diorite
+  3101:00 Granite Cobblestone
+      :01 Andesite Cobblestone
+      :02 Diorite Cobblestone
+  3102:00 Loose Granite Cobblestone
+  3103:00 Loose Andesite Cobblestone
+  3104:00 Loose Diorite Cobblestone
+  3105:00 Granite Bricks
+      :01 Andesite Bricks
+      :02 Diorite Bricks
+  3106:00 Loose Granite Bricks
+  3107:00 Loose Andesite Bricks
+  3108:00 Loose Diorite Bricks
+  3109:00 Polished Granite
+      :01 Polished Andesite
+      :02 Polished Diorite
+  3110:00 Red Sandstone Slab
+      :01 Prismarine Slab
+      :02 Prismarine Brick Slab
+      :03 Dark Prismarine Slab
+      :04 White Stone Slab
+      :05 White Stone Brick Slab
+      :06 Mossy Cobblestone Slab
+      :07 Red Nether Brick Slab
+  3111:00 Cobblestone Siding
+      :01 Cobblestone Corner
+      :12 Cobblestone Bench
+      :14 Cobblestone Wall
+  3112:00 Cobblestone Moulding
+      :12 Cobblestone Column
+      :13 Cobblestone Pedestal
+      :15 Cobblestone Table
+  3113:00 Mossy Cobblestone Siding
+      :01 Mossy Cobblestone Corner
+      :12 Mossy Cobblestone Bench
+      :14 Mossy Cobblestone Wall
+  3114:00 Mossy Cobblestone Moulding
+      :12 Mossy Cobblestone Column
+      :13 Mossy Cobblestone Pedestal
+      :15 Mossy Cobblestone Table
+  3116:00 Granite Slab
+      :01 Andesite Slab
+      :02 Diorite Slab
+      :03 Polished Granite Slab
+      :04 Polished Andesite Slab
+      :05 Polished Diorite Slab
+      :06 Granite Cobblestone Slab.name
+      :07 Andesite Cobblestone Slab
+  3117:00 Diorite Cobblestone Slab
+      :01 Granite Brick Slab
+      :02 Andesite Brick Slab
+      :03 Diorite Brick Slab
+      :04 Infused Stone Slab
+      :05 Polished Infused Stone Slab
+      :06 Infused Stone Brick Slab
+      :07 Stone Slab
+  3118:00 Red Nether Brick
+      :01 Chiseled Red Nether Brick
+      :02 Chiseled Nether Brick
+  3119:00 Loose Red Nether Brick
+  3120:00 Infused Stone
+      :01 Polished Infused Stone
+      :02 Infused Stone Bricks
+      :03 Chiseled Infused Stone Bricks
+  3121:00 Basalt
+      :01 Polished Basalt
+  3122:00 Red Nether Brick Stairs
+  3123:00 Red Nether Brick Siding
+      :01 Red Nether Brick Corner
+      :12 Red Nether Brick Bench
+      :14 Red Nether Brick Wall
+  3124:00 Red Nether Brick Moulding
+      :12 Red Nether Brick Column
+      :13 Red Nether Brick Pedestal
+      :15 Red Nether Brick Table
+  3125:00 Infused Stone Stairs
+  3126:00 Infused Stone Siding
+      :01 Infused Stone Corner
+      :12 Infused Stone Bench
+      :14 Infused Stone Wall
+  3127:00 Infused Stone Moulding
+      :12 Infused Stone Column
+      :13 Infused Stone Column Pedestal
+      :15 Infused Stone Table
+  3128:00 Polished Infused Stone Stairs
+  3129:00 Polished Infused Stone Siding
+      :01 Polished Infused Stone Corner
+      :12 Polished Infused Stone Bench
+      :14 Polished Infused Stone Wall
+  3130:00 Polished Infused Stone Moulding
+      :12 Polished Infused Stone Column
+      :13 Polished Infused Stone Column Pedestal
+      :15 Polished Infused Stone Table
+  3131:00 Infused Stone Brick Stairs
+  3132:00 Infused Stone Brick Siding
+      :01 Infused Stone Brick Corner
+      :12 Infused Stone Brick Bench
+      :14 Infused Stone Brick Wall
+  3133:00 Infused Stone Brick Moulding
+      :12 Infused Stone Brick Column
+      :13 Infused Stone Brick Column Pedestal
+      :15 Infused Stone Brick Table
+  3134:00 Black Glazed Terracotta
+  3135:00 Red Glazed Terracotta
+  3136:00 Green Glazed Terracotta
+  3137:00 Brown Glazed Terracotta
+  3138:00 Blue Glazed Terracotta
+  3139:00 Purple Glazed Terracotta
+  3140:00 Cyan Glazed Terracotta
+  3141:00 Light Gray Glazed Terracotta
+  3142:00 Gray Glazed Terracotta
+  3143:00 Pink Glazed Terracotta
+  3144:00 Lime Glazed Terracotta
+  3145:00 Yellow Glazed Terracotta
+  3146:00 Light Blue Glazed Terracotta
+  3147:00 Magenta Glazed Terracotta
+  3148:00 Orange Glazed Terracotta
+  3149:00 White Glazed Terracotta
+  3150:00 Granite Siding
+      :01 Granite Corner
+      :12 Granite Bench
+      :14 Granite Wall
+  3151:00 Andesite Siding
+      :01 Andesite Corner
+      :12 Andesite Bench
+      :14 Andesite Wall
+  3152:00 Diorite Siding
+      :01 Diorite Corner
+      :12 Diorite Bench
+      :14 Diorite Wall
+  3153:00 Granite Moulding
+      :12 Granite Column
+      :13 Granite Pedestal
+      :15 Granite Table
+  3154:00 Andesite Moulding
+      :12 Andesite Column
+      :13 Andesite Pedestal
+      :15 Andesite Table
+  3155:00 Diorite Moulding
+      :12 Diorite Column
+      :13 Diorite Pedestal
+      :15 Diorite Table
+  3156:00 Granite Stairs
+  3157:00 Andesite Stairs
+  3158:00 Diorite Stairs
+  3159:00 Polished Granite Siding
+      :01 Polished Granite Corner
+      :12 Polished Granite Bench
+      :14 Polished Granite Wall
+  3160:00 Polished Andesite Siding
+      :01 Polished Andesite Corner
+      :12 Polished Andesite Bench
+      :14 Polished Andesite Wall
+  3161:00 Polished Diorite Siding
+      :01 Polished Diorite Corner
+      :12 Polished Diorite Bench
+      :14 Polished Diorite Wall
+  3162:00 Polished Granite Moulding
+      :12 Polished Granite Column
+      :13 Polished Granite Pedestal
+      :15 Polished Granite Table
+  3163:00 Polished Andesite Moulding
+      :12 Polished Andesite Column
+      :13 Polished Andesite Pedestal
+      :15 Polished Andesite Table
+  3164:00 Polished Diorite Moulding
+      :12 Polished Diorite Column
+      :13 Polished Diorite Pedestal
+      :15 Polished Diorite Table
+  3165:00 Polished Granite Stairs
+  3166:00 Polished Andesite Stairs
+  3167:00 Polished Diorite Stairs
+  3168:00 Granite Cobblestone Siding
+      :01 Granite Cobblestone Corner
+      :12 Granite Cobblestone Bench
+      :14 Granite Cobblestone Wall
+  3169:00 Andesite Cobblestone Siding
+      :01 Andesite Cobblestone Corner
+      :12 Andesite Cobblestone Bench
+      :14 Andesite Cobblestone Wall
+  3170:00 Diorite Cobblestone Siding
+      :01 Diorite Cobblestone Corner
+      :12 Diorite Cobblestone Bench
+      :14 Diorite Cobblestone Wall
+  3171:00 Granite Cobblestone Moulding
+      :12 Granite Cobblestone Column
+      :13 Granite Cobblestone Pedestal
+      :15 Granite Cobblestone Table
+  3172:00 Andesite Cobblestone Moulding
+      :12 Andesite Cobblestone Column
+      :13 Andesite Cobblestone Pedestal
+  3173:00 Diorite Cobblestone Moulding
+      :12 Diorite Cobblestone Column
+      :13 Diorite Cobblestone Pedestal
+      :15 Diorite Cobblestone Table
+  3174:00 Granite Cobblestone Stairs
+  3175:00 Andesite Cobblestone Stairs
+  3176:00 Diorite Cobblestone Stairs
+  3177:00 Granite Bricks Siding
+      :01 Granite Bricks Corner
+      :12 Granite Bricks Bench
+      :14 Granite Bricks Wall
+  3178:00 Andesite Bricks Siding
+      :01 Andesite Bricks Corner
+      :12 Andesite Bricks Bench
+      :14 Andesite Bricks Wall
+  3179:00 Diorite Bricks Siding
+      :01 Diorite Bricks Corner
+      :12 Diorite Bricks Bench
+      :14 Diorite Bricks Wall
+  3180:00 Granite Bricks Moulding
+      :12 Granite Bricks Column
+      :13 Granite Bricks Pedestal
+      :15 Granite Bricks Table
+  3181:00 Andesite Bricks Moulding
+      :12 Andesite Bricks Column
+      :13 Andesite Bricks Pedestal
+      :15 Andesite Bricks Table
+  3182:00 Diorite Bricks Moulding
+      :12 Diorite Bricks Column
+      :13 Diorite Bricks Pedestal
+      :15 Diorite Bricks Table
+  3183:00 Granite Bricks Stairs
+  3184:00 Andesite Bricks Stairs
+  3185:00 Diorite Bricks Stairs
+  3186:00 Loose Granite Cobblestone Stairs
+  3187:00 Loose Andesite Cobblestone Stairs
+  3188:00 Loose Diorite Cobblestone Stairs
+  3189:00 Loose Granite Brick Stairs
+  3190:00 Loose Andesite Brick Stairs
+  3191:00 Loose Diorite Brick Stairs
+  3192:00 Loose Granite Cobblestone Slab
+      :01 Loose Andesite Cobblestone Slab
+      :02 Loose Diorite Cobblestone Slab
+      :03 Loose Granite Brick Slab
+      :04 Loose Andesite Brick Slab
+      :05 Loose Diorite Brick Slab
+  3193:00 Loose Red Nether Brick Stairs
+  3194:00 Loose Red Nether Brick Slab
+  3196:00 Magma Block
+  3198:00 Cut Sandstone Slab
+      :01 Polished Sandstone Slab
+      :02 Sandstone Brick Slab
+      :03 Cut Red Sandstone Slab
+      :04 Polished Red Sandstone Slab
+      :05 Red Sandstone Brick Slab
+      :06 Mossy Sandstone Slab
+      :07 Large Sandstone Brick Slab
+  3199:00 Large Mossy Sandstone Brick Slab
+      :01 Mossy Red Sandstone Slab
+      :02 Large Red Sandstone Brick Slab
+      :03 Large Mossy Red Sandstone Brick Slab
+      :04 Cracked Sandstone Slab
+      :05 Large Cracked Sandstone Brick Slab
+      :06 Cracked Red Sandstone Slab
+      :07 Large Cracked Red Sandstone Slab
+  3200:00 Stripped Oak Log
+      :01 Stripped Spruce Log
+      :02 Stripped Birch Log
+      :03 Stripped Jungle Log
+  3201:00 Oak Wood
+      :01 Spruce Wood
+      :02 Birch Wood
+      :03 Jungle Wood
+  3202:00 Stripped Oak Wood
+      :01 Stripped Spruce Wood
+      :02 Stripped Birch Wood
+      :03 Stripped Jungle Wood
+  3203:00 Stripped Blood Wood Log
+      :01 Blood Wood
+      :02 Stripped Blood Wood
+      :03 Blood Wood Log
+  3204:00 Cherry Log
+      :01 Stripped Cherry Log
+      :02 Cherry Wood
+      :03 Stripped Cherry Wood
+  3205:00 tile.cherryLogStump
+  3206:00 Chewed Spruce Log
+  3207:00 Chewed Birch Log
+  3208:00 Chewed Jungle Log
+  3209:00 Chewed Cherry Log
+  3210:00 Workbench
+  3211:00 Blood Wood Barrel
+      :01 Cherry Barrel
+  3212:00 Blood Wood Barrel of Wheat
+      :01 Blood Wood Barrel of Hemp
+      :02 Blood Wood Barrel of Potatoes
+      :03 Blood Wood Barrel of Carrots
+      :04 Blood Wood Barrel of Fish
+  3213:00 Cherry Barrel of Wheat
+      :01 Cherry Barrel of Hemp
+      :02 Cherry Barrel of Potatoes
+      :03 Cherry Barrel of Carrots
+      :04 Cherry Barrel of Fish
+  3214:00 Cherry Stairs
+  3217:00 Cherry Fence Gate
+  3218:00 Cherry Door
+  3219:00 Cherry Trap Door
+  3220:00 Spruce Trap Door
+  3221:00 Birch Trap Door
+  3222:00 Jungle Trap Door
+  3223:00 Blood Wood Trap Door
+  3224:00 Spruce Door
+  3225:00 Birch Door
+  3226:00 Jungle Door
+  3227:00 Blood Wood Door
+  3228:00 Spruce Fence Gate
+  3229:00 Birch Fence Gate
+  3230:00 Jungle Fence Gate
+  3231:00 Blood Wood Fence Gate
+  3232:00 Black Painted Planks
+      :01 Red Painted Planks
+      :02 Green Painted Planks
+      :03 Brown Painted Planks
+      :04 Blue Painted Planks
+      :05 Purple Painted Planks
+      :06 Cyan Painted Planks
+      :07 Light Gray Painted Planks
+      :08 Gray Painted Planks
+      :09 Pink Painted Planks
+      :10 Lime Painted Planks
+      :11 Yellow Painted Planks
+      :12 Light Blue Painted Planks
+      :13 Magenta Painted Planks
+      :14 Orange Painted Planks
+      :15 White Painted Planks
+  3233:00 Oak Barrel
+      :01 Spruce Barrel
+      :02 Birch Barrel
+      :03 Jungle Barrel
+  3234:00 Oak Barrel of Wheat
+      :01 Oak Barrel of Hemp
+      :02 Oak Barrel of Potatoes
+      :03 Oak Barrel of Carrots
+      :04 Oak Barrel of Fish
+  3235:00 Spruce Barrel of Wheat
+      :01 Spruce Barrel of Hemp
+      :02 Spruce Barrel of Potatoes
+      :03 Spruce Barrel of Carrots
+      :04 Spruce Barrel of Fish
+  3236:00 Birch Barrel of Wheat
+      :01 Birch Barrel of Hemp
+      :02 Birch Barrel of Potatoes
+      :03 Birch Barrel of Carrots
+      :04 Birch Barrel of Fish
+  3237:00 Jungle Barrel of Wheat
+      :01 Jungle Barrel of Hemp
+      :02 Jungle Barrel of Potatoes
+      :03 Jungle Barrel of Carrots
+      :04 Jungle Barrel of Fish
+  3238:00 Oak Crate
+      :01 Spruce Crate
+      :02 Birch Crate
+      :03 Jungle Crate
+      :04 Blood Wood Crate
+      :05 Cherry Crate
+  3240:00 Pergola
+  3243:00 Chewed Blood Wood Log
+  3244:00 tile.decoBlockSpikeBlood
+  3245:00 Coil of Rope
+  3246:00 Coil of Chain
+  3247:00 Iron Trap Door
+  3248:00 Black Painted Planks Siding
+      :01 Black Painted Planks Corner
+      :12 Black Painted Planks Bench
+      :14 Black Painted Planks Wall
+  3249:00 Black Painted Planks Moulding
+      :12 Black Painted Planks Column
+      :13 Black Painted Planks Pedestal
+      :15 Black Painted Planks Table
+  3250:00 Black Painted Planks Stairs
+  3251:00 Red Painted Planks Siding
+      :01 Red Painted Planks Corner
+      :12 Red Painted Planks Bench
+      :14 Red Painted Planks Wall
+  3252:00 Red Painted Planks Moulding
+      :12 Red Painted Planks Column
+      :13 Red Painted Planks Pedestal
+      :15 Red Painted Planks Table
+  3253:00 Red Painted Planks Stairs
+  3254:00 Green Painted Planks Siding
+      :01 Green Painted Planks Corner
+      :12 Green Painted Planks Bench
+      :14 Green Painted Planks Wall
+  3255:00 Green Painted Planks Moulding
+      :12 Green Painted Planks Column
+      :13 Green Painted Planks Pedestal
+      :15 Green Painted Planks Table
+  3256:00 Black Green Terracotta Stairs
+  3257:00 Brown Painted Planks Siding
+      :01 Brown Painted Planks Corner
+      :12 Brown Painted Planks Bench
+      :14 Brown Painted Planks Wall
+  3258:00 Brown Painted Planks Moulding
+      :12 Brown Painted Planks Column
+      :13 Brown Painted Planks Pedestal
+      :15 Brown Painted Planks Table
+  3259:00 Brown Painted Planks Stairs
+  3260:00 Blue Painted Planks Siding
+      :01 Blue Painted Planks Corner
+      :12 Blue Painted Planks Bench
+      :14 Blue Painted Planks Wall
+  3261:00 Blue Painted Planks Moulding
+      :12 Blue Painted Planks Column
+      :13 Blue Painted Planks Pedestal
+      :15 Blue Painted Planks Table
+  3262:00 Blue Painted Planks Stairs
+  3263:00 Purple Painted Planks Siding
+      :01 Purple Painted Planks Corner
+      :12 Purple Painted Planks Bench
+      :14 Purple Painted Planks Wall
+  3264:00 Purple Painted Planks Moulding
+      :12 Purple Painted Planks Column
+      :13 Purple Painted Planks Pedestal
+      :15 Purple Painted Planks Table
+  3265:00 Purple Painted Planks Stairs
+  3266:00 Cyan Painted Planks Siding
+      :01 Cyan Painted Planks Corner
+      :12 Cyan Painted Planks Bench
+      :14 Cyan Painted Planks Wall
+  3267:00 Cyan Painted Planks Moulding
+      :12 Cyan Painted Planks Column
+      :13 Cyan Painted Planks Pedestal
+      :15 Cyan Painted Planks Table
+  3268:00 Cyan Painted Planks Stairs
+  3269:00 Light Gray Painted Planks Siding
+      :01 Light Gray Painted Planks Corner
+      :12 Light Gray Painted Planks Bench
+      :14 Light Gray Painted Planks Wall
+  3270:00 Light Gray Painted Planks Moulding
+      :12 Light Gray Painted Planks Column
+      :13 Light Gray Painted Planks Pedestal
+      :15 Light Gray Painted Planks Table
+  3271:00 Light Gray Painted Planks Stairs
+  3272:00 Gray Painted Planks Siding
+      :01 Gray Painted Planks Corner
+      :12 Gray Painted Planks Bench
+      :14 Gray Painted Planks Wall
+  3273:00 Gray Painted Planks Moulding
+      :12 Gray Painted Planks Column
+      :13 Gray Painted Planks Pedestal
+      :15 Gray Painted Planks Table
+  3274:00 Gray Painted Planks Stairs
+  3275:00 Pink Painted Planks Siding
+      :01 Pink Painted Planks Corner
+      :12 Pink Painted Planks Bench
+      :14 Pink Painted Planks Wall
+  3276:00 Pink Painted Planks Moulding
+      :12 Pink Painted Planks Column
+      :13 Pink Painted Planks Pedestal
+      :15 Pink Painted Planks Table
+  3277:00 Pink Painted Planks Stairs
+  3278:00 Lime Painted Planks Siding
+      :01 Lime Painted Planks Corner
+      :12 Lime Painted Planks Bench
+      :14 Lime Painted Planks Wall
+  3279:00 Lime Painted Planks Moulding
+      :12 Lime Painted Planks Column
+      :13 Lime Painted Planks Pedestal
+      :15 Lime Painted Planks Table
+  3280:00 Lime Painted Planks Stairs
+  3281:00 Yellow Painted Planks Siding
+      :01 Yellow Painted Planks Corner
+      :12 Yellow Painted Planks Bench
+      :14 Yellow Painted Planks Wall
+  3282:00 Yellow Painted Planks Moulding
+      :12 Yellow Painted Planks Column
+      :13 Yellow Painted Planks Pedestal
+      :15 Yellow Painted Planks Table
+  3283:00 Yellow Painted Planks Stairs
+  3284:00 Light Blue Painted Planks Siding
+      :01 Light Blue Painted Planks Corner
+      :12 Light Blue Painted Planks Bench
+      :14 Light Blue Painted Planks Wall
+  3285:00 Light Blue Painted Planks Moulding
+      :12 Light Blue Painted Planks Column
+      :13 Light Blue Painted Planks Pedestal
+      :15 Light Blue Painted Planks Table
+  3286:00 Light Blue Painted Planks Stairs
+  3287:00 Magenta Painted Planks Siding
+      :01 Magenta Painted Planks Corner
+      :12 Magenta Painted Planks Bench
+      :14 Magenta Painted Planks Wall
+  3288:00 Magenta Painted Planks Moulding
+      :12 Magenta Painted Planks Column
+      :13 Magenta Painted Planks Pedestal
+      :15 Magenta Painted Planks Table
+  3289:00 Magenta Painted Planks Stairs
+  3290:00 Orange Painted Planks Siding
+      :01 Orange Painted Planks Corner
+      :12 Orange Painted Planks Bench
+      :14 Orange Painted Planks Wall
+  3291:00 Orange Painted Planks Moulding
+      :12 Orange Painted Planks Column
+      :13 Orange Painted Planks Pedestal
+      :15 Orange Painted Planks Table
+  3292:00 Orange Painted Planks Stairs
+  3293:00 White Painted Planks Siding
+      :01 White Painted Planks Corner
+      :12 White Painted Planks Bench
+      :14 White Painted Planks Wall
+  3294:00 White Painted Planks Moulding
+      :12 White Painted Planks Column
+      :13 White Painted Planks Pedestal
+      :15 White Painted Planks Table
+  3295:00 White Painted Planks Stairs
+  3297:00 Black Stained Terracotta Slab
+      :01 Red Stained Terracotta Slab
+      :02 Green Stained Terracotta Slab
+      :03 Brown Stained Terracotta Slab
+      :04 Blue Stained Terracotta Slab
+      :05 Purple Stained Terracotta Slab
+      :06 Cyan Stained Terracotta Slab
+      :07 Light Gray Stained Terracotta Slab
+  3298:00 Gray Stained Terracotta Slab
+      :01 Pink Stained Terracotta Slab
+      :02 Lime Stained Terracotta Slab
+      :03 Yellow Stained Terracotta Slab
+      :04 Light Blue Stained Terracotta Slab
+      :05 Magenta Stained Terracotta Slab
+      :06 Orange Stained Terracotta Slab
+      :07 White Stained Terracotta slab
+  3300:00 Coarse Dirt
+  3301:00 Coarse Dirt Slab
+  3302:00 Podzol
+  3304:00 Oak Hedge
+      :01 Spruce Hedge
+      :02 Birch Hedge
+      :03 Jungle Hedge
+  3305:00 Carved Pumpkin
+  3306:00 Jack 'o' Lantern
+  3307:00 Block of Spider Eyes
+  3308:00 Spider Eye Slab
+  3310:00 Red Sand
+  3311:00 Red Sand Slab
+  3312:00 Red Sandstone
+      :01 Chiseled Red Sandstone
+      :02 Cut Red Sandstone
+      :03 Polished Red Sandstone
+      :04 Red Sandstone Brick
+      :05 Mossy Red Sandstone
+      :06 Large Red Sandstone Brick
+      :07 Large Mossy Red Sandstone Brick
+      :08 Cracked Red Sandstone
+      :09 Large Cracked Red Sandstone Brick
+  3314:00 Red Sandstone Stairs
+  3315:00 Red Sandstone Siding
+      :01 Red Sandstone Corner
+      :12 Red Sandstone Bench
+      :14 Red Sandstone Wall
+  3316:00 Red Sandstone Moulding
+      :12 Red Sandstone Column
+      :13 Red Sandstone Pedestal
+      :15 Red Sandstone Table
+  3317:00 Cut Red Sandstone Siding
+      :01 Cut Red Sandstone Corner
+      :12 Cut Red Sandstone Bench
+      :14 Cut Red Sandstone Wall
+  3318:00 Cut Red Sandstone Moulding
+      :12 Cut Red Sandstone Column
+      :13 Cut Red Sandstone Pedestal
+      :15 Cut Red Sandstone Table
+  3319:00 Cut Sandstone Siding
+      :01 Cut Sandstone Corner
+      :12 Cut Sandstone Bench
+      :14 Cut Sandstone Wall
+  3320:00 Cut Sandstone Moulding
+      :12 Cut Sandstone Column
+      :13 Cut Sandstone Pedestal
+      :15 Cut Sandstone Table
+  3321:00 Prismarine
+      :01 Prismarine Brick
+      :02 Dark Prismarine
+  3322:00 Prismarine Lantern
+  3323:00 Prismarine Siding
+      :01 Prismarine Corner
+      :12 Prismarine Bench
+      :14 Prismarine Wall
+  3324:00 Prismarine Moulding
+      :12 Prismarine Column
+      :13 Prismarine Pedestal
+      :15 Prismarine Table
+  3325:00 Prismarine Stairs
+  3326:00 Prismarine Brick Siding
+      :01 Prismarine Brick Corner
+      :12 Prismarine Brick Bench
+      :14 Prismarine Brick Wall
+  3327:00 Prismarine Brick Moulding
+      :12 Prismarine Brick Column
+      :13 Prismarine Brick Pedestal
+      :15 Prismarine Brick Table
+  3328:00 Prismarine Brick Stairs
+  3329:00 Dark Prismarine Siding
+      :01 Dark Prismarine Corner
+      :12 Dark Prismarine Bench
+      :14 Dark Prismarine Wall
+  3330:00 Dark Prismarine Moulding
+      :12 Dark Prismarine Column
+      :13 Dark Prismarine Pedestal
+      :15 Dark Prismarine Table
+  3331:00 Dark Prismarine Stairs
+  3332:00 Black Carpet
+      :01 Red Carpet
+      :02 Green Carpet
+      :03 Brown Carpet
+      :04 Blue Carpet
+      :05 Purple Carpet
+      :06 Cyan Carpet
+      :07 Light Gray Carpet
+      :08 Gray Carpet
+      :09 Pink Carpet
+      :10 Lime Carpet
+      :11 Yellow Carpet
+      :12 Light Blue Carpet
+      :13 Magenta Carpet
+      :14 Orange Carpet
+      :15 White Carpet
+  3333:00 tile.decoBlockStairsSandStonePolished
+  3334:00 Polished Sandstone Siding
+      :01 Polished Sandstone Corner
+      :12 Polished Sandstone Bench
+      :14 Polished Sandstone Wall
+  3335:00 Polished Sandstone Moulding
+      :12 Polished Sandstone Column
+      :13 Polished Sandstone Pedestal
+      :15 Polished Sandstone Table
+  3336:00 Polished Red Sandstone Stairs
+  3337:00 Polished Red Sandstone Siding
+      :01 Polished Red Sandstone Corner
+      :12 Polished Red Sandstone Bench
+      :14 Polished Red Sandstone Wall
+  3338:00 Polished Red Sandstone Moulding
+      :12 Polished Red Sandstone Column
+      :13 Polished Red Sandstone Pedestal
+      :15 Polished Red Sandstone Table
+  3339:00 tile.decoBlockStairsSandStoneBrick
+  3340:00 Sandstone Brick Siding
+      :01 Sandstone Brick Corner
+      :12 Sandstone Brick Bench
+      :14 Sandstone Brick Wall
+  3341:00 Sandstone Brick Moulding
+      :12 Sandstone Brick Column
+      :13 Sandstone Brick Pedestal
+      :15 Sandstone Brick Table
+  3342:00 tile.decoBlockRedSandStoneStairsBrick
+  3343:00 Red Sandstone Brick Siding
+      :01 Red Sandstone Brick Corner
+      :12 Red Sandstone Brick Bench
+      :14 Red Sandstone Brick Wall
+  3344:00 Red Sandstone Brick Moulding
+      :12 Red Sandstone Brick Column
+      :13 Red Sandstone Brick Pedestal
+      :15 Red Sandstone Brick Table
+  3345:00 tile.decoBlockStairsSandStoneSmooth
+  3346:00 tile.decoBlockRedSandStoneStairsSmooth
+  3347:00 tile.decoBlockStairsSandStoneMossy
+  3348:00 Mossy Sandstone Siding
+      :01 Mossy Sandstone Corner
+      :12 Mossy Sandstone Bench
+      :14 Mossy Sandstone Wall
+  3349:00 Mossy Sandstone Moulding
+      :12 Mossy Sandstone Column
+      :13 Mossy Sandstone Pedestal
+      :15 Mossy Sandstone Table
+  3350:00 tile.decoBlockStairsSandStoneBrickLarge
+  3351:00 Large Sandstone Brick Siding
+      :01 Large Sandstone Brick Corner
+      :12 Large Sandstone Brick Bench
+      :14 Large Sandstone Brick Wall
+  3352:00 Large Sandstone Brick Moulding
+      :12 Large Sandstone Brick Column
+      :13 Large Sandstone Brick Pedestal
+      :15 Large Sandstone Brick Table
+  3353:00 tile.decoBlockStairsSandStoneBrickLargeMossy
+  3354:00 Large Mossy Sandstone Brick Siding
+      :01 Large Mossy Sandstone Brick Corner
+      :12 Large Mossy Sandstone Brick Bench
+      :14 Large Mossy Sandstone Brick Wall
+  3355:00 Large Mossy Sandstone Brick Moulding
+      :12 Large Mossy Sandstone Brick Column
+      :13 Large Mossy Sandstone Brick Pedestal
+      :15 Large Mossy Sandstone Brick Table
+  3356:00 Mossy Red Sandstone Stairs
+  3357:00 Mossy Red Sandstone Siding
+      :01 Mossy Red Sandstone Corner
+      :12 Mossy Red Sandstone Bench
+      :14 Mossy Red Sandstone Wall
+  3358:00 Mossy Red Sandstone Moulding
+      :12 Mossy Red Sandstone Column
+      :13 Mossy Red Sandstone Pedestal
+      :15 Mossy Red Sandstone Table
+  3359:00 Large Red Sandstone Brick Stairs
+  3360:00 Large Red Sandstone Brick Siding
+      :01 Large Red Sandstone Brick Corner
+      :12 Large Red Sandstone Brick Bench
+      :14 Large Red Sandstone Brick Wall
+  3361:00 Large Red Sandstone Brick Moulding
+      :12 Large Red Sandstone Brick Column
+      :13 Large Red Sandstone Brick Pedestal
+      :15 Large Red Sandstone Brick Table
+  3362:00 Large Mossy Red Sandstone Brick Stairs
+  3363:00 Large Mossy Red Sandstone Brick Siding
+      :01 Large Mossy Red Sandstone Brick Corner
+      :12 Large Mossy Red Sandstone Brick Bench
+      :14 Large Mossy Red Sandstone Brick Wall
+  3364:00 Large Mossy Red Sandstone Brick Moulding
+      :12 Large Mossy Red Sandstone Brick Column
+      :13 Large Mossy Red Sandstone Brick Pedestal
+      :15 Large Mossy Red Sandstone Brick Table
+  3365:00 tile.decoBlockStairsSandStoneCracked
+  3366:00 Cracked Sandstone Siding
+      :01 Cracked Sandstone Corner
+      :12 Cracked Sandstone Bench
+      :14 Cracked Sandstone Wall
+  3367:00 Cracked Sandstone Moulding
+      :12 Cracked Sandstone Column
+      :13 Cracked Sandstone Pedestal
+      :15 Cracked Sandstone Table
+  3368:00 tile.decoBlockStairsSandStoneBrickLargeCracked
+  3369:00 Large Cracked Sandstone Brick Siding
+      :01 Large Cracked Sandstone Brick Corner
+      :12 Large Cracked Sandstone Brick Bench
+      :14 Large Cracked Sandstone Brick Wall
+  3370:00 Large Cracked Sandstone Brick Moulding
+      :12 Large Cracked Sandstone Brick Column
+      :13 Large Cracked Sandstone Brick Pedestal
+      :15 Large Cracked Sandstone Brick Table
+  3371:00 Cracked Red Sandstone Stairs
+  3372:00 Cracked Red Sandstone Siding
+      :01 Cracked Red Sandstone Corner
+      :12 Cracked Red Sandstone Bench
+      :14 Cracked Red Sandstone Wall
+  3373:00 Cracked Red Sandstone Moulding
+      :12 Cracked Red Sandstone Column
+      :13 Cracked Red Sandstone Pedestal
+      :15 Cracked Red Sandstone Table
+  3374:00 Larged Cracked Red Sandstone Stairs
+  3375:00 Large Cracked Red Sandstone Brick Siding
+      :01 Large Cracked Red Sandstone Brick Corner
+      :12 Large Cracked Red Sandstone Brick Bench
+      :14 Large Cracked Red Sandstone Brick Wall
+  3376:00 Large Cracked Red Sandstone Brick Moulding
+      :12 Large Cracked Red Sandstone Brick Column
+      :13 Large Cracked Red Sandstone Brick Pedestal
+      :15 Large Cracked Red Sandstone Brick Table
+  3377:00 Mossy Stone Brick Slab
+      :01 Cracked Stone Brick Slab
+      :02 End Stone Brick Slab
+      :03 Terracotta Slab
+  3378:00 Mossy Stone Brick Stairs
+  3379:00 Mossy Stone Brick Siding
+      :01 Mossy Stone Brick Corner
+      :12 Mossy Stone Brick Bench
+      :14 Mossy Stone Brick Wall
+  3380:00 Mossy Stone Brick Moulding
+      :12 Mossy Stone Brick Column
+      :13 Mossy Stone Brick Pedestal
+      :15 Mossy Stone Brick Table
+  3381:00 Cracked Stone Brick Stairs
+  3382:00 Cracked Stone Brick Siding
+      :01 Cracked Stone Brick Corner
+      :12 Cracked Stone Brick Bench
+      :14 Cracked Stone Brick Wall
+  3383:00 Cracked Stone Brick Moulding
+      :12 Cracked Stone Brick Column
+      :13 Cracked Stone Brick Pedestal
+      :15 Cracked Stone Brick Table
+  3384:00 Black Concrete Siding
+      :01 Black Concrete Corner
+      :12 Black Concrete Bench
+      :14 Black Concrete Wall
+  3385:00 Black Concrete Moulding
+      :12 Black Concrete Column
+      :13 Black Concrete Pedestal
+      :15 Black Concrete Table
+  3386:00 Black Concrete Stairs
+  3387:00 Red Concrete Siding
+      :01 Red Concrete Corner
+      :12 Red Concrete Bench
+      :14 Red Concrete Wall
+  3388:00 Red Concrete Moulding
+      :12 Red Concrete Column
+      :13 Red Concrete Pedestal
+      :15 Red Concrete Table
+  3389:00 Red Concrete Stairs
+  3390:00 Green Concrete Siding
+      :01 Green Concrete Corner
+      :12 Green Concrete Bench
+      :14 Green Concrete Wall
+  3391:00 Green Concrete Moulding
+      :12 Green Concrete Column
+      :13 Green Concrete Pedestal
+      :15 Green Concrete Table
+  3392:00 Black Green Terracotta Stairs
+  3393:00 Brown Concrete Siding
+      :01 Brown Concrete Corner
+      :12 Brown Concrete Bench
+      :14 Brown Concrete Wall
+  3394:00 Brown Concrete Moulding
+      :12 Brown Concrete Column
+      :13 Brown Concrete Pedestal
+      :15 Brown Concrete Table
+  3395:00 Brown Concrete Stairs
+  3396:00 Blue Concrete Siding
+      :01 Blue Concrete Corner
+      :12 Blue Concrete Bench
+      :14 Blue Concrete Wall
+  3397:00 Blue Concrete Moulding
+      :12 Blue Concrete Column
+      :13 Blue Concrete Pedestal
+      :15 Blue Concrete Table
+  3398:00 Blue Concrete Stairs
+  3399:00 Purple Concrete Siding
+      :01 Purple Concrete Corner
+      :12 Purple Concrete Bench
+      :14 Purple Concrete Wall
+  3400:00 Purple Concrete Moulding
+      :12 Purple Concrete Column
+      :13 Purple Concrete Pedestal
+      :15 Purple Concrete Table
+  3401:00 Purple Concrete Stairs
+  3402:00 Cyan Concrete Siding
+      :01 Cyan Concrete Corner
+      :12 Cyan Concrete Bench
+      :14 Cyan Concrete Wall
+  3403:00 Cyan Concrete Moulding
+      :12 Cyan Concrete Column
+      :13 Cyan Concrete Pedestal
+      :15 Cyan Concrete Table
+  3404:00 Cyan Concrete Stairs
+  3405:00 Light Gray Concrete Siding
+      :01 Light Gray Concrete Corner
+      :12 Light Gray Concrete Bench
+      :14 Light Gray Concrete Wall
+  3406:00 Light Gray Concrete Moulding
+      :12 Light Gray Concrete Column
+      :13 Light Gray Concrete Pedestal
+      :15 Light Gray Concrete Table
+  3407:00 Light Gray Concrete Stairs
+  3408:00 Gray Concrete Siding
+      :01 Gray Concrete Corner
+      :12 Gray Concrete Bench
+      :14 Gray Concrete Wall
+  3409:00 Gray Concrete Moulding
+      :12 Gray Concrete Column
+      :13 Gray Concrete Pedestal
+      :15 Gray Concrete Table
+  3410:00 Gray Concrete Stairs
+  3411:00 Pink Concrete Siding
+      :01 Pink Concrete Corner
+      :12 Pink Concrete Bench
+      :14 Pink Concrete Wall
+  3412:00 Pink Concrete Moulding
+      :12 Pink Concrete Column
+      :13 Pink Concrete Pedestal
+      :15 Pink Concrete Table
+  3413:00 Pink Concrete Stairs
+  3414:00 Lime Concrete Siding
+      :01 Lime Concrete Corner
+      :12 Lime Concrete Bench
+      :14 Lime Concrete Wall
+  3415:00 Lime Concrete Moulding
+      :12 Lime Concrete Column
+      :13 Lime Concrete Pedestal
+      :15 Lime Concrete Table
+  3416:00 Lime Concrete Stairs
+  3417:00 Yellow Concrete Siding
+      :01 Yellow Concrete Corner
+      :12 Yellow Concrete Bench
+      :14 Yellow Concrete Wall
+  3418:00 Yellow Concrete Moulding
+      :12 Yellow Concrete Column
+      :13 Yellow Concrete Pedestal
+      :15 Yellow Concrete Table
+  3419:00 Yellow Concrete Stairs
+  3420:00 Light Blue Concrete Siding
+      :01 Light Blue Concrete Corner
+      :12 Light Blue Concrete Bench
+      :14 Light Blue Concrete Wall
+  3421:00 Light Blue Concrete Moulding
+      :12 Light Blue Concrete Column
+      :13 Light Blue Concrete Pedestal
+      :15 Light Blue Concrete Table
+  3422:00 Light Blue Concrete Stairs
+  3423:00 Magenta Concrete Siding
+      :01 Magenta Concrete Corner
+      :12 Magenta Concrete Bench
+      :14 Magenta Concrete Wall
+  3424:00 Magenta Concrete Moulding
+      :12 Magenta Concrete Column
+      :13 Magenta Concrete Pedestal
+      :15 Magenta Concrete Table
+  3425:00 Magenta Concrete Stairs
+  3426:00 Orange Concrete Siding
+      :01 Orange Concrete Corner
+      :12 Orange Concrete Bench
+      :14 Orange Concrete Wall
+  3427:00 Orange Concrete Moulding
+      :12 Orange Concrete Column
+      :13 Orange Concrete Pedestal
+      :15 Orange Concrete Table
+  3428:00 Orange Concrete Stairs
+  3429:00 White Concrete Siding
+      :01 White Concrete Corner
+      :12 White Concrete Bench
+      :14 White Concrete Wall
+  3430:00 White Concrete Moulding
+      :12 White Concrete Column
+      :13 White Concrete Pedestal
+      :15 White Concrete Table
+  3431:00 White Concrete Stairs
+  3432:00 Black Concrete Slab
+      :01 Red Concrete Slab
+      :02 Green Concrete Slab
+      :03 Brown Concrete Slab
+      :04 Blue Concrete Slab
+      :05 Purple Concrete Slab
+      :06 Cyan Concrete Slab
+      :07 Light Gray Concrete Slab
+  3433:00 Gray Concrete Slab
+      :01 Pink Concrete Slab
+      :02 Lime Concrete Slab
+      :03 Yellow Concrete Slab
+      :04 Light Blue Concrete Slab
+      :05 Magenta Concrete Slab
+      :06 Orange Concrete Slab
+      :07 White Concrete Slab
+  3434:00 End Stone Brick
+  3435:00 End Stone Brick Stairs
+  3436:00 End Stone Brick Siding
+      :01 End Stone Brick Corner
+      :12 End Stone Brick Bench
+      :14 End Stone Brick Wall
+  3437:00 End Stone Brick Moulding
+      :12 End Stone Brick Column
+      :13 End Stone Brick Column Pedestal
+      :15 End Stone Brick Table
+  3449:00 Oak Hedge Stairs
+  3450:00 Oak Hedge Siding
+      :01 Oak Hedge Corner
+      :12 Oak Hedge Bench
+      :14 Oak Hedge Wall
+  3451:00 Oak Hedge Moulding
+      :12 Oak Hedge Column
+      :13 Oak Hedge Pedestal
+      :15 Oak Hedge Table
+  3452:00 Spruce Hedge Stairs
+  3453:00 Spruce Hedge Siding
+      :01 Spruce Hedge Corner
+      :12 Spruce Hedge Bench
+      :14 Spruce Hedge Wall
+  3454:00 Spruce Hedge Moulding
+      :12 Spruce Hedge Column
+      :13 Spruce Hedge Pedestal
+      :15 Spruce Hedge Table
+  3455:00 Birch Hedge Stairs
+  3456:00 Birch Hedge Siding
+      :01 Birch Hedge Corner
+      :12 Birch Hedge Bench
+      :14 Birch Hedge Wall
+  3457:00 Birch Hedge Moulding
+      :12 Birch Hedge Column
+      :13 Birch Hedge Pedestal
+      :15 Birch Hedge Table
+  3458:00 Jungle Hedge Stairs
+  3459:00 Jungle Hedge Siding
+      :01 Jungle Hedge Corner
+      :12 Jungle Hedge Bench
+      :14 Jungle Hedge Wall
+  3460:00 Jungle Hedge Moulding
+      :12 Jungle Hedge Column
+      :13 Jungle Hedge Pedestal
+      :15 Jungle Hedge Table
+  3461:00 Blood Wood Hedge Stairs
+  3462:00 Blood Wood Hedge Siding
+      :01 Blood Wood Hedge Corner
+      :12 Blood Wood Hedge Bench
+      :14 Blood Wood Hedge Wall
+  3463:00 Blood Wood Hedge Moulding
+      :12 Blood Wood Hedge Column
+      :13 Blood Wood Hedge Pedestal
+      :15 Blood Wood Hedge Table
+  3464:00 Cherry Hedge Stairs
+  3465:00 Cherry Hedge Siding
+      :01 Cherry Hedge Corner
+      :12 Cherry Hedge Bench
+      :14 Cherry Hedge Wall
+  3466:00 Cherry Hedge Moulding
+      :12 Cherry Hedge Column
+      :13 Cherry Hedge Pedestal
+      :15 Cherry Hedge Table
+  3467:00 Spruce Button
+  3468:00 Birch Button
+  3469:00 Jungle Button
+  3470:00 Blood Wood Button
+  3471:00 Cherry Button
+  3472:00 Infused Stone Button
+  3473:00 Granite Button
+  3474:00 Andesite Button
+  3475:00 Diorite Button
+  3476:00 Sandstone Button
+  3477:00 Red Sandstone Button
+  3488:00 Acacia Log
+      :01 Stripped Acacia Log
+      :02 Acacia Wood
+      :03 Stripped Acacia Wood
+  3489:00 tile.acaciaLogStump
+  3490:00 Acacia Leaves
+  3491:00 Chewed Acacia Log
+  3492:00 tile.decoBlockSpikeAcacia
+  3495:00 Acacia Stairs
+  3496:00 Acacia Fence Gate
+  3497:00 Red Autumn Leaves
+      :01 Orange Autumn Leaves
+      :02 Yellow Autumn Leaves
+  3498:00 Red Autumn Sapling
+      :01 Orange Autumn Sapling
+      :02 Yellow Autumn Sapling
+  3499:00 Acacia Sapling
+  3500:00 Acacia Trap Door
+  3501:00 Acacia Door
+  3502:00 Acacia Chair
+  3510:00 Broken Paper Lantern
+ 30258:00 Piece of Glass
+ 30259:00 Fertilizer
+ 30260:00 Chain
+ 30261:00 Name Tag
+ 30262:00 Diamondium Shears
+ 30263:00 Hemp Oil
+ 30264:00 Black Stained Glass
+      :01 Red Stained Glass
+      :02 Green Stained Glass
+      :03 Brown Stained Glass
+      :04 Blue Stained Glass
+      :05 Purple Stained Glass
+      :06 Cyan Stained Glass
+      :07 Light gray Stained Glass
+      :08 Gray Stained Glass
+      :09 Pink Stained Glass
+      :10 Lime Stained Glass
+      :11 Yellow Stained Glass
+      :12 Light Blue Stained Glass
+      :13 Magenta Stained Glass
+      :14 Orange Stained Glass
+      :15 White Stained Glass
+ 30276:00 Spruce Door
+ 30277:00 Birch Door
+ 30278:00 Jungle Door
+ 30279:00 Blood Wood Door
+ 30280:00 Cherry Door
+ 30281:00 Acacia Door
+ 30306:00 Diamondium Chisel
+ 30307:00 Wood Bleach
+ 30308:00 Red Sand Pile
+ 30309:00 Wood Stain
+ 30316:00 Prismarine Shard
+ 30317:00 Prismarine Crystal
+
+Craftguide:
+
+ 23617:00 item.craftguide_item
