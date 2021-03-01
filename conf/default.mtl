@@ -2272,6 +2272,276 @@ Kd 0.4196 0.2784 0.1686
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/workbench_top.png
 
+newmtl anchor
+Kd 0.6549 0.6549 0.6549
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/anchor.png
+
+newmtl anchor_front
+Kd 0.6549 0.6549 0.6549
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/anchor_front.png
+
+newmtl anchor_nub
+Kd 0.6549 0.6549 0.6549
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/anchor_nub.png
+
+newmtl soulforge
+Kd 0.2500 0.2500 0.2500
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/soulforge.png
+
+newmtl axle_end
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/axle_end.png
+
+newmtl axle_side
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/axle_side.png
+
+newmtl axle_side_on
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/axle_side_on.png
+
+newmtl axle_side_on_fast
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/axle_side_on_fast.png
+
+newmtl barrel_side
+Kd 0.4196 0.3176 0.1882
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/barrel_side.png
+
+newmtl basket_wicker
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/basket_wicker.png
+
+newmtl basket_wicker_bottom
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/basket_wicker_bottom.png
+
+newmtl basket_wicker_front
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/basket_wicker_front.png
+
+newmtl basket_wicker_open_top
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/basket_wicker_open_top.png
+
+newmtl basket_wicker_top
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/basket_wicker_top.png
+
+newmtl bellows_bottom
+Kd 0.3176 0.1451 0.0823
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bellows_bottom.png
+
+newmtl bellows_front
+Kd 0.3176 0.1451 0.0823
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bellows_front.png
+
+newmtl bellows_side
+Kd 0.3176 0.1451 0.0823
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bellows_side.png
+
+newmtl bellows_top
+Kd 0.3176 0.1451 0.0823
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bellows_top.png
+
+newmtl blackstone
+Kd 0.0666 0.0784 0.1019
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blackstone.png
+
+newmtl blackstone_chiseled
+Kd 0.0666 0.0784 0.1019
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blackstone_chiseled.png
+
+newmtl blackstone_lines
+Kd 0.0666 0.0784 0.1019
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blackstone_lines.png
+
+newmtl blackstone_lines_top
+Kd 0.0666 0.0784 0.1019
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blackstone_lines_top.png
+
+newmtl blight_0_bottom
+Kd 0.4235 0.3647 0.0862
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_0_bottom.png
+
+newmtl blight_0_side
+Kd 0.4235 0.3647 0.0862
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_0_side.png
+
+newmtl blight_0_top
+Kd 0.4235 0.3647 0.0862
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_0_top.png
+
+newmtl blight_1_bottom
+Kd 0.2902 0.2313 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_1_bottom.png
+
+newmtl blight_1_side
+Kd 0.2902 0.2313 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_1_side.png
+
+newmtl blight_1_top
+Kd 0.2902 0.2313 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_1_top.png
+
+newmtl blight_2_bottom
+Kd 0.1921 0.1725 0.0902
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_2_bottom.png
+
+newmtl blight_2_side
+Kd 0.1921 0.1725 0.0902
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_2_side.png
+
+newmtl blight_3_side
+Kd 0.1803 0.1803 0.1803
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_3_side.png
+
+newmtl blight_3_top
+Kd 0.1803 0.1803 0.1803
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_3_top.png
+
+newmtl blight_3_roots
+Kd 0.1803 0.1803 0.1803
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_3_roots.png
+
+newmtl blockdispenser_bottom
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blockdispenser_bottom.png
+
+newmtl blockdispenser_front
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blockdispenser_front.png
+
+newmtl blockdispenser_side
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blockdispenser_side.png
+
+newmtl blockdispenser_top
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blockdispenser_top.png
+
+newmtl log_blood_top
+Kd 0.6588 0.0392 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/log_blood_top.png
+
+newmtl log_blood_side
+Kd 0.8470 0.6588 0.5725
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/log_blood_side.png
+
+newmtl bone_side
+Kd 0.8902 0.8862 0.7333
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bone_side.png
+
+newmtl bone_top
+Kd 0.8902 0.8862 0.7333
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bone_top.png
+
+newmtl bone_slab_side
+Kd 0.8902 0.8862 0.7333
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bone_slab_side.png
+
+newmtl bone_slab_top
+Kd 0.8902 0.8862 0.7333
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bone_slab_top.png
+
+newmtl brick_loose
+Kd 0.6118 0.4314 0.3843
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/brick_loose.png
+
+newmtl bucket_chocolate
+Kd 0.9020 0.9020 0.9020
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bucket_chocolate.png
+
+newmtl bucket_milk
+Kd 0.9020 0.9020 0.9020
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bucket_milk.png
+
+newmtl bucket_water
+Kd 0.9020 0.9020 0.9020
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bucket_water.png
+
+newmtl bucket_empty
+Kd 0.9020 0.9020 0.9020
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bucket_empty.png
+
+newmtl bucket_empty_top
+Kd 0.9020 0.9020 0.9020
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bucket_empty_top.png
+
+newmtl bucket_empty_top_side
+Kd 0.9020 0.9020 0.9020
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/bucket_empty_top_side.png
+
+newmtl buddyblock
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/buddyblock.png
+
+newmtl buddyblock_front
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/buddyblock_front.png
+
+newmtl buddyblock_front_on
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/buddyblock_front_on.png
+
+newmtl buddyblock_on
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/buddyblock_on.png
+
 newmtl kebab_painting
 Kd 0.5 0.5 0.5
 Ks 0.0000 0.0000 0.0000
