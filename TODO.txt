@@ -1,3 +1,13 @@
 New ToDo list!
 
-- Everything
+Sock:
+ - add all mob textures to texsplit_1.5.conf
+ - add any other missing textures
+ - figure out how to extract 2x2 and larger paintings
+
+ - add corresponding BTW materials to default.mtl
+ 
+ - add mob models
+ - add BTW custom models
+ 
+ - dont think about deco support
