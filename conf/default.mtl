@@ -3032,6 +3032,396 @@ Kd 0.6000 0.3686 0.2431
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/furnace_full_front_lit.png
 
+newmtl gear_box
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/gear_box.png
+
+newmtl gear_box_input
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/gear_box_input.png
+
+newmtl gear_box_output
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/gear_box_output.png
+
+newmtl grate
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/grate.png
+
+newmtl groth_bottom
+Kd 0.4431 0.3921 0.4117
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/groth_bottom.png
+
+newmtl groth_side
+Kd 0.4431 0.3921 0.4117
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/groth_side.png
+
+newmtl groth_top
+Kd 0.4431 0.3921 0.4117
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/groth_top.png
+
+newmtl groth_top_grown
+Kd 0.4705 0.0627 0.0627
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/groth_top_grown.png
+
+newmtl hamper
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hamper.png
+
+newmtl hamper_bottom
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hamper_bottom.png
+
+newmtl hamper_front
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hamper_front.png
+
+newmtl hamper_open_top
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hamper_open_top.png
+
+newmtl hamper_top
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hamper_top.png
+
+newmtl hand_crank_bottom
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hand_crank_bottom.png
+
+newmtl hand_crank_shaft
+Kd 0.4196 0.3176 0.1882
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hand_crank_shaft.png
+
+newmtl hand_crank_side
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hand_crank_side.png
+
+newmtl hand_crank_top
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hand_crank_top.png
+
+newmtl hemp_bottom_0
+Kd 0.0000 0.4117 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hemp_bottom_0.png
+
+newmtl hemp_bottom_1
+Kd 0.0000 0.4117 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hemp_bottom_1.png
+
+newmtl hemp_bottom_2
+Kd 0.0000 0.4117 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hemp_bottom_2.png
+
+newmtl hemp_bottom_3
+Kd 0.0000 0.4117 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hemp_bottom_3.png
+
+newmtl hemp_bottom_4
+Kd 0.0000 0.4117 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hemp_bottom_4.png
+
+newmtl hemp_bottom_5
+Kd 0.0000 0.4117 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hemp_bottom_5.png
+
+newmtl hemp_bottom_6
+Kd 0.0000 0.4117 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hemp_bottom_6.png
+
+newmtl hemp_bottom_7
+Kd 0.0000 0.4117 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hemp_bottom_7.png
+
+newmtl hemp_top
+Kd 0.0000 0.4117 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hemp_top.png
+
+newmtl hibachi_bottom
+Kd 0.6980 0.6980 0.6980
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hibachi_bottom.png
+
+newmtl hibachi_side
+Kd 0.6980 0.6980 0.6980
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hibachi_side.png
+
+newmtl hibachi_top
+Kd 0.4314 0.2078 0.2000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hibachi_top.png
+
+newmtl hopper_bin_bottom
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_bin_bottom.png
+
+newmtl hopper_bin_side
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_bin_side.png
+
+newmtl hopper_bin_top
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_bin_top.png
+
+newmtl hopper_contents
+Kd 0.5019 0.4588 0.4549
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_contents.png
+
+newmtl hopper_grate
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_grate.png
+
+newmtl hopper_ironbars
+Kd 0.7686 0.7686 0.7686
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_ironbars.png
+
+newmtl hopper_ladder
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_ladder.png
+
+newmtl hopper_slats
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_slats.png
+
+newmtl hopper_soulsand
+Kd 0.3333 0.2549 0.2039
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_soulsand.png
+
+newmtl hopper_trapdoor
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_trapdoor.png
+
+newmtl hopper_wicker
+Kd 0.3451 0.2666 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_wicker.png
+
+newmtl hopper_interior_side
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_interior_side.png
+
+newmtl hopper_interior_top
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_interior_top.png
+
+newmtl hopper_nozzle_bottom
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_nozzle_bottom.png
+
+newmtl hopper_nozzle_side
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/hopper_nozzle_side.png
+
+newmtl infernal_enchanter_bottom
+Kd 0.3529 0.3411 0.3372
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/infernal_enchanter_bottom.png
+
+newmtl infernal_enchanter_side
+Kd 0.3529 0.3411 0.3372
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/infernal_enchanter_side.png
+
+newmtl infernal_enchanter_top
+Kd 0.5000 0.0313 0.0313
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/infernal_enchanter_top.png
+
+newmtl lava_pillow
+Kd 0.0784 0.0706 0.1176
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/lava_pillow.png
+
+newmtl leaves_blood_old
+Kd 0.012  1.0000 0.2098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/leaves_blood_old.png
+
+newmtl lens
+Kd 0.9804 0.9255 0.3059
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/lens.png
+
+newmtl lens_input
+Kd 0.1059 0.0902 0.0902
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/lens_input.png
+
+newmtl lens_output
+Kd 0.3922 0.8627 0.8392
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/lens_output.png
+
+newmtl lens_spotlight
+Kd 0.9960 0.9254 0.7254
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/lens_spotlight.png
+
+newmtl light_block
+Kd 0.9882 1.0000 0.2745
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/light_block.png
+
+newmtl light_block_lit
+Kd 0.9882 1.0000 0.2745
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/light_block_lit.png
+
+newmtl lightning_rod
+Kd 0.9804 0.9255 0.3059
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/lightning_rod.png
+
+newmtl lightning_rod_old
+Kd 0.3529 0.3411 0.3372
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/lightning_rod_old.png
+
+newmtl log_oak_side_chewed
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/log_oak_side_chewed.png
+
+newmtl log_oak_side_chewed_border
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/log_oak_side_chewed_border.png
+
+newmtl log_oak_side_chewed_top
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/log_oak_side_chewed_top.png
+
+newmtl log_smoldering
+Kd 0.0745 0.0745 0.0745
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/log_smoldering.png
+
+newmtl milk
+Kd 0.0000 0.0000 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/milk.png
+
+newmtl milk_chocolate
+Kd 0.5647 0.4509 0.3764
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/milk_chocolate.png
+
+newmtl millstone_bottom
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/millstone_bottom.png
+
+newmtl millstone_bottom_on
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/millstone_bottom_on.png
+
+newmtl millstone_side
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/millstone_side.png
+
+newmtl millstone_side_full
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/millstone_side_full.png
+
+newmtl millstone_side_on
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/millstone_side_on.png
+
+newmtl millstone_side_on_full
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/millstone_side_on_full.png
+
+newmtl millstone_top
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/millstone_top.png
+
+newmtl millstone_top_on
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/millstone_top_on.png
+
+newmtl mining_charge_bottom
+Kd 0.4117 0.3176 0.1451
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/mining_charge_bottom.png
+
+newmtl mining_charge_side
+Kd 0.4117 0.3176 0.1451
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/mining_charge_side.png
+
+newmtl mining_charge_top
+Kd 0.4117 0.3176 0.1451
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/mining_charge_top.png
+
+newmtl mycelium_slab_bottom
+Kd 0.5255 0.3765 0.2627
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/mycelium_slab_bottom.png
+
+newmtl mycelium_slab_side
+Kd 0.5255 0.3765 0.2627
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/mycelium_slab_side.png
+
+newmtl mycelium_slab_side_half
+Kd 0.4392 0.3921 0.4156
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/mycelium_slab_side_half.png
+
+newmtl mycelium_slab_top
+Kd 0.4392 0.3921 0.4156
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/mycelium_slab_top.png
+
 newmtl kebab_painting
 Kd 0.5 0.5 0.5
 Ks 0.0000 0.0000 0.0000
