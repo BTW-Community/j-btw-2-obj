@@ -2752,10 +2752,10 @@ Kd 0.4902 0.4902 0.4902
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/column_stone_side.png
 
-newmtl fcBlockColumnStone_top
+newmtl column_stone_top
 Kd 0.4902 0.4902 0.4902
 Ks 0.0000 0.0000 0.0000
-map_Kd tex/fcBlockColumnStone_top.png
+map_Kd tex/column_stone_top.png
 
 newmtl column_whitestone_side
 Kd 0.9215 0.9137 0.8862
@@ -2841,6 +2841,196 @@ newmtl crucible_top
 Kd 0.5500 0.5500 0.5500
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/crucible_top.png
+
+newmtl decorative_blackstone
+Kd 0.0666 0.0784 0.1019
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_blackstone.png
+
+newmtl decorative_brick
+Kd 0.6118 0.4314 0.3843
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_brick.png
+
+newmtl decorative_nether_brick
+Kd 0.2196 0.1020 0.1216
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_nether_brick.png
+
+newmtl decorative_sandstone_bottom
+Kd 0.8353 0.8039 0.5804
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_sandstone_bottom.png
+
+newmtl decorative_sandstone_side
+Kd 0.8353 0.8039 0.5804
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_sandstone_side.png
+
+newmtl decorative_sandstone_top
+Kd 0.8353 0.8039 0.5804
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_sandstone_top.png
+
+newmtl decorative_stone_brick
+Kd 0.4902 0.4902 0.4902
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_stone_brick.png
+
+newmtl decorative_stone
+Kd 0.4902 0.4902 0.4902
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_stone.png
+
+newmtl decorative_whitestone
+Kd 0.9215 0.9137 0.8862
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_whitestone.png
+
+newmtl decorative_birch
+Kd 0.7686 0.7019 0.4784
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_birch.png
+
+newmtl decorative_blood
+Kd 0.012  1.0000 0.2098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_blood.png
+
+newmtl decorative_jungle
+Kd 0.6157 0.4393 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_jungle.png
+
+newmtl decorative_oak
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_oak.png
+
+newmtl decorative_spruce
+Kd 0.4196 0.3176 0.1882
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/decorative_spruce.png
+
+newmtl detector_block_bottom
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/detector_block_bottom.png
+
+newmtl detector_block_front
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/detector_block_front.png
+
+newmtl detector_block_front_on
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/detector_block_front_on.png
+
+newmtl detector_block_side
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/detector_block_side.png
+
+newmtl detector_block_top
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/detector_block_top.png
+
+newmtl rails_detector_steel
+Kd 0.3529 0.3411 0.3372
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/rails_detector_steel.png
+
+newmtl rails_detector_steel_on
+Kd 0.3529 0.3411 0.3372
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/rails_detector_steel_on.png
+
+newmtl rails_detector_wood
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/rails_detector_wood.png
+
+newmtl rails_detector_wood_on
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/rails_detector_wood_on.png
+
+newmtl dirt_loose
+Kd 0.4255 0.2765 0.1627
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/dirt_loose.png
+
+newmtl dung
+Kd 0.3686 0.3254 0.1019
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/dung.png
+
+newmtl ender
+Kd 0.0078 0.1254 0.1058
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/ender.png
+
+newmtl farmland_fertilized_dry
+Kd 0.6117 0.4078 0.2509
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/farmland_fertilized_dry.png
+
+newmtl farmland_fertilized_wet
+Kd 0.4117 0.2156 0.0784
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/farmland_fertilized_wet.png
+
+newmtl fire_stoked_stub_0
+Kd 1.0000 0.6187 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/fire_stoked_stub_0.png
+
+newmtl fire_stoked_stub_1
+Kd 1.0000 0.6187 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/fire_stoked_stub_1.png
+
+newmtl fire_stoked_top_stub_0
+Kd 1.0000 0.6187 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/fire_stoked_top_stub_0.png
+
+newmtl fire_stoked_top_stub_1
+Kd 1.0000 0.6187 0.0000
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/fire_stoked_top_stub_1.png
+
+newmtl furnace_brick_front
+Kd 0.6118 0.4314 0.3843
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/furnace_brick_front.png
+
+newmtl furnace_brick_front_lit
+Kd 0.6000 0.3686 0.2431
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/furnace_brick_front_lit.png
+
+newmtl furnace_brick_side
+Kd 0.6118 0.4314 0.3843
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/furnace_brick_side.png
+
+newmtl furnace_brick_top
+Kd 0.6118 0.4314 0.3843
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/furnace_brick_top.png
+
+newmtl furnace_full_front
+Kd 0.6118 0.4314 0.3843
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/furnace_full_front.png
+
+newmtl furnace_full_front_lit
+Kd 0.6000 0.3686 0.2431
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/furnace_full_front_lit.png
 
 newmtl kebab_painting
 Kd 0.5 0.5 0.5
