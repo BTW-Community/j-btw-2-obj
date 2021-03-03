@@ -2542,6 +2542,306 @@ Kd 0.4235 0.4235 0.4235
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/buddyblock_on.png
 
+newmtl campfire
+Kd 0.4274 0.3254 0.1372
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/campfire.png
+
+newmtl campfire_burned
+Kd 0.0862 0.0862 0.0862
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/campfire_burned.png
+
+newmtl campfire_spit
+Kd 0.4274 0.3254 0.1372
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/campfire_spit.png
+
+newmtl campfire_support
+Kd 0.4274 0.3254 0.1372
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/campfire_support.png
+
+newmtl candle_black
+Kd 0.1059 0.0902 0.0902
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_black.png
+
+newmtl candle_blue
+Kd 0.1529 0.2000 0.6039
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_blue.png
+
+newmtl candle_brown
+Kd 0.3373 0.2000 0.1098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_brown.png
+
+newmtl candle_cyan
+Kd 0.1529 0.4588 0.5882
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_cyan.png
+
+newmtl candle_dark_gray
+Kd 0.2627 0.2627 0.2627
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_dark_gray.png
+
+newmtl candle_green
+Kd 0.2196 0.3020 0.0941
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_green.png
+
+newmtl candle_light_blue
+Kd 0.4078 0.5451 0.8314
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_light_blue.png
+
+newmtl candle_light_gray
+Kd 0.6196 0.6510 0.6510
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_light_gray.png
+
+newmtl candle_lime
+Kd 0.2314 0.7412 0.1882
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_lime.png
+
+newmtl candle_magenta
+Kd 0.7490 0.2980 0.7882
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_magenta.png
+
+newmtl candle_orange
+Kd 0.9176 0.5020 0.2157
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_orange.png
+
+newmtl candle_pink
+Kd 0.8510 0.5176 0.6078
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_pink.png
+
+newmtl candle_purple
+Kd 0.5059 0.2118 0.7686
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_purple.png
+
+newmtl candle_red
+Kd 0.6431 0.1765 0.1608
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_red.png
+
+newmtl candle_white
+Kd 0.8706 0.8706 0.8706
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_white.png
+
+newmtl candle_yellow
+Kd 0.7608 0.7098 0.1098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_yellow.png
+
+newmtl candle_wick
+Kd 0.7608 0.7098 0.1098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/candle_wick.png
+
+newmtl cauldron_wide_band_top
+Kd 0.2500 0.2500 0.2500
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/cauldron_wide_band_top.png
+
+newmtl cauldron_bottom
+Kd 0.2500 0.2500 0.2500
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/cauldron_bottom.png
+
+newmtl cauldron_contents
+Kd 0.7608 0.7098 0.1098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/cauldron_contents.png
+
+newmtl fcBlockCauldron_side
+Kd 0.2500 0.2500 0.2500
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/fcBlockCauldron_side.png
+
+newmtl cauldron_top
+Kd 0.2500 0.2500 0.2500
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/cauldron_top.png
+
+newmtl cement
+Kd 0.1568 0.1568 0.1568
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/cement.png
+
+newmtl cement_drying
+Kd 0.2470 0.2470 0.2470
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/cement_drying.png
+
+newmtl choppingblock
+Kd 0.6745 0.6745 0.6745
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/choppingblock.png
+
+newmtl choppingblock_dirty
+Kd 0.5215 0.4039 0.4117
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/choppingblock_dirty.png
+
+newmtl chunk_gold
+Kd 0.7411 0.6235 0.1098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/chunk_gold.png
+
+newmtl chunk_iron
+Kd 0.5294 0.3294 0.2431
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/chunk_iron.png
+
+newmtl chunk_gold_block
+Kd 0.7411 0.6235 0.1098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/chunk_gold_block.png
+
+newmtl chunk_iron_block
+Kd 0.5294 0.3294 0.2431
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/chunk_iron_block.png
+
+newmtl clay_dirt
+Kd 0.6235 0.6471 0.6941
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/clay_dirt.png
+
+newmtl cobblestone_loose
+Kd 0.3588 0.3588 0.3588
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/cobblestone_loose.png
+
+newmtl column_blackstone_side
+Kd 0.0666 0.0784 0.1019
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_blackstone_side.png
+
+newmtl column_brick_side
+Kd 0.6118 0.4314 0.3843
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_brick_side.png
+
+newmtl column_nether_brick_side
+Kd 0.2196 0.1020 0.1216
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_nether_brick_side.png
+
+newmtl column_sandstone_side
+Kd 0.8353 0.8039 0.5804
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_sandstone_side.png
+
+newmtl column_stone_brick_side
+Kd 0.4902 0.4902 0.4902
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_stone_brick_side.png
+
+newmtl column_stone_side
+Kd 0.4902 0.4902 0.4902
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_stone_side.png
+
+newmtl fcBlockColumnStone_top
+Kd 0.4902 0.4902 0.4902
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/fcBlockColumnStone_top.png
+
+newmtl column_whitestone_side
+Kd 0.9215 0.9137 0.8862
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_whitestone_side.png
+
+newmtl column_birch_side
+Kd 0.7686 0.7019 0.4784
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_birch_side.png
+
+newmtl column_jungle_side
+Kd 0.6157 0.4393 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_jungle_side.png
+
+newmtl column_oak_side
+Kd 0.6157 0.5020 0.3098
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_oak_side.png
+
+newmtl column_spruce_side
+Kd 0.4196 0.3176 0.1882
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/column_spruce_side.png
+
+newmtl companion_cube
+Kd 0.8706 0.8706 0.8706
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/companion_cube.png
+
+newmtl companion_cube_front
+Kd 0.8706 0.8706 0.8706
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/companion_cube_front.png
+
+newmtl companion_cube_guts
+Kd 0.4862 0.1686 0.1058
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/companion_cube_guts.png
+
+newmtl concentrated_hellfire
+Kd 0.8902 0.1568 0.1137
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/concentrated_hellfire.png
+
+newmtl clay_cooked
+Kd 0.6352 0.3451 0.2666
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/clay_cooked.png
+
+newmtl creeper_oysters
+Kd 0.2784 0.7529 0.2352
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/creeper_oysters.png
+
+newmtl creeper_oysters_slab
+Kd 0.2784 0.7529 0.2352
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/creeper_oysters_slab.png
+
+newmtl crucible_wide_band_top
+Kd 0.5500 0.5500 0.5500
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/crucible_wide_band_top.png
+
+newmtl crucible_bottom
+Kd 0.5500 0.5500 0.5500
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/crucible_bottom.png
+
+newmtl crucible_contents
+Kd 0.5019 0.4588 0.4549
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/crucible_contents.png
+
+newmtl crucible_side
+Kd 0.5500 0.5500 0.5500
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/crucible_side.png
+
+newmtl crucible_top
+Kd 0.5500 0.5500 0.5500
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/crucible_top.png
+
 newmtl kebab_painting
 Kd 0.5 0.5 0.5
 Ks 0.0000 0.0000 0.0000
