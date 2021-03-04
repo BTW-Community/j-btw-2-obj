@@ -11,7 +11,7 @@ ToDo:
  - add mob models
  - add BTW custom models
  
- - sign orentation
+ - sign orentation (Handled by SignPost.java) but text isn't
  - NBT extraction
  - connected models (fences, stairs, mouldings, corners, fences... etc)
  

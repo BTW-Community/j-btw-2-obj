@@ -1,2 +1,6 @@
+version.prop
+README.md
+
 conf/texsplit_1.5.conf
 conf/default.mtl
+conf/blocks.conf
