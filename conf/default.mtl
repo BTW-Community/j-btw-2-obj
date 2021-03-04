@@ -4352,6 +4352,226 @@ Kd 0.1804 0.1137 0.0471
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/workstump_spruce.png
 
+newmtl overlay_blank
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_blank.png
+
+newmtl overlay_cobblestone_lava
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_cobblestone_lava.png
+
+newmtl overlay_cook_1
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_cook_1.png
+
+newmtl overlay_cook_2
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_cook_2.png
+
+newmtl overlay_cook_3
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_cook_3.png
+
+newmtl overlay_cook_4
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_cook_4.png
+
+newmtl overlay_cook_5
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_cook_5.png
+
+newmtl overlay_cook_6
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_cook_6.png
+
+newmtl overlay_cook_7
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_cook_7.png
+
+newmtl overlay_embers
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_embers.png
+
+newmtl overlay_furnace_fuel_0
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_furnace_fuel_0.png
+
+newmtl overlay_furnace_fuel_1
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_furnace_fuel_1.png
+
+newmtl overlay_furnace_fuel_2
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_furnace_fuel_2.png
+
+newmtl overlay_furnace_fuel_3
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_furnace_fuel_3.png
+
+newmtl overlay_furnace_fuel_4
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_furnace_fuel_4.png
+
+newmtl overlay_furnace_fuel_5
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_furnace_fuel_5.png
+
+newmtl overlay_furnace_fuel_6
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_furnace_fuel_6.png
+
+newmtl overlay_furnace_fuel_7
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_furnace_fuel_7.png
+
+newmtl overlay_furnace_fuel_8
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_furnace_fuel_8.png
+
+newmtl overlay_log_embers
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_log_embers.png
+
+newmtl overlay_netherrack_embers
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_netherrack_embers.png
+
+newmtl overlay_snow_loose_0
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_snow_loose_0.png
+
+newmtl overlay_snow_loose_1
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_snow_loose_1.png
+
+newmtl overlay_snow_loose_2
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_snow_loose_2.png
+
+newmtl overlay_snow_loose_3
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_snow_loose_3.png
+
+newmtl overlay_snow_loose_4
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_snow_loose_4.png
+
+newmtl overlay_snow_loose_5
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_snow_loose_5.png
+
+newmtl overlay_snow_loose_6
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_snow_loose_6.png
+
+newmtl overlay_snow_loose_7
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_snow_loose_7.png
+
+newmtl overlay_stone_brick_lava
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_stone_brick_lava.png
+
+newmtl overlay_stone_rough_1
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_stone_rough_1.png
+
+newmtl overlay_stone_rough_2
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_stone_rough_2.png
+
+newmtl overlay_stone_rough_3
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_stone_rough_3.png
+
+newmtl overlay_stone_rough_4
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_stone_rough_4.png
+
+newmtl overlay_stone_rough_5
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_stone_rough_5.png
+
+newmtl overlay_stone_rough_6
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_stone_rough_6.png
+
+newmtl overlay_stone_rough_7
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_stone_rough_7.png
+
+newmtl overlay_unfired_brick_1
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_unfired_brick_1.png
+
+newmtl overlay_unfired_brick_2
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_unfired_brick_2.png
+
+newmtl overlay_unfired_brick_3
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_unfired_brick_3.png
+
+newmtl overlay_unfired_brick_4
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_unfired_brick_4.png
+
+newmtl overlay_unfired_brick_5
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_unfired_brick_5.png
+
+newmtl overlay_unfired_brick_6
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_unfired_brick_6.png
+
+newmtl overlay_unfired_brick_7
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/overlay_unfired_brick_7.png
+
 newmtl kebab_painting
 Kd 0.5 0.5 0.5
 Ks 0.0000 0.0000 0.0000
