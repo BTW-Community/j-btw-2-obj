@@ -1,6 +1,6 @@
 New ToDo list!
 
-Sock todo:
+ToDo:
  - add all mob textures to texsplit_1.5.conf
  - add misc textures from other folders than "/textures/blocks"
  - figure out how to extract 2x2 and larger paintings (texsplit_1.5.conf)
@@ -11,8 +11,12 @@ Sock todo:
  - add mob models
  - add BTW custom models
  
+ - sign orentation
+ - NBT extraction
+ - connected models (fences, stairs, mouldings, corners, fences... etc)
+ 
  - dont think about deco support
  
-Sock done:
+Done:
  - added all BTW block textures to texsplit_1.5.conf
  - added all BTW block materials to default.mtl
