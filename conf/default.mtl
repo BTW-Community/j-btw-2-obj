@@ -2422,6 +2422,11 @@ Kd 0.1921 0.1725 0.0902
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/blight_2_side.png
 
+newmtl blight_2_roots
+Kd 0.1803 0.1803 0.1803
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/blight_2_roots.png
+
 newmtl blight_3_side
 Kd 0.1803 0.1803 0.1803
 Ks 0.0000 0.0000 0.0000
