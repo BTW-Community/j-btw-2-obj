@@ -5,11 +5,16 @@ ToDo:
  - add misc textures from other folders than "/textures/blocks"
  - figure out how to extract 2x2 and larger paintings (texsplit_1.5.conf)
  
+ - what happens if we need multiple mesh's in one block like ID 178 & 179
+ 
  - add all mob materials to default.mtl
  - add misc materials from other folder than "/textures/blocks"
 
- - add mob models
- - add BTW custom models
+ - check all materials in blocks.conf
+ - add rotation to needed blocks
+ - add mesh to blocks in blocks.conf
+ - add mob models files
+ - add BTW custom models files
  
  - sign orentation (Handled by SignPost.java) but text isn't
  - NBT extraction
