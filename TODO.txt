@@ -11,16 +11,26 @@ ToDo:
  - add misc materials from other folder than "/textures/blocks"
 
  - check all materials in blocks.conf
- - add rotation to needed blocks
+ - add rotation to needed blocsks
  - add mesh to blocks in blocks.conf
  - add mob models files
  - add BTW custom models files
- 
+ 	> 225 Hopper needs custom code to render filters and contents properly
+ 	> 226 Saw
+ 	> 228 Cement needs custom liquid model
+ 	> 234 Cauldron custom model for contents?
+ 	> 236 Companion Cube has Slabs in the same ID.. fix?
+ 	> 252 Unfired Pottery, different Model per metadata
+ 	
  - sign orentation (Handled by SignPost.java) but text isn't
  - NBT extraction
  - connected models (fences, stairs, mouldings, corners, fences... etc)
  
  - dont think about deco support
+ 
+Missing: 
+ - 239 Detector Logic Texture
+ - 248 Redstone Clutch
  
 Done:
  - added all BTW block textures to texsplit_1.5.conf
