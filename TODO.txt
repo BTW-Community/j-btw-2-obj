@@ -26,6 +26,8 @@ ToDo:
  - NBT extraction
  - connected models (fences, stairs, mouldings, corners, fences... etc)
  
+ 
+ 
  - dont think about deco support
  
 Missing: 
@@ -36,3 +38,6 @@ Done:
  - added all BTW block textures to texsplit_1.5.conf
  - added all BTW block materials to default.mtl
  - added all BTW blocks to blocks.conf BUT MOST ARE BROKEN/TEMP
+ 
+Checked to be working correct: ID 1 - 97
+- Exceptions: redstone dust doesn't connect to repeaters
