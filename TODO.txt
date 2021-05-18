@@ -35,3 +35,4 @@ Missing:
 Done:
  - added all BTW block textures to texsplit_1.5.conf
  - added all BTW block materials to default.mtl
+ - added all BTW blocks to blocks.conf BUT MOST ARE BROKEN/TEMP
