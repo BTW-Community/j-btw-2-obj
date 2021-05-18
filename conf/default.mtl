@@ -546,6 +546,11 @@ Kd 0.4235 0.4235 0.4235
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/dispenser_front.png
 
+newmtl dispenser_front_vertical
+Kd 0.4235 0.4235 0.4235
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/dispenser_front_vertical.png
+
 newmtl door_acacia_lower
 Kd 0.6602 0.3569 0.1992
 Ks 0.0000 0.0000 0.0000
