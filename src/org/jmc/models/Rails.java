@@ -23,8 +23,11 @@ public class Rails extends BlockModel
 		}
 		else if (blockId == 28)
 		{
-			// detector
-			mtl = materials.get(data,biome)[0];
+			// detector off/on
+			// mtl = materials.get(data,biome)[0];
+			// below copied from above powered rail
+			mtl = (data & 8) == 0 ? materials.get(data,biome)[1] : materials.get(data,biome)[0];
+			data = (byte)(data & 7);
 		}
 		else
 		{
