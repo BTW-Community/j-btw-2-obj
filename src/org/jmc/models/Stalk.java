@@ -34,7 +34,7 @@ public class Stalk extends BlockModel
 			w = chunks.getBlockID(x-1, y, z) == 103;
 		}
 		
-		if (data == 7 && (n||s||e||w))
+		if (data == 14 && (n||s||e||w)) // if metadata is 14 and we have a melon adjacent
 		{
 			// bent stalk
 			Transform translate = new Transform();
@@ -70,7 +70,7 @@ public class Stalk extends BlockModel
 			vertices[1] = new Vertex( 0.5f, -0.5f,  0.5f);
 			vertices[2] = new Vertex( 0.5f,  0.5f,  0.5f);	
 			vertices[3] = new Vertex(-0.5f,  0.5f, -0.5f);
-			obj.addFace(vertices, null, translate, materials.get(data,biome)[0]);						
+			obj.addFace(vertices, null, translate, materials.get(data,biome)[0]);		
 		}
 	}
 
