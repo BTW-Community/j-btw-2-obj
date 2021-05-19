@@ -2122,10 +2122,10 @@ Kd 0.1529 0.4588 0.5882
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/wool_cyan.png
 
-newmtl wool_dark_gray
+newmtl wool_dark_grey
 Kd 0.2627 0.2627 0.2627
 Ks 0.0000 0.0000 0.0000
-map_Kd tex/wool_dark_gray.png
+map_Kd tex/wool_dark_grey.png
 
 newmtl wool_green
 Kd 0.2196 0.3020 0.0941
