@@ -26,7 +26,7 @@ ToDo:
  - NBT extraction
  - connected models (fences, stairs, mouldings, corners, fences... etc)
  
- 
+ - Melon/Pumkin Stems need some extra work for the scaling while growing
  
  - dont think about deco support
  
@@ -39,5 +39,8 @@ Done:
  - added all BTW block materials to default.mtl
  - added all BTW blocks to blocks.conf BUT MOST ARE BROKEN/TEMP
  
-Checked to be working correct: ID 1 - 97
-- Exceptions: redstone dust doesn't connect to repeaters
+Checked to be working correct: ID 1 - 107
+	Exceptions: 
+	- redstone dust doesn't connect to repeaters
+	- SW curved rail issue
+	- Stem height for growth stages
