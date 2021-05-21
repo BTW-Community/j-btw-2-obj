@@ -7,9 +7,6 @@ ToDo:
  
  - what happens if we need multiple mesh's in one block like ID 178 & 179
  
- - add all mob materials to default.mtl
- - add misc materials from other folder than "/textures/blocks"
-
  - check all materials in blocks.conf
  - add rotation to needed blocsks
  - add mesh to blocks in blocks.conf
@@ -44,3 +41,7 @@ Checked to be working correct: ID 1 - 107
 	- redstone dust doesn't connect to repeaters
 	- SW curved rail issue
 	- Stem height for growth stages
+	- wall connections for block above and other walls
+	- fence connections for siding
+	- candle colors
+	- missing blight_2_top texture
