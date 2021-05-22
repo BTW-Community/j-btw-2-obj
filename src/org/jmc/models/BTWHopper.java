@@ -4,11 +4,7 @@ import org.jmc.threading.ChunkProcessor;
 import org.jmc.threading.ThreadChunkDeligate;
 import org.jmc.util.Log;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.List;
 
-import org.jmc.OBJInputFile;
 import org.jmc.NBT.NBT_Tag;
 import org.jmc.NBT.TAG_Byte;
 import org.jmc.NBT.TAG_Byte_Array;
@@ -17,8 +13,7 @@ import org.jmc.NBT.TAG_Int;
 import org.jmc.NBT.TAG_List;
 import org.jmc.NBT.TAG_Short;
 import org.jmc.NBT.TAG_String;
-import org.jmc.OBJInputFile.OBJGroup;
-import org.jmc.geom.Transform;
+
 import org.jmc.geom.UV;
 /**
  * Generic model for temp slab blocks.
@@ -167,7 +162,7 @@ public class BTWHopper extends BlockModel
 	@Override
 	public void addModel(ChunkProcessor obj, ThreadChunkDeligate chunks, int x, int y, int z, byte data, byte biome)
 	{
-		getHopperFilter(obj, chunks, x, y, z, data, biome);
+		//getHopperFilter(obj, chunks, x, y, z, data, biome);
 		
 		UV[] uvTop, uvSide;
 		UV[][] uvSides;
@@ -220,8 +215,30 @@ public class BTWHopper extends BlockModel
 		
 		int itemCount = items.elements.length;
 		
-		if (slot.value == 18 && slot != null) {
-			
+		if (itemCount > 1) {
+			//Contents
+			uvTop = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
+			uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
+			uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
+			addBox(obj,
+					x - 6/16f, y - 3/16f, z - 6/16f, //min
+					x + 6/16f, y - 3/16f + (itemCount/2)/16f, z + 6/16f, //max
+					null, getContentsSides(data,biome), uvSides, null);
+		}
+		
+		else if (itemCount == 1 && slot.value != 18) {
+			//Contents
+			uvTop = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
+			uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
+			uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
+			addBox(obj,
+					x - 6/16f, y - 3/16f, z - 6/16f, //min
+					x + 6/16f, y - 3/16f + 1/16f, z + 6/16f, //max
+					null, getContentsSides(data,biome), uvSides, null);
+		}
+		
+		if (slotID != null) {
+						
 			if (slotID.value == 101) {
 				//Filter
 				uvTop = new UV[] { new UV(2/16f, 2/16f), new UV(14/16f, 2/16f), new UV(14/16f, 14/16f), new UV(2/16f, 14/16f) };
@@ -285,16 +302,7 @@ public class BTWHopper extends BlockModel
 		}
 
 		
-		if (itemCount > 0) {
-			//Contents
-			uvTop = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-			uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-			uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-			addBox(obj,
-					x - 6/16f, y - 3/16f, z - 6/16f, //min
-					x + 6/16f, y - 3/16f + (itemCount/2)/16f+1/16f, z + 6/16f, //max
-					null, getContentsSides(data,biome), uvSides, null);
-		}
+		
 		
 		
 		
