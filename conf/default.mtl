@@ -2657,30 +2657,30 @@ Kd 0.7608 0.7098 0.1098
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/candle_wick.png
 
-newmtl cauldron_wide_band_top
+newmtl fc_cauldron_wide_band_top
 Kd 0.2500 0.2500 0.2500
 Ks 0.0000 0.0000 0.0000
-map_Kd tex/cauldron_wide_band_top.png
+map_Kd tex/fc_cauldron_wide_band_top.png
 
-newmtl cauldron_bottom
+newmtl fc_cauldron_bottom
 Kd 0.2500 0.2500 0.2500
 Ks 0.0000 0.0000 0.0000
-map_Kd tex/cauldron_bottom.png
+map_Kd tex/fc_cauldron_bottom.png
 
-newmtl cauldron_contents
+newmtl fc_cauldron_contents
 Kd 0.7608 0.7098 0.1098
 Ks 0.0000 0.0000 0.0000
-map_Kd tex/cauldron_contents.png
+map_Kd tex/fc_cauldron_contents.png
 
-newmtl fcBlockCauldron_side
+newmtl fc_cauldron_side
 Kd 0.2500 0.2500 0.2500
 Ks 0.0000 0.0000 0.0000
-map_Kd tex/fcBlockCauldron_side.png
+map_Kd tex/fc_cauldron_side.png
 
-newmtl cauldron_top
+newmtl fc_cauldron_top
 Kd 0.2500 0.2500 0.2500
 Ks 0.0000 0.0000 0.0000
-map_Kd tex/cauldron_top.png
+map_Kd tex/fc_cauldron_top.png
 
 newmtl cement
 Kd 0.1568 0.1568 0.1568
