@@ -28,8 +28,7 @@ ToDo:
  - dont think about deco support
  
 Missing: 
- - 239 Detector Logic Texture
- - 248 Redstone Clutch
+ - Gearbox, input output texture logic
  
 Done:
  - added all BTW block textures to texsplit_1.5.conf
