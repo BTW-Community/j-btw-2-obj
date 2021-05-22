@@ -2,72 +2,21 @@ package org.jmc.models;
 
 import org.jmc.threading.ChunkProcessor;
 import org.jmc.threading.ThreadChunkDeligate;
-import org.jmc.util.Log;
 
 
 import org.jmc.NBT.NBT_Tag;
 import org.jmc.NBT.TAG_Byte;
-import org.jmc.NBT.TAG_Byte_Array;
 import org.jmc.NBT.TAG_Compound;
-import org.jmc.NBT.TAG_Int;
 import org.jmc.NBT.TAG_List;
 import org.jmc.NBT.TAG_Short;
 import org.jmc.NBT.TAG_String;
 
 import org.jmc.geom.UV;
 /**
- * Generic model for temp slab blocks.
+ * Custom model for btw hopper.
  */
 public class BTWHopper extends BlockModel
 {
-	private TAG_Compound te;
-	int filterID;
-	
-	private void getHopperFilter(ChunkProcessor obj, ThreadChunkDeligate chunks, int x, int y, int z, byte data, byte biome)
-	{
-		te = chunks.getTileEntity(x, y, z);
-		
-		String hopper = ((TAG_String)te.getElement("id")).value;	 //is "Hopper" 
-		TAG_List items = (TAG_List) te.getElement("Items");
-		
-		TAG_Compound itemStack = (TAG_Compound) items.getElement(0);
-		TAG_Byte slot = null;
-		TAG_Short slotID = null;
-		
-		try {
-			 slot = (TAG_Byte) itemStack.getElement("Slot");
-			 slotID = (TAG_Short) itemStack.getElement("id");
-		}
-		catch (Exception e) {
-			 Log.info("No slot found in this Hopper! - that seams ok - it may be empty!");
-		}
-		
-		
-		
-		int itemCount = items.elements.length;
-		System.out.println("Tile Entity: " + hopper); 
-		
-		
-		if (hopper != null && items.elements.length > 0) {
-			System.out.println("This Hopper has " + itemCount + " items in it."); 
-			
-			if (slot.value == 18) {
-				System.out.println("This Hopper has filter " + slotID.value + " in slot 18.");
-			}
-			
-			for (int i = 0; i < items.elements.length; i++) {
-				System.out.println("This Hopper has an item in slot: " + slot.value);
-				
-			}
-			
-			
-		}
-		else {
-			System.out.println("This Hopper is empty."); 
-		}
-
-	}
-	
 	private String[] getNozzleSides(byte data, byte biome)
 	{
 		String[] abbrMtls = materials.get(data,biome);
@@ -124,29 +73,29 @@ public class BTWHopper extends BlockModel
 		return mtlSides;
 	}
 	
-	private String[] getLadderSides(byte data, byte biome)
+	private String[] getFilterSides(byte data, byte biome, int filterID)
 	{
 		String[] abbrMtls = materials.get(data,biome);
 
 		String[] mtlSides = new String[6];
 		mtlSides[0] = abbrMtls[3]; //top
 		
-		if (filterID == 101) { //ironbars
-			mtlSides[0] = abbrMtls[8]; //top
+		if (filterID == 101) { 			//iron bars
+			mtlSides[0] = abbrMtls[8]; 	//top
 		}
-		else if (filterID == 1051) { //ladder
-			mtlSides[0] = abbrMtls[9]; //top
+		else if (filterID == 1051) {	//ladder
+			mtlSides[0] = abbrMtls[9]; 	//top
 		}
-		else if (filterID == 1084) { //ladder
+		else if (filterID == 1084) { 	//wicker
 			mtlSides[0] = abbrMtls[10]; //top
 		}
-		else if (filterID == 1085) { //ladder
+		else if (filterID == 1085) { 	//grate
 			mtlSides[0] = abbrMtls[11]; //top
 		}
-		else if (filterID == 1086) { //ladder
+		else if (filterID == 1086) { 	//slats
 			mtlSides[0] = abbrMtls[12]; //top
 		}
-		else if (filterID == 88) { //ladder
+		else if (filterID == 88) { 		//soul sand
 			mtlSides[0] = abbrMtls[13]; //top
 		}
 		mtlSides[1] = abbrMtls[7]; //front
@@ -161,28 +110,40 @@ public class BTWHopper extends BlockModel
 	
 	@Override
 	public void addModel(ChunkProcessor obj, ThreadChunkDeligate chunks, int x, int y, int z, byte data, byte biome)
-	{
-		//getHopperFilter(obj, chunks, x, y, z, data, biome);
-		
+	{	
 		UV[] uvTop, uvSide;
 		UV[][] uvSides;
 		
-		te = chunks.getTileEntity(x, y, z);
+		TAG_Compound te = chunks.getTileEntity(x, y, z);
+        int filterID = 0;
+        int itemCount = 0;
 		
-		String hopper = ((TAG_String)te.getElement("id")).value;	 //is "Hopper" 
-		TAG_List items = (TAG_List) te.getElement("Items");
+        //Figure out the number of filled item slots in the hopper and if it has a filter in it
+		if("Hopper".equals( ((TAG_String)te.getElement("id")).value) ) {
+            //System.out.println("Tile Entity: Hopper"); 
+            
+            TAG_List items = (TAG_List) te.getElement("Items");
+            if(items != null) {
+                itemCount = items.elements.length;
+                //System.out.println("This Hopper has " + itemCount + " items in it."); 
+                
+                for (NBT_Tag tag: items.elements) {
+                    TAG_Compound itemStack = (TAG_Compound) tag;
+                    TAG_Byte slot    = (TAG_Byte)  itemStack.getElement("Slot");
+                    TAG_Short slotID = (TAG_Short) itemStack.getElement("id");
+                    
+                    if (slot.value == 18) {
+                        //System.out.println("\tfilter " + slotID.value + " in slot 18.");
+                        filterID = slotID.value;
+                        //We don't want to count the filter as an item in the inventory
+                        itemCount--;
+                    } else {
+                        //System.out.println("\titem " + slotID.value + " in slot " + slot.value);
+                    }
+                }
+            }
+        }
 		
-		TAG_Compound itemStack = (TAG_Compound) items.getElement(0);
-		TAG_Byte slot = null;
-		TAG_Short slotID = null;
-		
-		try {
-			 slot = (TAG_Byte) itemStack.getElement("Slot");
-			 slotID = (TAG_Short) itemStack.getElement("id");
-		}
-		catch (Exception e) {
-			 //Log.info("No slot found in this Hopper! - that seems ok - it may be empty!");
-		}
 		
 		//Nozzle
 		uvTop = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
@@ -211,103 +172,25 @@ public class BTWHopper extends BlockModel
 				x + 6/16f, y + 8/16f, z + 6/16f, //max
 				null, getInsideSides(data,biome), uvSides, null);
 		
-		filterID = slotID.value;
-		
-		int itemCount = items.elements.length;
-		
-		if (itemCount > 1) {
+		if (itemCount > 0) {
 			//Contents
 			uvTop = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
 			uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
 			uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
 			addBox(obj,
 					x - 6/16f, y - 3/16f, z - 6/16f, //min
-					x + 6/16f, y - 3/16f + (itemCount/2)/16f, z + 6/16f, //max
+					x + 6/16f, y - 3/16f + (itemCount/2f)/16f, z + 6/16f, //max
 					null, getContentsSides(data,biome), uvSides, null);
 		}
 		
-		else if (itemCount == 1 && slot.value != 18) {
-			//Contents
-			uvTop = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-			uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-			uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-			addBox(obj,
-					x - 6/16f, y - 3/16f, z - 6/16f, //min
-					x + 6/16f, y - 3/16f + 1/16f, z + 6/16f, //max
-					null, getContentsSides(data,biome), uvSides, null);
+		if (filterID != 0) {
+            uvTop = new UV[] { new UV(2/16f, 2/16f), new UV(14/16f, 2/16f), new UV(14/16f, 14/16f), new UV(2/16f, 14/16f) };
+            uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
+            uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
+            addBox(obj,
+                    x - 6/16f, y + 7/16f, z - 6/16f, //min
+                    x + 6/16f, y + 7/16f, z + 6/16f, //max
+                    null, getFilterSides(data,biome,filterID), uvSides, null);
 		}
-		
-		if (slotID != null) {
-						
-			if (slotID.value == 101) {
-				//Filter
-				uvTop = new UV[] { new UV(2/16f, 2/16f), new UV(14/16f, 2/16f), new UV(14/16f, 14/16f), new UV(2/16f, 14/16f) };
-				uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-				uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-				addBox(obj,
-						x - 6/16f, y + 7/16f, z - 6/16f, //min
-						x + 6/16f, y + 7/16f, z + 6/16f, //max
-						null, getLadderSides(data,biome), uvSides, null);
-			}
-			if (slotID.value == 1051) {
-				//Filter
-				uvTop = new UV[] { new UV(2/16f, 2/16f), new UV(14/16f, 2/16f), new UV(14/16f, 14/16f), new UV(2/16f, 14/16f) };
-				uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-				uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-				addBox(obj,
-						x - 6/16f, y + 7/16f, z - 6/16f, //min
-						x + 6/16f, y + 7/16f, z + 6/16f, //max
-						null, getLadderSides(data,biome), uvSides, null);
-			}
-			if (slotID.value == 1084) {
-				//Filter
-				uvTop = new UV[] { new UV(2/16f, 2/16f), new UV(14/16f, 2/16f), new UV(14/16f, 14/16f), new UV(2/16f, 14/16f) };
-				uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-				uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-				addBox(obj,
-						x - 6/16f, y + 7/16f, z - 6/16f, //min
-						x + 6/16f, y + 7/16f, z + 6/16f, //max
-						null, getLadderSides(data,biome), uvSides, null);
-			}
-			if (slotID.value == 1085) {
-				//Filter
-				uvTop = new UV[] { new UV(2/16f, 2/16f), new UV(14/16f, 2/16f), new UV(14/16f, 14/16f), new UV(2/16f, 14/16f) };
-				uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-				uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-				addBox(obj,
-						x - 6/16f, y + 7/16f, z - 6/16f, //min
-						x + 6/16f, y + 7/16f, z + 6/16f, //max
-						null, getLadderSides(data,biome), uvSides, null);
-			}
-			if (slotID.value == 1086) {
-				//Filter
-				uvTop = new UV[] { new UV(2/16f, 2/16f), new UV(14/16f, 2/16f), new UV(14/16f, 14/16f), new UV(2/16f, 14/16f) };
-				uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-				uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-				addBox(obj,
-						x - 6/16f, y + 7/16f, z - 6/16f, //min
-						x + 6/16f, y + 7/16f, z + 6/16f, //max
-						null, getLadderSides(data,biome), uvSides, null);
-			}
-			if (slotID.value == 88) {
-				//Filter
-				uvTop = new UV[] { new UV(2/16f, 2/16f), new UV(14/16f, 2/16f), new UV(14/16f, 14/16f), new UV(2/16f, 14/16f) };
-				uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-				uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-				addBox(obj,
-						x - 6/16f, y + 7/16f, z - 6/16f, //min
-						x + 6/16f, y + 7/16f, z + 6/16f, //max
-						null, getLadderSides(data,biome), uvSides, null);
-			}
-		}
-
-		
-		
-		
-		
-		
-
 	}
-	
-
 }
