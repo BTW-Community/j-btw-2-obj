@@ -26,6 +26,7 @@ import org.jmc.geom.UV;
 public class BTWHopper extends BlockModel
 {
 	private TAG_Compound te;
+	int filterID;
 	
 	private void getHopperFilter(ChunkProcessor obj, ThreadChunkDeligate chunks, int x, int y, int z, byte data, byte biome)
 	{
@@ -133,6 +134,7 @@ public class BTWHopper extends BlockModel
 		String[] abbrMtls = materials.get(data,biome);
 
 		String[] mtlSides = new String[6];
+		mtlSides[0] = abbrMtls[3]; //top
 		
 		if (filterID == 101) { //ironbars
 			mtlSides[0] = abbrMtls[8]; //top
@@ -152,9 +154,6 @@ public class BTWHopper extends BlockModel
 		else if (filterID == 88) { //ladder
 			mtlSides[0] = abbrMtls[13]; //top
 		}
-		else {
-			mtlSides[0] = abbrMtls[3]; //top
-		}
 		mtlSides[1] = abbrMtls[7]; //front
 		mtlSides[2] = abbrMtls[7]; //back
 		mtlSides[3] = abbrMtls[7]; //left
@@ -163,11 +162,13 @@ public class BTWHopper extends BlockModel
 		return mtlSides;
 	}
 	
-	int filterID;
+	
 	
 	@Override
 	public void addModel(ChunkProcessor obj, ThreadChunkDeligate chunks, int x, int y, int z, byte data, byte biome)
 	{
+		getHopperFilter(obj, chunks, x, y, z, data, biome);
+		
 		UV[] uvTop, uvSide;
 		UV[][] uvSides;
 		
@@ -188,11 +189,38 @@ public class BTWHopper extends BlockModel
 			 //Log.info("No slot found in this Hopper! - that seems ok - it may be empty!");
 		}
 		
+		//Nozzle
+		uvTop = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
+		uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
+		uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
+		addBox(obj,
+				x - 3/16f, y - 8/16f, z - 3/16f, //min
+				x + 3/16f, y - 4/16f, z + 3/16f, //max
+				null, getNozzleSides(data,biome), uvSides, null);
+		
+		//Bin
+		uvTop = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
+		uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
+		uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
+		addBox(obj,
+				x - 8/16f, y - 4/16f, z - 8/16f, //min
+				x + 8/16f, y + 8/16f, z + 8/16f, //max
+				null, getBinSides(data,biome), uvSides, null);
+		
+		//Inside
+		uvTop = new UV[] { new UV(2/16f, 2/16f), new UV(14/16f, 2/16f), new UV(14/16f, 14/16f), new UV(2/16f, 14/16f) };
+		uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
+		uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
+		addBox(obj,
+				x - 6/16f, y - 3/16f, z - 6/16f, //min
+				x + 6/16f, y + 8/16f, z + 6/16f, //max
+				null, getInsideSides(data,biome), uvSides, null);
+		
 		filterID = slotID.value;
 		
 		int itemCount = items.elements.length;
 		
-		if (slot != null && slot.value == 18) {
+		if (slot.value == 18 && slot != null) {
 			
 			if (slotID.value == 101) {
 				//Filter
@@ -255,6 +283,7 @@ public class BTWHopper extends BlockModel
 						null, getLadderSides(data,biome), uvSides, null);
 			}
 		}
+
 		
 		if (itemCount > 0) {
 			//Contents
@@ -263,36 +292,11 @@ public class BTWHopper extends BlockModel
 			uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
 			addBox(obj,
 					x - 6/16f, y - 3/16f, z - 6/16f, //min
-					x + 6/16f, y - 3/16f + (itemCount/2)/16f, z + 6/16f, //max
+					x + 6/16f, y - 3/16f + (itemCount/2)/16f+1/16f, z + 6/16f, //max
 					null, getContentsSides(data,biome), uvSides, null);
 		}
 		
-		//Nozzle
-		uvTop = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-		uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-		uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-		addBox(obj,
-				x - 3/16f, y - 8/16f, z - 3/16f, //min
-				x + 3/16f, y - 4/16f, z + 3/16f, //max
-				null, getNozzleSides(data,biome), uvSides, null);
 		
-		//Bin
-		uvTop = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-		uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-		uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-		addBox(obj,
-				x - 8/16f, y - 4/16f, z - 8/16f, //min
-				x + 8/16f, y + 8/16f, z + 8/16f, //max
-				null, getBinSides(data,biome), uvSides, null);
-		
-		//Inside
-		uvTop = new UV[] { new UV(2/16f, 2/16f), new UV(14/16f, 2/16f), new UV(14/16f, 14/16f), new UV(2/16f, 14/16f) };
-		uvSide = new UV[] { new UV(0/16f, 0/16f), new UV(16/16f, 0/16f), new UV(16/16f, 16/16f), new UV(0/16f, 16/16f) };
-		uvSides = new UV[][] { uvTop, uvSide, uvSide, uvSide, uvSide, uvTop };
-		addBox(obj,
-				x - 6/16f, y - 3/16f, z - 6/16f, //min
-				x + 6/16f, y + 8/16f, z + 6/16f, //max
-				null, getInsideSides(data,biome), uvSides, null);
 		
 
 	}
