@@ -84,7 +84,7 @@ public class Crucible extends BlockModel {
 		int itemCount = 0;
 		
 		TAG_Compound te = chunks.getTileEntity(x, y, z);
-		if("fcCrucible".equals( ((TAG_String)te.getElement("id")).value) ) {
+		if("Crucible".equals( ((TAG_String)te.getElement("id")).value) ) {
 			TAG_List items = (TAG_List) te.getElement("Items");
 			
 			if(items != null) {
