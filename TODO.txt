@@ -1,10 +1,5 @@
 New ToDo list!
 
-# TODO Testing TODO to Issue
-# TODO is this working? 
-
-test
-
 ToDo:
  - add all mob textures to texsplit_1.5.conf
  - add misc textures from other folders than "/textures/blocks"
@@ -49,3 +44,5 @@ Checked to be working correct: ID 1 - 107
 	- fence connections for siding
 	- candle colors
 	- missing blight_2_top texture
+
+# TODO: Testing one two three
