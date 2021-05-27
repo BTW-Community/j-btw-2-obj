@@ -59,8 +59,8 @@ public class Campfire extends BlockModel
 		 */
 		int thisBlock = chunks.getBlockID(x, y, z);
 		byte[] spit = new byte[] { 2,3,6,7,10,11,13,15 };
-		byte[] campfire = new byte[] { 0,1,2,3,12,13,14,15 };
-		byte[] burnedOut = new byte[] { 4,5,6,7 };
+		byte[] campfire = new byte[] { 0,1,2,3, };
+		byte[] burnedOut = new byte[] { 4,5,6,7, 12,13,14,15 };
 		byte[] smoldering = new byte[] { 8,9,10,11 };
 		byte[] smallFlame = new byte[] { 0,1,2,3 };
 		byte[] mediumFlame = new byte[] { 0,1,2,3 };
@@ -129,9 +129,9 @@ public class Campfire extends BlockModel
 				}
 			}
 			//smoldering campfire
-			for (int j = 0; j < smoldering.length; j++) {
-				if (data == smoldering[j]) {
-					//System.out.println("Adding smoldering campfire for data: " + smoldering[i]);
+			for (int s = 0; s < smoldering.length; s++) {
+				if (data == smoldering[s]) {
+					System.out.println("Adding smoldering campfire for data: " + smoldering[s]);
 					addObj("models/btw/campfire.obj#campfire_smoldering",
 							"",
 							obj, 
@@ -234,9 +234,7 @@ public class Campfire extends BlockModel
 	}
 	
 	public void addObj(String objectstr, String material, ChunkProcessor obj, double x, double y, double z, double scale, double rotation, int angle) {
-		
-		
-		
+
 		obj_str=objectstr;
 		String [] tok=objectstr.trim().split("#");
 		String filename=tok[0];
