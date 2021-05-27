@@ -4597,6 +4597,11 @@ Kd 0.5 0.5 0.5
 Ks 0.0000 0.0000 0.0000
 map_Kd tex/overlay_unfired_brick_7.png
 
+newmtl kz_painting
+Kd 0.5 0.5 0.5
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/kz_painting.png
+
 newmtl kebab_painting
 Kd 0.5 0.5 0.5
 Ks 0.0000 0.0000 0.0000
