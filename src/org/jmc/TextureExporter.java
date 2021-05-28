@@ -62,7 +62,28 @@ public class TextureExporter {
 	private static BufferedImage loadImageFromFile(File file) throws IOException {
 		return ImageIO.read(file);
 	}
+	
+	private static BufferedImage overlayImg (BufferedImage imgBase, BufferedImage imgOverlay)
+	{
+		
+		BufferedImage foreground = imgOverlay;
+	    BufferedImage background = imgBase;
+	    BufferedImage combinedImg = new BufferedImage(background.getWidth(), background.getHeight(), BufferedImage.TYPE_INT_ARGB);
 
+	    Graphics2D g = combinedImg.createGraphics();
+	    g.drawImage(background, 0, 0, null);
+	    g.drawImage(foreground, 0, 0, null);
+
+	    try {
+			ImageIO.write(combinedImg, "PNG", new File("masked.png"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	    g.dispose();
+		
+		return combinedImg;
+	}
+	
 	private static BufferedImage loadImageFromZip(File zipfile, String imagePath) throws IOException {
 		ZipInputStream zis = null;
 		try {
@@ -308,7 +329,7 @@ public class TextureExporter {
 				String luma_str = Xml.getAttribute(texNode, "luma");
 				if (luma_str != null)
 					luma = luma_str.toLowerCase().equals("true");
-
+				
 				if (texName == null)
 					continue;
 
@@ -327,8 +348,10 @@ public class TextureExporter {
 
 				Log.info("Creating Buffer Image");
 				BufferedImage texture = new BufferedImage(width, height, image.getType());
+				
+				
 				image.getSubimage(colPos * width, rowPos * height, width, height).copyData(texture.getRaster());
-
+				 
 				if (tint != null && tint.length() > 0) {
 					try {
 						tintImage(texture, new Color(Integer.parseInt(tint, 16)));
