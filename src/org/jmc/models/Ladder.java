@@ -21,14 +21,20 @@ public class Ladder extends BlockModel
 		
 		switch (data)
 		{
-			case 2:
+			case 0:
 				rotate.rotate(0, 180, 0);
-				break;
-			case 4:
+			break;
+			case 1:
+				rotate.rotate(0, 0, 0);
+			break;
+			case 2:
 				rotate.rotate(0, 90, 0);
 				break;
-			case 5:
+			case 3:
 				rotate.rotate(0, -90, 0);
+				break;
+			case 4:
+				rotate.rotate(0, 180, 0);
 				break;
 		}
 		translate.translate(x, y, z);		
