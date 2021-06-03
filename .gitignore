@@ -1,2 +1,4 @@
 /bin/
 /.metadata/
+/conf/entityselection.dat
+/conf/blockselection.dat
