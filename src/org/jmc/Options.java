@@ -172,6 +172,11 @@ public class Options
 	 * If true, entities are rendered in the model. 
 	 */
 	public static boolean renderEntities = false;
+	
+	/**
+	 * List of entity ids to exclude.
+	 */
+	public static Set<String> excludeEntities = new HashSet<String>();
 
 	/**
 	 * If true, biomes are taken into account during export.

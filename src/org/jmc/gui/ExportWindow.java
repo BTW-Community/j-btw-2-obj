@@ -91,6 +91,7 @@ public class ExportWindow extends JFrame implements ProgressCallback {
 	private JButton btnCustomResourcePack;
 	private JButton btnMinecraftDefault;
 	private JButton btnBlocksToExport;
+	private JButton btnEntitiesToExport;
 
 	private JProgressBar progressBar;
 	private JTextField textFieldMapScale;
@@ -308,6 +309,9 @@ public class ExportWindow extends JFrame implements ProgressCallback {
 
 		btnBlocksToExport = new JButton(Messages.getString("OBJExportOptions.BLOCKS"));
 		pExportOptions.add(btnBlocksToExport);
+		
+		btnEntitiesToExport = new JButton(Messages.getString("OBJExportOptions.ENTITIES"));
+		pExportOptions.add(btnEntitiesToExport);
 
 		chckbxRenderUnknownBlocks = new JCheckBox(Messages.getString("OBJExportOptions.R_UNKNOWN"));
 		pExportOptions.add(chckbxRenderUnknownBlocks);
@@ -861,6 +865,13 @@ public class ExportWindow extends JFrame implements ProgressCallback {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				MainWindow.blocksWindow.setVisible(true);
+			}
+		});
+		
+		btnEntitiesToExport.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				MainWindow.entitiesWindow.setVisible(true);
 			}
 		});
 

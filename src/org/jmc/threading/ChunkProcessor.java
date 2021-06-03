@@ -10,6 +10,7 @@ package org.jmc.threading;
 import java.awt.Rectangle;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.jmc.BlockTypes;
@@ -121,8 +122,6 @@ public class ChunkProcessor
 				for(int y = ymin; y < ymax; y++)
 				{
 					short blockID=chunk.getBlockID(x, y, z);
-					byte blockData=chunk.getBlockData(x, y, z);
-					byte blockBiome=chunk.getBlockBiome(x, z);
 					
 					if(blockID==0)
 						continue;
@@ -130,6 +129,9 @@ public class ChunkProcessor
 					if(Options.excludeBlocks.contains(blockID))
 						continue;
 
+					byte blockData=chunk.getBlockData(x, y, z);
+					byte blockBiome=chunk.getBlockBiome(x, z);
+					
 					if(Options.convertOres){
 						if(blockID == 14 || blockID == 15 || blockID == 16 || blockID == 21 || blockID == 56 || blockID == 73 || blockID == 74 || blockID == 129){
 							blockID = 1;
@@ -186,27 +188,17 @@ public class ChunkProcessor
 			optimisedFaces = new ArrayList<Face>();//Clear out faces list because they have all been added so far
 		}
 		
-		if(Options.renderEntities)
-		{
-			for(TAG_Compound entity:chunk.getEntities(chunk_x, chunk_z))
-			{
-				Entity handler=EntityTypes.getEntity(entity);
+		if(Options.renderEntities) {
+			List<TAG_Compound> entities = chunk.getEntities(chunk_x, chunk_z);
+			entities.addAll(chunk.getTileEntities(chunk_x, chunk_z));
+			for(TAG_Compound entity : entities) {
+				Entity handler = EntityTypes.getEntity(entity);
 				try {
-					if(handler!=null) handler.addEntity(this, entity);
+					if(handler!=null && Options.excludeEntities.contains(handler.getId()))
+						handler.addEntity(this, entity);
 				}
 				catch (Exception ex) {
 					Log.error("Error rendering entity, skipping.", ex);
-				}
-			}
-	
-			for(TAG_Compound entity:chunk.getTileEntities(chunk_x, chunk_z))
-			{
-				Entity handler=EntityTypes.getEntity(entity);
-				try {
-					if(handler!=null) handler.addEntity(this, entity);
-				}
-				catch (Exception ex) {
-					Log.error("Error rendering tyle entity, skipping.", ex);
 				}
 			}
 		}

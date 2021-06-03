@@ -24,7 +24,7 @@ public class EntityTypes {
 
 	private static final String CONFIG_FILE = "conf/entities.conf";
 
-	private static Map<String, Entity> entities;
+	private static HashMap<String, Entity> entities;
 
 	private static void readConfig() throws Exception {
 		File confFile = new File(Filesystem.getDatafilesDir(), CONFIG_FILE);
@@ -116,7 +116,7 @@ public class EntityTypes {
 			}
 
 			entityModel.setMaterials(materials);
-			entity.useModel(entityModel);
+			entity.useModel(id, entityModel);
 			entities.put(id, entity);
 		}
 	}
@@ -137,6 +137,10 @@ public class EntityTypes {
 		if (!entities.containsKey(id.value))
 			return null;
 		return entities.get(id.value);
+	}
+	
+	public static HashMap<String, Entity> getAll() {
+		return entities;
 	}
 
 }

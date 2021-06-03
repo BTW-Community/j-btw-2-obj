@@ -43,6 +43,8 @@ public class MainWindow extends JFrame
 	
 	public static BlockListWindow blocksWindow;
 	
+	public static EntityListWindow entitiesWindow;
+	
 	public static GUIConsoleLog consoleLog;
 	
 	public static ExportWindow export;
@@ -58,6 +60,7 @@ public class MainWindow extends JFrame
 		settings = new Settings();
 		update = new UpdateWindow();
 		blocksWindow = new BlockListWindow();
+		entitiesWindow = new EntityListWindow();
 		consoleLog = new GUIConsoleLog();
 		if(settings.getPreferences().getBoolean("OPEN_CONSOLE_ON_START", true)){
 			consoleLog.setVisible(true);
@@ -82,6 +85,7 @@ public class MainWindow extends JFrame
 	{
 		panel.loadingFinished();
 		blocksWindow.initialize();
+		entitiesWindow.initialize();
 	}
 	
 	public void highlightUpdateButton()
