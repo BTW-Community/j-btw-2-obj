@@ -63,28 +63,15 @@ public class TextureExporter {
 		return ImageIO.read(file);
 	}
 	
-	private static BufferedImage overlayImg (BufferedImage imgBase, BufferedImage imgOverlay)
+	private static void overlayImg (BufferedImage imgBase, BufferedImage imgOverlay)
 	{
-		
-		BufferedImage foreground = imgOverlay;
-	    BufferedImage background = imgBase;
-	    BufferedImage combinedImg = new BufferedImage(background.getWidth(), background.getHeight(), BufferedImage.TYPE_INT_ARGB);
+		Graphics2D g = imgBase.createGraphics();
+	    g.drawImage(imgOverlay, 0, 0, null);
 
-	    Graphics2D g = combinedImg.createGraphics();
-	    g.drawImage(background, 0, 0, null);
-	    g.drawImage(foreground, 0, 0, null);
-
-	    try {
-			ImageIO.write(combinedImg, "PNG", new File("masked.png"));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 	    g.dispose();
-		
-		return combinedImg;
 	}
 	
-	private static BufferedImage loadImageFromZip(File zipfile, String imagePath) throws IOException {
+	private static  BufferedImage loadImageFromZip(File zipfile, String imagePath) throws IOException {
 		ZipInputStream zis = null;
 		try {
 			zis = new ZipInputStream(new FileInputStream(zipfile));
@@ -320,6 +307,7 @@ public class TextureExporter {
 				String pos = Xml.getAttribute(texNode, "pos", "1,1");
 				String texName = Xml.getAttribute(texNode, "name");
 				String tint = Xml.getAttribute(texNode, "tint");
+				String overlay = Xml.getAttribute(texNode, "overlay");
 				boolean repeating = false;
 				String repeating_str = Xml.getAttribute(texNode, "repeating");
 				if (repeating_str != null)
@@ -351,7 +339,31 @@ public class TextureExporter {
 				
 				
 				image.getSubimage(colPos * width, rowPos * height, width, height).copyData(texture.getRaster());
-				 
+				
+				BufferedImage imageOverlay;
+				
+				if (overlay != null) {
+					try {
+						if (source.equalsIgnoreCase("texturepack"))
+							imageOverlay = loadImageFromZip(zipfile, overlay);
+						else if (source.equalsIgnoreCase("distr"))
+							imageOverlay = loadImageFromFile(new File(Filesystem.getDatafilesDir(), overlay));
+						else
+							imageOverlay = loadImageFromFile(new File(overlay));
+					} catch (Exception e) {
+						Log.info("Error loading overlay image: " + e.getMessage());
+						continue;
+					}
+					
+					if (overlay.length() > 0) {
+						try {
+							overlayImg(texture, imageOverlay);
+						} catch (Exception e) {
+							Log.info("Cannot overlay image: " + texName + " (" + e.getMessage() + ")");
+						}
+					}
+				}
+				
 				if (tint != null && tint.length() > 0) {
 					try {
 						tintImage(texture, new Color(Integer.parseInt(tint, 16)));
@@ -359,7 +371,9 @@ public class TextureExporter {
 						Log.info("Cannot tint image: " + texName + " (" + e.getMessage() + ")");
 					}
 				}
+				
 
+				
 				if (scale != 1.0) {
 					try {
 						texture = scaleImage(texture, scale);
