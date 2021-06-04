@@ -21,7 +21,7 @@ public class Pane extends BlockModel
 		// connects to other panes, glass, and any solid blocks
 		if (otherId == 0)
 			return false;
-		if (otherId == 101 || otherId == 102 || otherId == 160 || otherId == 20 || otherId == 95)
+		if (otherId == 101 || otherId == 102 || otherId == 160 || otherId == 20 || otherId == 95 || otherId == 1084 || otherId == 1085 || otherId == 1086)
 			return true;
 		return BlockTypes.get(otherId).getOcclusion() == BlockInfo.Occlusion.FULL;
 	}
